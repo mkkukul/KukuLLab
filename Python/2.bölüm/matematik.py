@@ -1,3 +1,3 @@
 
 topla = 2+2
-print(topla)
+print(5+5)
