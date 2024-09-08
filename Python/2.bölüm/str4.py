@@ -7,3 +7,4 @@ tamTersi = tamTersi.swapcase()
 sil = "+++gulyabini+++".strip("+")
 print("tuncay","erol", sep=":") 
 # sep burada virgülü siler
+# sep yerine end eklersek sonu ekler
