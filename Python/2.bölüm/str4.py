@@ -5,3 +5,5 @@ tamTersi = "kardesim".swapcase()
 tamTersi = " KARDESİM"
 tamTersi = tamTersi.swapcase()
 sil = "+++gulyabini+++".strip("+")
+print("tuncay","erol", sep=":") 
+# sep burada virgülü siler
