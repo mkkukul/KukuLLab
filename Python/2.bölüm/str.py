@@ -1,4 +1,5 @@
 
 takim = "Gs"
 takim1 = 'Bjk'
-print(takim)
+hikaye = 'Tuncay\'in Takimi '
+print(hikaye + takim)
