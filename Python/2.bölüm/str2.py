@@ -6,4 +6,4 @@ d_yili = 1991
 yil = 2021
 yasHesapla = yil-d_yili
 
-print(yasHesapla)
+print(isim,"'in",yasHesapla)
