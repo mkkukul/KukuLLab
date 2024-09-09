@@ -13,4 +13,5 @@ soyadi = "kaya"
 yasi = 30
 
 # print("Kişinin adı", adi, "Soyadı", soyadi, "Kişinin Yaşı", yasi)
-print("Kişinin Adı:{}\nKişinin Soyadı:{}\nKişinin Yaşı{}".format(adi,soyadi,yasi))
+# print("Kişinin Adı:{}\nKişinin Soyadı:{}\nKişinin Yaşı:{}".format(adi,soyadi,yasi))
+print(f"Kişinin Adı:{adi}\nKişinin Soyadı:{soyadi}\nKişinin Yaşı:{yasi}")
