@@ -1,2 +1,2 @@
 kullaniciAdi = input("Lütfen Adınızı Yazınız:")
-kullanicips = int(input("lütfen şifresinizi giriniz:"))
+kullaniciPs = int(input("lütfen şifresinizi giriniz:"))
