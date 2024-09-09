@@ -8,3 +8,8 @@ sil = "+++gulyabini+++".strip("+")
 print("tuncay","erol", sep=":") 
 # sep burada virgülü siler
 # sep yerine end eklersek sonu ekler
+adi = "turkan"
+soyadi = "kaya"
+yasi = 30
+
+print("Kişinin adı", adi, "Soyadı", soyadi, "Kişinin Yaşı", yasi)
