@@ -7,6 +7,6 @@ for i in range(3):
         break
     elif i == 2:
         print("şifre belirleme hakkınız bitti, Lütfen 15 dakkika bekleyiniz")
-
     else:
-        print("şifre 3-8 karakter arasında olmalı")   
+        print("Şifreniz 3 karakterden fazla 8den az olmalı")
+    
