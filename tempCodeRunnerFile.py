@@ -7,13 +7,7 @@ if atesiniziyaziniz >= 39:
         print("UYARI HASTANEYE GİDİNİZ") 
     else:
         print("ACİL  OLARAK HASTANAYE GİDİNİZ")
-
-if (atesiniziyaziniz >= 39) and (oksuruk=="e") and (basAgrisi=="e") and ( gun >=3):
+if (atesiniziyaziniz <= 39) and (oksuruk=="e") and (basAgrisi=="e") and ( gun >=3):
     print("ACİL  OLARAK HASTANAYE GİDİNİZ")
     print("Yanıyorsun fuat abi")
-
-
-elif (atesiniziyaziniz <= 39) or (oksuruk=="e") or (basAgrisi=="e") or ( gun >=3):
-    print("UYARI HASTANEYE GİDİNİZ")
-else:
-    print("Eve gidin ve dinlenin")
+    
