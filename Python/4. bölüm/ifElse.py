@@ -14,7 +14,7 @@
 sutmiktari = int(input("lütfen sut miktarini giriniz:"))
 kasarPeynirisiniri = 11
 if sutmiktari<kasarPeynirisiniri:
-    print("sut miktariniz Kasar peyniri icin uygun degil:" sutmiktari)
+    print("sut miktariniz Kasar peyniri icin uygun degil:",sutmiktari)
     print("Kasar peyniri icin en az 11 litre sut gerekir")
 else:
     print("sut miktariniz Kasar peyniri için yeterli")
