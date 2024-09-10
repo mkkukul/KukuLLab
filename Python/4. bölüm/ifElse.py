@@ -17,4 +17,4 @@ if sutmiktari<kasarPeynirisiniri:
     print("sut miktariniz Kasar peyniri icin uygun degil:",sutmiktari)
     print("Kasar peyniri icin en az 11 litre sut gerekir")
 else:
-    print("sut miktariniz Kasar peyniri için yeterli")
+    print(f"{sutmiktari/kasarPeynirisiniri} Kasar peyniri elde edebilirsiniz")
