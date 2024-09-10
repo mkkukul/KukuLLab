@@ -10,3 +10,7 @@
 # for i in range(2, 10, 2):
 #     print(i)
 # Anlamı: start sayısından başlayarak stop sayısına kadar, her adımda step kadar ilerleyen bir dizi üretir.
+deneme = "ali"
+
+for i in deneme:
+    print(i)
