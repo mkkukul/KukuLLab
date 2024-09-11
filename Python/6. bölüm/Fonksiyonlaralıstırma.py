@@ -28,9 +28,9 @@ def suHesapla(kilo):
     kaHesapla = kilo * 0.03
     cinsiyet = input("Lütfen cinsiyetinizi giriniz (Kadın/Erkek): ").lower()  # Küçük harfe çeviriyoruz
     if cinsiyet == "erkek":
-        print(f"Günlük {erHesapla:.2f} litre su içmelisiniz.")
+        print(f"Beyefendi Günlük {erHesapla:.2f} litre su içmelisiniz.")
     elif cinsiyet == "kadın":
-        print(f"Günlük {kaHesapla:.2f} litre su içmelisiniz.")
+        print(f"Hanımefendi Günlük {kaHesapla:.2f} litre su içmelisiniz.")
     else:
         print("Geçerli bir cinsiyet girmediniz. Lütfen 'Kadın' ya da 'Erkek' olarak giriniz.")
 
