@@ -22,6 +22,29 @@
 # ************************************************
 
 # ************************************************ Veri Silme
+# lig = {"GS":"51P","FB":"53P","BJK":"57P","TS":"61P"}
+# lig.pop("GS")
+# print(lig)
+# takimEkle = input("Takım Giriniz")
+# # puanEkle = input("Puan Giriniz")
+
+
+# ************************************************ Veri Silme
+
 lig = {"GS":"51P","FB":"53P","BJK":"57P","TS":"61P"}
-lig.pop("GS")
-print(lig)
+
+while True:
+    takimEkle = input("Takım Giriniz: ")
+    puanEkle = input("Puan Giriniz: ")
+    lig.setdefault(takimEkle,puanEkle)
+    
+    for i,j in lig.items():
+        print(i,j)
+    
+    secim = input("Çıkmak İstermisiniz E/H").upper()
+    if secim == "E":
+        print("Bedel Ödendi")
+        break
+    else:
+        pass
+
