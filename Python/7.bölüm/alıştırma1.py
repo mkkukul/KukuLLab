@@ -11,4 +11,8 @@ def telNo(x):
 # telNo(telRehberi)
 def telRehber(x):
     print("Rehbere Hoşgeldiniz")
-    for i,j in x.items()
+    for i,j in x.items():
+        print(f"{i} : {j}")
+        
+telNo(telRehberi)       
+telRehber(telRehberi)
