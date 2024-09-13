@@ -8,4 +8,7 @@ def telNo(x):
     print(f"{nİsinAl}'adlı kişinin kayıttı başarılı")
     
     
-telNo(telRehberi)
+# telNo(telRehberi)
+def telRehber(x):
+    print("Rehbere Hoşgeldiniz")
+    for i,j in x.items()
