@@ -16,3 +16,8 @@ def telRehber(x):
         
 telNo(telRehberi)       
 telRehber(telRehberi)
+
+def noSil(x):
+    print("Kişi Silme Ekranına Hoşgeldiniz")
+    sKisi= input("Silinecek Kişiyi Yaızınız: ")
+    x = telRehberi.pop(noSil)
