@@ -29,7 +29,7 @@ while True:
     
     if secimYap == 1:
         telNo(telRehberi)
-    elif secimYap ==2
+    elif secimYap ==2:
         noSil(telRehberi)
     elif secimYap == 3:
         telRehber(telRehberi)
