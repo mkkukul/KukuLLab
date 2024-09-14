@@ -10,7 +10,7 @@ def tel_no_ekle(x):
 def tel_rehber_göster(x):
     print  ("rehbere Hoşgeldiniz")
     for i,j in x.items():
-        print(i ":" j)
+        print(i, ":" , j)
 
 def no_sil(x):
     print("kişi sdilme ekrenına Hoşgeldiniz")
