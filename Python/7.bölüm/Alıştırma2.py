@@ -8,3 +8,11 @@ def tel_no_ekle(x):
     print(f"{numara_isim_al}' adlı kişi telefon listesine eklendi ...")
     
 def tel_rehber_göster(x):
+    print  ("rehbere Hoşgeldiniz")
+    for i,j in x.items():
+        print(i ":" j)
+
+def no_sil(x):
+    print("kişi sdilme ekrenına Hoşgeldiniz")
+    silinicek_kişi = input("silinecek kişiyi yazınız:")
+    x = tel_rehberi.pop(silinicek_kişi)
