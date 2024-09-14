@@ -16,3 +16,15 @@ def no_sil(x):
     print("kişi sdilme ekrenına Hoşgeldiniz")
     silinicek_kişi = input("silinecek kişiyi yazınız:")
     x = tel_rehberi.pop(silinicek_kişi)
+while True:
+    print("HoşT")
+    print("SeçimYapınız")
+    seçim_yap = int(input("1-Ekle\n2-Sil\n3-Rehberi GörX\n"))
+    if seçim_yap == 1:
+        tel_no_ekle(tel_rehberi)
+    elif seçim_yap == 2:
+        no_sil(tel_rehberi)
+    elif seçim_yap == 3:
+        tel_rehber_göster(tel_rehberi)
+    else:
+        print("yanlış seçim yaptınız")
