@@ -1,8 +1,16 @@
 const packages = document.querySelectorAll(".package");
 
-packages.forEach((package) => {
-  package.addEventListener("click", () => {
-    packages.forEach((pkg) => pkg.classList.remove("active"));
-    package.classList.toggle("active");
+function checkVisibility() {
+  packages.forEach((package) => {
+    const packageTop = package.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (packageTop < windowHeight * 0.8) {
+      // Paket %80 görünür olduğunda
+      package.classList.add("show");
+    }
   });
-});
+}
+
+window.addEventListener("scroll", checkVisibility); // Sayfa kaydırıldığında kontrol et
+checkVisibility(); // Sayfa yüklendiğinde de kontrol et
