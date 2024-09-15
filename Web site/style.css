@@ -55,21 +55,25 @@ body {
 /* Packages Section */
 #packages {
   padding: 50px 20px;
+  display: flex;
+  justify-content: space-around; /* Paketlerin yatayda dağılmasını sağlar */
 }
 
 .packages-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px; /* Paketler arasında boşluk sağlar */
 }
 
 .package {
   padding: 20px;
   margin: 10px;
-  width: 30%;
+  width: 30%; /* Paketlerin genişliklerini ayarlar */
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .package h2 {
