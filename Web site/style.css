@@ -55,15 +55,16 @@ body {
 /* Packages Section */
 #packages {
   padding: 50px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .packages-container {
   display: grid;
-  grid-template-columns: repeat(
-    3,
-    1fr
-  ); /* Sayfanın bu kısmını 3 eşit parçaya böler */
-  gap: 20px; /* Paketler arasında boşluk ekler */
+  grid-template-columns: repeat(3, 1fr); /* This creates 3 equal columns */
+  gap: 20px; /* Adds space between the packages */
+  width: 100%; /* Ensures the container takes the full width of the screen */
+  max-width: 1200px; /* Sets a maximum width for larger screens */
 }
 
 .package {
