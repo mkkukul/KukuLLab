@@ -1,95 +1,102 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Koçluk Paketleri</title>
-  <link rel="stylesheet" href="styles.css">
+<title>Antrenman Koçluğu Planları</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Full Screen Landing Section -->
-  <section id="landing" class="fullscreen-section">
-    <div class="content">
-      <h1>Koçluk Paketlerimize Hoş Geldiniz</h1>
-      <button onclick="scrollToSection('packages')">Paketleri İncele</button>
-    </div>
-  </section>
+    <header>
+        <div class="container">
+            <h1>Antrenman Koçluğu Planları</h1>
+            <nav>
+                <ul>
+                    <li><a href="#anasayfa">Anasayfa</a></li>
+                    <li><a href="#paketler">Paketler</a></li>
+                    <li><a href="#hakkimizda">Hakkımızda</a></li>
+                </ul>
+            </nav>
+            <div class="auth">
+                <a href="#">Kayıt Ol</a>
+                <a href="#">Giriş Yap</a>
+            </div>
+        </div>
+    </header>
 
-  <!-- Fixed Navigation Bar -->
-  <nav class="navbar">
-    <a href="#landing">Başlangıç</a>
-    <a href="#packages">Paketler</a>
-    <a href="#about">Hakkımızda</a>
-    <div class="auth-links">
-      <a href="#">Kayıt</a>
-      <a href="#">Giriş</a>
-    </div>
-  </nav>
+    <section id="anasayfa">
+        <div class="container">
+            <img src="trail-kosusu-resmi.jpg" alt="Trail Koşusu Resmi"> 
+            <h2>Hedeflerinize Ulaşın</h2>
+            <a href="#paketler" class="cta-button">Paketleri Keşfet</a>
+        </div>
+    </section>
 
-  <!-- Packages Section -->
-  <section id="packages">
-    <div class="packages-container">
-      <div class="package" style="background-color: #f0f8ff;">
-        <img src="https://source.unsplash.com/featured/?trail-running" alt="Trail Running Image 1" class="package-image">
-        <h2>Paket 1</h2>
-        <ul>
-          <li>Kişiye Özel Antrenman Programı</li>
-          <li>Kişiye Özel Beslenme Programı</li>
-          <li>Kişiye Özel Kardiyo Programı</li>
-          <li>Profesyonel Takip ve Raporlama</li>
-          <li>%10 Market İndirimi (begreensports.com)</li>
-          <li>50₺ Hediye Çeki (begreensports.com)</li>
-          <li>%20 Paket Uzatma/Yükseltme İndirimi</li>
-          <li>WhatsApp Destek</li>
-          <li>Görüntülü Danışmanlık (Mustafa Yıldız ile)</li>
-        </ul>
-        <button class="buy-btn">Satın Al</button>
-      </div>
+    <section id="paketler">
+        <div class="container">
+            <h2>Paketlerimiz</h2>
+            <div class="packages">
+                <div class="package" style="background-color: lightblue;">
+                    <img src="trail-resmi.jpg" alt="Trail Resmi">
+                    <h3>Paket 1</h3>
+                    <ul>
+                        <li>(Kişiye Özel) ANTRENMAN PROGRAMI</li>
+                        <li>(Kişiye Özel) BESLENME PROGRAMI</li>
+                        <li>(Kişiye Özel) KARDİYO PROGRAMI</li>
+                        <li>PROFESYONEL TAKİP VE RAPORLAMA</li>
+                        <li>%10 MARKET İNDİRİMİ (begreensports.com)</li>
+                        <li>50,00₺ HEDİYE ÇEKİ (begreensports.com)</li>
+                        <li>%20 PAKET UZATMA/YÜKSELTME İNDİRİMİ</li>
+                        <li>WHATSAPP DESTEK</li>
+                        <li>GÖRÜNTÜLÜ DANIŞMANLIK (Mustafa Yıldız ile)</li>
+                    </ul>
+                    <a href="#" class="buy-button">Satın Al</a>
+                </div>
+                <div class="package" style="background-color: lightgreen;">
+                    <img src="dag-kosusu-resmi.jpg" alt="Dağ Koşusu Resmi">
+                    <h3>Paket 2</h3>
+                    <ul>
+                        <li>(Kişiye Özel) ANTRENMAN PROGRAMI</li>
+                        <li>(Kişiye Özel) BESLENME PROGRAMI</li>
+                        <li>(Kişiye Özel) KARDİYO PROGRAMI</li>
+                        <li>PROFESYONEL TAKİP VE RAPORLAMA</li>
+                        <li>%15 MARKET İNDİRİMİ (begreensports.com)</li>
+                        <li>100,00₺ HEDİYE ÇEKİ (begreensports.com)</li>
+                        <li>%20 PAKET UZATMA/YÜKSELTME İNDİRİMİ</li>
+                        <li>WHATSAPP DESTEK</li>
+                        <li>GÖRÜNTÜLÜ DANIŞMANLIK (Mustafa Yıldız ile)</li>
+                    </ul>
+                    <a href="#" class="buy-button">Satın Al</a>
+                </div>
+                <div class="package" style="background-color: lightcoral;">
+                    <img src="maraton-resmi.jpg" alt="Maraton Resmi">
+                    <h3>Paket 3</h3>
+                    <ul>
+                        <li>(Kişiye Özel) ANTRENMAN PROGRAMI</li>
+                        <li>(Kişiye Özel) BESLENME PROGRAMI</li>
+                        <li>(Kişiye Özel) KARDİYO PROGRAMI</li>
+                        <li>PROFESYONEL TAKİP VE RAPORLAMA</li>
+                        <li>%20 MARKET İNDİRİMİ (begreensports.com)</li>
+                        <li>200,00₺ HEDİYE ÇEKİ (begreensports.com)</li>
+                        <li>%20 PAKET UZATMA/YÜKSELTME İNDİRİMİ</li>
+                        <li>WHATSAPP DESTEK</li>
+                        <li>GÖRÜNTÜLÜ DANIŞMANLIK (Mustafa Yıldız ile)
+                        (* Lütfen şartlar için aşağıdaki açıklamayı inceleyin.)</li> 
+                    </ul>
+                    <a href="#" class="buy-button">Satın Al</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div class="package" style="background-color: #ffe4e1;">
-        <img src="https://source.unsplash.com/featured/?mountain-running" alt="Trail Running Image 2" class="package-image">
-        <h2>Paket 2</h2>
-        <ul>
-          <li>Kişiye Özel Antrenman Programı</li>
-          <li>Kişiye Özel Beslenme Programı</li>
-          <li>Kişiye Özel Kardiyo Programı</li>
-          <li>Profesyonel Takip ve Raporlama</li>
-          <li>%15 Market İndirimi (begreensports.com)</li>
-          <li>100₺ Hediye Çeki (begreensports.com)</li>
-          <li>%20 Paket Uzatma/Yükseltme İndirimi</li>
-          <li>WhatsApp Destek</li>
-          <li>Görüntülü Danışmanlık (Mustafa Yıldız ile)</li>
-        </ul>
-        <button class="buy-btn">Satın Al</button>
-      </div>
+    <section id="hakkimizda">
+        <div class="container">
+            <h2>Hakkımızda</h2>
+            </div>
+    </section>
 
-      <div class="package" style="background-color: #98fb98;">
-        <img src="https://source.unsplash.com/featured/?marathon-running" alt="Marathon Running Image 3" class="package-image">
-        <h2>Paket 3</h2>
-        <ul>
-          <li>Kişiye Özel Antrenman Programı</li>
-          <li>Kişiye Özel Beslenme Programı</li>
-          <li>Kişiye Özel Kardiyo Programı</li>
-          <li>Profesyonel Takip ve Raporlama</li>
-          <li>%20 Market İndirimi (begreensports.com)</li>
-          <li>200₺ Hediye Çeki (begreensports.com)</li>
-          <li>%20 Paket Uzatma/Yükseltme İndirimi</li>
-          <li>WhatsApp Destek</li>
-          <li>Görüntülü Danışmanlık (Mustafa Yıldız ile)</li>
-          <li><strong>* Lütfen şartlar için aşağıdaki açıklamayı inceleyin.</strong></li>
-        </ul>
-        <button class="buy-btn">Satın Al</button>
-      </div>
-    </div>
-  </section>
+    <footer>
+        </footer>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>Hakkımızda</h2>
-    <p>Trail, dağ ve maraton koşucuları için özel olarak hazırlanmış koçluk paketleri sunuyoruz. Mustafa Yıldız ile birebir danışmanlık fırsatını kaçırmayın.</p>
-  </section>
-
-  <script src="scripts.js"></script>
+    <script src="script.js"></script> 
 </body>
 </html>
