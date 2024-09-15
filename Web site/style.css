@@ -73,27 +73,78 @@ header nav ul li {
 }
 
 .package {
-  text-align: center;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin: 1%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Daha belirgin gölge */
+  transition: transform 0.2s; /* Hover efekti için */
 }
 
-.package img {
-  max-width: 100%;
-  height: 200px;
-  object-fit: cover;
-  margin-bottom: 20px;
+.package:hover {
+  transform: translateY(-5px); /* Hover efekti */
+}
+
+.package-header {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.package-header h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.package-header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.package-header .price {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.package-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.package-content h4 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.package-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.package-content li {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.package-content li i {
+  margin-right: 5px;
 }
 
 .buy-button {
-  display: inline-block;
-  padding: 8px 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
   background-color: #4caf50;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 /* Hakkımızda bölümü stilleri */
@@ -103,7 +154,7 @@ header nav ul li {
 
 /* Paket içeriklerinin görünürlüğünü kontrol etmek için stiller */
 .package ul {
-  display: none; /* Başlangıçta içerikleri gizle */
+  display: none;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
@@ -112,4 +163,47 @@ header nav ul li {
 .package.active ul {
   display: block;
   max-height: 500px;
+}
+
+/* Mobil cihazlar için düzenlemeler */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  .auth {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .packages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .package {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+
+  .cta-button {
+    padding: 8px 15px;
+  }
 }
