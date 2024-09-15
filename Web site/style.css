@@ -1,112 +1,74 @@
 /* ... (diğer CSS stilleri) ... */
 
+.packages {
+  display: flex; /* Paketleri yan yana diz */
+  justify-content: space-around; /* Paketler arası boşluk */
+}
+
 .package {
   /* ... (diğer stiller) ... */
-  width: 30%;
-  margin: 1%;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Paket genişliğini ayarla */
+  margin: 1%; /* Paketler arası boşluk */
+  overflow: hidden; /* İçeriğin taşmasını engelle */
   opacity: 0; /* Başlangıçta paketleri görünmez yap */
   transform: translateY(50px); /* Başlangıçta paketleri aşağı kaydır */
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Geçiş efektleri ekle */
+  background-color: #f0f0f0; /* Varsayılan arka plan rengi */
+  border: none; /* Varsayılan kenarlığı kaldır */
+}
+
+/* Her bir paket için özel arka plan renkleri */
+.package:nth-child(1) {
+  /* İlk paket */
+  background-color: #f0f0f0; /* Açık mavi */
+}
+
+.package:nth-child(2) {
+  /* İkinci paket */
+  background-color: #f0f0f0; /* Açık yeşil */
+}
+
+.package:nth-child(3) {
+  /* Üçüncü paket */
+  background-color: #f0f0f0; /* Açık kırmızı */
 }
 
 .package.show {
-  /* Paketler görünür olduğunda uygulanacak stiller */
   opacity: 1;
   transform: translateY(0);
 }
 
 .package-header {
-  /* ... (diğer stiller) ... */
+  padding: 20px;
+  text-align: center;
   border-radius: 10px 10px 0 0;
+  /* Paketlere özel arka plan renkleri */
+  /* ... (diğer stiller) ... */
+}
+
+.package:nth-child(1) .package-header {
+  /* İlk paketin başlığı */
+  background-color: #323232;
+  color: white;
+}
+
+.package:nth-child(2) .package-header {
+  /* İkinci paketin başlığı */
+  background-color: #28a745;
+  color: white;
+}
+
+.package:nth-child(3) .package-header {
+  /* Üçüncü paketin başlığı */
+  background-color: #ffc107;
+  color: black;
 }
 
 .package-content {
-  /* ... (diğer stiller) ... */
+  padding: 20px;
   border: 1px solid #ddd;
   border-top: none;
   border-radius: 0 0 10px 10px;
 }
 
-.package-content h4 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-.package-content ul {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0 0;
-}
-
-.package-content li {
-  margin-bottom: 5px;
-  text-align: left;
-}
-
-.package-content li i {
-  margin-right: 5px;
-}
-
-.buy-button {
-  /* ... (diğer stiller) ... */
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-/* Hakkımızda bölümü stilleri */
-#hakkimizda {
-  padding: 50px 0;
-}
-
-/* Mobil cihazlar için düzenlemeler */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header nav ul li {
-    margin: 10px 0;
-  }
-
-  .auth {
-    float: none;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .packages {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .package {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  h1,
-  h2 {
-    font-size: 24px;
-  }
-
-  .cta-button {
-    padding: 8px 15px;
-  }
-}
+/* ... (diğer CSS stilleri) ... */
