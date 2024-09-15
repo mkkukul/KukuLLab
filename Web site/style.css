@@ -55,25 +55,22 @@ body {
 /* Packages Section */
 #packages {
   padding: 50px 20px;
-  display: flex;
-  justify-content: space-around; /* Paketlerin yatayda dağılmasını sağlar */
 }
 
 .packages-container {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  gap: 20px; /* Paketler arasında boşluk sağlar */
+  justify-content: space-between; /* Paketlerin yatayda dağılımını sağlar */
+  gap: 20px; /* Paketler arasına boşluk ekler */
+  flex-wrap: nowrap; /* Paketlerin alt alta düşmesini engeller */
 }
 
 .package {
   padding: 20px;
   margin: 10px;
-  width: 30%; /* Paketlerin genişliklerini ayarlar */
+  width: 30%; /* Her paketin genişliği ayarlandı */
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
 }
 
 .package h2 {
