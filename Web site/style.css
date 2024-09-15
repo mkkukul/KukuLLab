@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("background.jpg");
+  background-image: url("https://source.unsplash.com/featured/?nature-landscape");
   background-size: cover;
   color: white;
   text-align: center;
@@ -60,7 +60,7 @@ body {
 .packages-container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .package {
@@ -69,6 +69,7 @@ body {
   width: 30%;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .package h2 {
@@ -83,6 +84,7 @@ body {
 
 .package img {
   width: 100%;
+  height: auto;
   border-radius: 10px 10px 0 0;
 }
 
