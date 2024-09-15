@@ -58,16 +58,16 @@ body {
 }
 
 .packages-container {
-  display: flex;
-  justify-content: space-between; /* Paketlerin yatayda dağılımını sağlar */
-  gap: 20px; /* Paketler arasına boşluk ekler */
-  flex-wrap: nowrap; /* Paketlerin alt alta düşmesini engeller */
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Sayfanın bu kısmını 3 eşit parçaya böler */
+  gap: 20px; /* Paketler arasında boşluk ekler */
 }
 
 .package {
   padding: 20px;
-  margin: 10px;
-  width: 30%; /* Her paketin genişliği ayarlandı */
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
