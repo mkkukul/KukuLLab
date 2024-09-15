@@ -10,7 +10,57 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+/* ... (diğer CSS stilleri) ... */
 
+h1 .highlight {
+  /* "Antrenman" kelimesini vurgula */
+  color: #ffd700; /* Altın sarısı renk */
+  font-weight: bold;
+}
+
+.nav-link {
+  /* Navigasyon bağlantılarının stilini ayarla */
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s; /* Hover efekti için geçiş ekle */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Hover efekti rengi */
+}
+
+.button {
+  /* Butonların genel stilini ayarla */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s; /* Hover efekti için geçiş ekle */
+}
+
+.primary-button {
+  /* "Giriş Yap" butonu */
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;
+}
+
+.primary-button:hover {
+  background-color: #0056b3; /* Hover efekti rengi */
+}
+
+.secondary-button {
+  /* "Kayıt Ol" butonu */
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.secondary-button:hover {
+  background-color: #ddd; /* Hover efekti rengi */
+}
 /* Header stilleri */
 header {
   background-color: #f0f0f0;
