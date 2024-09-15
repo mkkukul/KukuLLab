@@ -12,5 +12,5 @@ function checkVisibility() {
   });
 }
 
-window.addEventListener("scroll", checkVisibility); // Sayfa kaydırıldığında kontrol et
-checkVisibility(); // Sayfa yüklendiğinde de kontrol et
+window.addEventListener("scroll", checkVisibility);
+checkVisibility();

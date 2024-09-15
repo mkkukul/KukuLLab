@@ -1,36 +1,92 @@
-/* ... (diğer CSS stilleri) ... */
+/* Temel stiller */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header stilleri */
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+.auth {
+  float: right;
+}
+
+.auth a {
+  margin-left: 10px;
+}
+
+/* Anasayfa bölümü stilleri */
+#anasayfa {
+  background-color: #eee;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#anasayfa img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Paketler bölümü stilleri */
+#paketler {
+  padding: 50px 0;
+}
 
 .packages {
-  display: flex; /* Paketleri yan yana diz */
-  justify-content: space-around; /* Paketler arası boşluk */
+  display: flex;
+  justify-content: space-around;
 }
 
 .package {
-  /* ... (diğer stiller) ... */
-  width: 30%; /* Paket genişliğini ayarla */
-  margin: 1%; /* Paketler arası boşluk */
-  overflow: hidden; /* İçeriğin taşmasını engelle */
+  width: 30%;
+  margin: 1%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  background-color: #f0f0f0;
+  border: none;
   opacity: 0; /* Başlangıçta paketleri görünmez yap */
   transform: translateY(50px); /* Başlangıçta paketleri aşağı kaydır */
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Geçiş efektleri ekle */
-  background-color: #f0f0f0; /* Varsayılan arka plan rengi */
-  border: none; /* Varsayılan kenarlığı kaldır */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-/* Her bir paket için özel arka plan renkleri */
-.package:nth-child(1) {
-  /* İlk paket */
-  background-color: #f0f0f0; /* Açık mavi */
-}
-
-.package:nth-child(2) {
-  /* İkinci paket */
-  background-color: #f0f0f0; /* Açık yeşil */
-}
-
-.package:nth-child(3) {
-  /* Üçüncü paket */
-  background-color: #f0f0f0; /* Açık kırmızı */
+.package:hover {
+  transform: translateY(-5px);
 }
 
 .package.show {
@@ -42,26 +98,38 @@
   padding: 20px;
   text-align: center;
   border-radius: 10px 10px 0 0;
-  /* Paketlere özel arka plan renkleri */
-  /* ... (diğer stiller) ... */
 }
 
 .package:nth-child(1) .package-header {
-  /* İlk paketin başlığı */
   background-color: #323232;
   color: white;
 }
 
 .package:nth-child(2) .package-header {
-  /* İkinci paketin başlığı */
   background-color: #28a745;
   color: white;
 }
 
 .package:nth-child(3) .package-header {
-  /* Üçüncü paketin başlığı */
   background-color: #ffc107;
   color: black;
+}
+
+.package-header h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.package-header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.package-header .price {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .package-content {
@@ -71,4 +139,83 @@
   border-radius: 0 0 10px 10px;
 }
 
-/* ... (diğer CSS stilleri) ... */
+.package-content h4 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.package-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.package-content li {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.package-content li i {
+  margin-right: 5px;
+}
+
+.buy-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Hakkımızda bölümü stilleri */
+#hakkimizda {
+  padding: 50px 0;
+}
+
+/* Mobil cihazlar için düzenlemeler */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  .auth {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .packages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .package {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+
+  .cta-button {
+    padding: 8px 15px;
+  }
+}
