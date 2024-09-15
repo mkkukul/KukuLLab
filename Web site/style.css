@@ -219,3 +219,170 @@ header nav ul li {
     padding: 8px 15px;
   }
 }
+/* ... (diğer CSS stilleri) ... */
+
+/* Profesyonel Çalışma Programı bölümü stilleri */
+#profesyonel-calisma {
+  background-color: #212529; /* Koyu arka plan rengi */
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#profesyonel-calisma h2 {
+  margin-bottom: 30px;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-icon {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.program-description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.program-description ul {
+  list-style: none;
+  padding: 0;
+}
+
+.program-description li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.timeline-item p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px; /* Çizginin kalınlığını ayarlayın */
+  background: linear-gradient(
+    to right,
+    transparent,
+    #fff,
+    transparent
+  ); /* Beyazdan şeffafa geçiş efekti */
+  margin-top: 5px; /* Metin ile çizgi arası boşluk */
+}
+.timeline-item p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px; /* Çizginin kalınlığını ayarlayın */
+  background: linear-gradient(
+    to right,
+    transparent,
+    #fff,
+    transparent
+  ); /* Beyazdan şeffafa geçiş efekti */
+  margin-top: 5px; /* Metin ile çizgi arası boşluk */
+}
+/* ... (diğer CSS stilleri) ... */
+
+/* Profesyonel Çalışma Programı bölümü stilleri */
+#profesyonel-calisma {
+  /* ... (diğer stiller) ... */
+  font-family: "Montserrat", sans-serif; /* Modern bir font ailesi */
+  text-align: center; /* Metni yatayda ortala */
+}
+
+#profesyonel-calisma h2 {
+  /* ... (diğer stiller) ... */
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  /* ... (diğer stiller) ... */
+}
+
+.timeline-item p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.timeline-item p::after {
+  /* ... (diğer stiller) ... */
+  background: linear-gradient(to right, transparent, #ffd700, transparent);
+}
+
+.program-description {
+  /* ... (diğer stiller) ... */
+  max-width: 800px; /* Maksimum genişlik belirle */
+  margin: 0 auto; /* Yatayda ortala */
+}
+
+.program-description ul {
+  /* ... (diğer stiller) ... */
+  padding-left: 20px;
+}
+
+.program-description li {
+  /* ... (diğer stiller) ... */
+  font-size: 16px;
+  line-height: 1.6;
+}
+.program-description {
+  max-width: 800px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+  margin: 0 auto;
+}
+.program-description {
+  display: flex;
+  flex-direction: column; /* Öğeleri dikey sırala */
+  justify-content: center; /* Dikeyde ortala */
+  align-items: center; /* Yatayda ortala */
+}
+.program-description {
+  display: flex;
+  flex-direction: column; /* Öğeleri dikey sırala */
+  justify-content: center; /* Dikeyde ortala */
+  align-items: center; /* Yatayda ortala */
+}
+/* ... (diğer CSS stilleri) ... */
+
+.program-description ul {
+  list-style: none; /* Liste işaretlerini kaldır */
+  padding-left: 0;
+  text-align: center; /* Metni yatayda ortala */
+}
+
+.program-description li {
+  margin-bottom: 10px;
+  text-align: center; /* Her satırı ortala */
+}
+
+.program-description li::before {
+  /* Her satırın başına işaret ekle */
+  content: "\2022"; /* İşaret karakteri (•) */
+  color: #ffd700; /* İşaret rengi (altın sarısı) */
+  margin-right: 10px; /* İşaret ile metin arası boşluk */
+}
+.program-description {
+  /* ... (diğer stiller) ... */
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  /* white-space: nowrap; */ /* Bu satırı kaldırıyoruz */
+  /* overflow: hidden; */ /* Bu satırı kaldırıyoruz */
+  /* text-overflow: ellipsis; */ /* Bu satırı kaldırıyoruz */
+  padding: 0 20px; /* Metin bloğunun içine padding ekleyerek kenarlardan boşluk bırakıyoruz */
+}
