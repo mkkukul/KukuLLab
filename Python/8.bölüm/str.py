@@ -1,3 +1,4 @@
-from işlemler import carpma
+# from işlemler import carpma
 
-carpma()
+# carpma()
+import random
