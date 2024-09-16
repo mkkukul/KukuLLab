@@ -10,6 +10,17 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+* ... (diğer CSS stilleri) ... */ .header-content {
+  display: flex; /* Öğeleri yan yana diz */
+  justify-content: space-between; /* Öğeler arası boşluk */
+  align-items: center; /* Öğeleri dikeyde ortala */
+}
+
+header nav ul {
+  /* ... (diğer stiller) ... */
+  display: flex;
+  justify-content: center; /* Menü öğelerini ortala */
+}
 /* ... (diğer CSS stilleri) ... */
 
 h1 .highlight {
