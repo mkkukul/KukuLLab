@@ -1,2 +1,2 @@
-import toplama
-toplama.topla()
+# import toplama
+# # toplama.topla()
