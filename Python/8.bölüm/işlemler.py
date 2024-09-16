@@ -10,7 +10,7 @@ def çıkartma():
     cıkarma = x-y
     print(cıkarma)
     
-def çarpma():
+def carpma():
     x = int(input("birinci sayı :"))
     y = int(input("ikinci sayı :"))
     carp = x+y

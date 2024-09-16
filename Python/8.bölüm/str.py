@@ -1,2 +1,2 @@
 
-from işlemler import çarpma
+from işlemler import carpma
