@@ -11,11 +11,15 @@ def tel_rehber_göster(x):
     print  ("rehbere Hoşgeldiniz")
     for i,j in x.items():
         print(i, ":" , j)
+    input("devam edilsin mi")     
 
 def no_sil(x):
     print("kişi sdilme ekrenına Hoşgeldiniz")
     silinicek_kişi = input("silinecek kişiyi yazınız:")
     x = tel_rehberi.pop(silinicek_kişi)
+    input("devam edilsin mi")
+
+ 
 while True:
     print("HoşT")
     print("SeçimYapınız")
