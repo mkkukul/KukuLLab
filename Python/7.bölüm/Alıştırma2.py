@@ -8,6 +8,8 @@ def tel_no_ekle(x):
     print(f"{numara_isim_al}' adlı kişi telefon listesine eklendi ...")
     
 def tel_rehber_göster(x):
+    kişi_sayısı = len(x)
+    print(f"kayıtlı kişi sayısı:{kişi_sayısı}")
     print  ("rehbere Hoşgeldiniz")
     for i,j in x.items():
         print(i, ":" , j)
