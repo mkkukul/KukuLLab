@@ -8,4 +8,4 @@
 # print(random.random())
 import random
 a = random.random()
-print(a*10)
+print(a*10,1)
