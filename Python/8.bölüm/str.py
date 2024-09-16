@@ -6,6 +6,9 @@
  
 
 # print(random.random())
+# import random
+# a = random.random()
+# print(a*10,1)
 import random
 a = random.random()
-print(a*10,1)
+print(round(a*10,1))
