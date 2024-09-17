@@ -12,7 +12,7 @@ def kullanıcı_gör(x):
     say = 1
     print("-"*30)
     for i in x:
-        print(str(say+"-Kullanıcı Adı:",i))
+        print(str(say)+"-Kullanıcı Adı:",i)
         say+=1
     print("-"*30)
 
