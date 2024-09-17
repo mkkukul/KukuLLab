@@ -28,3 +28,4 @@ liste = ["Ali","Ferit","Kurt"]
 # for i in liste:
 #     print(i)
 a = random.sample(liste,2)
+print(a)
