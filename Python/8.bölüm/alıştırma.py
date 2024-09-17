@@ -36,4 +36,7 @@ def salla(x):
         print(str(say)+"-Sallanan kişi: ", i)
         say+=1
     
-    
+while True:
+    print("****ÇArk*****")
+    seçim = input("1-Kullanıcı Ekle\n2-Kullanıcı Görüntüle\n3-Kullanıcı Seç\n4-Salla\n5-Çıkış")
+        
