@@ -1,9 +1,8 @@
 import subprocess as sp
-# subprocess.call("notepad.exe") notpad
-# subprocess.call("C:\Program Files\Microsoft Office\Office16\EXCEL.EXE")
+
 psw:"123456"
 kullanıcı_şifre = input("Lütfen Şifrenizi Giriniz")
-if kullanıcı_şifre == psw
+if kullanıcı_şifre == psw:
     while True:
         print("*** Uygulama Açma Ekranına Hoşgeldiniz***")
         seçim_yap = input("1-Notepad\n2-Excel\n3-Google\n4-Hesap Makinesi\n")
