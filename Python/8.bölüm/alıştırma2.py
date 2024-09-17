@@ -3,7 +3,9 @@ import subprocess as sp
 # subprocess.call("C:\Program Files\Microsoft Office\Office16\EXCEL.EXE")
 
 while True:
+    print("*** Uygulama Açma Ekranına Hoşgeldiniz***")
     seçim_yap = input("1-Notepad\n2-Excel\n3-Google\n4-Hesap Makinesi\n")
+    
     if seçim_yap == "1":
         sp.call("notepad.exe")
         input("Devam Edilsin Mi ?")
