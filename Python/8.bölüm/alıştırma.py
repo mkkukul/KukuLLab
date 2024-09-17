@@ -7,9 +7,6 @@ def kullanıcı_ekle(x):
     ekle = input("Lütfen Eklenecek Kullanıcıyı Yazınız:")
     kullanıcılar.append(ekle)
 
-kullanıcı_ekle(kullanıcılar)
-# for i in kullanıcılar
-# print(i)
 
 def kullanıcı_gör(x):
     say = 1
@@ -25,7 +22,7 @@ def seç(x):
     rastgle_seç = random.sample(x,kişi_seç)
     
     for i in rastgle_seç:
-        print(str(say)+"-Sanşlı kişi: ", i)
+        print(str(say)+"-Kullanıcı Adı: ", i)
         say+=1
     print("-"*30)
     
@@ -33,10 +30,21 @@ def salla(x):
     say =1
     random.shuffle(x)
     for i in x:
-        print(str(say)+"-Sallanan kişi: ", i)
+        print(str(say)+"-Kullanıcı Adı:", i)
         say+=1
     
 while True:
     print("****ÇArk*****")
-    seçim = input("1-Kullanıcı Ekle\n2-Kullanıcı Görüntüle\n3-Kullanıcı Seç\n4-Salla\n5-Çıkış")
-        
+    seçim = int(input("1-Kullanıcı Ekle\n2-Kullanıcı Görüntüle\n3-Kullanıcı Seç\n4-Salla\n"))
+    
+    if seçim == 1:
+        kullanıcı_ekle(kullanıcılar)
+    elif seçim == 2:
+        kullanıcı_gör(kullanıcılar)
+    elif seçim == 3:
+        salla(kullanıcılar)
+    elif seçim == 4:
+        seç(kullanıcılar)
+    else:
+        print("Lütfen uygun bir tercih yapınız.")
+             
