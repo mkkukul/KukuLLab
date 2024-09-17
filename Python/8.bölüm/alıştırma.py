@@ -26,10 +26,14 @@ def seç(x):
     
     for i in rastgle_seç:
         print(str(say)+"-Sanşlı kişi: ", i)
+        say+=1
     print("-"*30)
     
 def salla(x):
     say =1
-    random.shuffle
+    random.shuffle(x)
+    for i in x:
+        print(str(say)+"-Sallanan kişi: ", i)
+        say+=1
     
     
