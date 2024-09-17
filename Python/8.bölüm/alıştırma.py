@@ -1,4 +1,5 @@
 import random
+import time
 
 kullanıcılar = list()
 def kullanıcı_ekle(x):
@@ -22,9 +23,12 @@ def seç(x):
     rastgle_seç = random.sample(x,kişi_seç)
     
     for i in rastgle_seç:
-        print(str(say)+"-Kullanıcı Adı: ", i)
+        print(str(say)+"-Kullanıcı Karıştır: ", i)
         say+=1
+        print("Diğer kişi sistemden çekiliyor")
+        time.sleep(3)
     print("-"*30)
+    input("devam etmek için enter tuşuna basınız")
     
 def salla(x):
     say =1
@@ -44,6 +48,8 @@ while True:
     elif seçim == 3:
         salla(kullanıcılar)
     elif seçim == 4:
+        print("Kişi seçme alanı hesaplanıyor...")
+        time.sleep(2)
         seç(kullanıcılar)
     else:
         print("Lütfen uygun bir tercih yapınız.")
