@@ -1,6 +1,6 @@
 import subprocess as sp
 
-psw:"123456"
+psw ="123456"
 kullanıcı_şifre = input("Lütfen Şifrenizi Giriniz")
 if kullanıcı_şifre == psw:
     while True:
@@ -19,4 +19,5 @@ if kullanıcı_şifre == psw:
         elif seçim_yap == "4":
             sp.call("calc.exe")
             input("Devam Edilsin Mi ?")
-        
+else:
+    print("Yanlış şifre!")        
