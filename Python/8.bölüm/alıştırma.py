@@ -14,9 +14,22 @@ kullanıcı_ekle(kullanıcılar)
 def kullanıcı_gör(x):
     say = 1
     print("-"*30)
-    for i in x
+    for i in x:
         print(str(say+"-Kullanıcı Adı:",i))
         say+=1
     print("-"*30)
+
+def seç(x):
+    say = 1
+    kişi_seç =int(input("kaç kişi Seçilsin"))
+    rastgle_seç = random.sample(x,kişi_seç)
+    
+    for i in rastgle_seç:
+        print(str(say)+"-Sanşlı kişi: ", i)
+    print("-"*30)
+    
+def salla(x):
+    say =1
+    random.shuffle
     
     
