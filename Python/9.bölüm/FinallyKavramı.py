@@ -13,5 +13,4 @@ finally:
         print("Geri Sayım", sayaç)
         sayaç -=1
         time.sleep(1)
-    
-    # print("Program Bitti")
+        print("Program Bitti")
