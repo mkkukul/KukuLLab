@@ -13,5 +13,5 @@ try:
 #     print("Bir Sayı sıfıra Bölünemez")
 # except ValueError:
 #     print("Lütfen Sayı Giriniz")
-except(ZeroDivisionError,ValueError)
+except(ZeroDivisionError,ValueError):
     print("hata var")
