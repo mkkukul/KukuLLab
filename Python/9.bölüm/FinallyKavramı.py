@@ -1,3 +1,4 @@
+import time
 try:
     sayı1 = int(input("Sayı 1"))
     sayı2  = int(input("Sayı 2"))
@@ -8,7 +9,9 @@ except ValueError:
     
 finally:
     sayaç = 5
-    for i in range(5)
-    print("Geri Sayım", Sayaç)
-    sayaç -=1
+    for i in range(5):
+        print("Geri Sayım", sayaç)
+        sayaç -=1
+        time.sleep(1)
+    
     # print("Program Bitti")
