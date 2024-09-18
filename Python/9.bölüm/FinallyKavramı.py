@@ -13,6 +13,8 @@ finally:
         print("Geri Sayım", sayaç)
         sayaç -=1
         time.sleep(1)
+        if sayaç == 0:
+            print("işlem tamamlandı")
         # print("Program Bitti")
         
-print("Program Bitti")
+# print("Program Bitti")
