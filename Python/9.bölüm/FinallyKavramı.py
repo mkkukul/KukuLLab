@@ -7,4 +7,8 @@ except ValueError:
     print("Lütfen Sayı Giriniz")
     
 finally:
-    print("Program Bitti")
+    sayaç = 5
+    for i in range(5)
+    print("Geri Sayım", Sayaç)
+    sayaç -=1
+    # print("Program Bitti")
