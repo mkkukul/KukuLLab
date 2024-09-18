@@ -10,4 +10,6 @@ import codecs as cs
 
 with cs.open("deneme.txt","r+",encoding="utf-8") as dosya:
     dp = dosya.readlines()
-    dp.insert(0,"2.Mahmut\n")   
+    dp.insert(2,"Makamı MAhmut\n")
+    dosya.seek(0)
+    dosya.writelines(dp)
