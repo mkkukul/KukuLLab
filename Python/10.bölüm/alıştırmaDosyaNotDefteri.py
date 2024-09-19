@@ -11,3 +11,4 @@ with codecs.open(dosya_NEW,"w", encoding="utf-8") as dosya:
         yeni_veri = input("Lütfen Eklemek istiğiniz veriyi yazınız")
         yeni_veri = "\n" + yeni_veri
         dosya.write(yeni_veri)
+        print("Verileriniz Güncellendi")
