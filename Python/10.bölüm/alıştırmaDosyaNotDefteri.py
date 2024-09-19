@@ -9,3 +9,4 @@ with codecs.open(dosya_NEW,"w", encoding="utf-8") as dosya:
     if soru_sor = "E":
         open(dosya_NEW,"a")
         yeni_veri = input("Lütfen Eklemek istiğiniz veriyi yazınız")
+        yeni_veri = yeni_veri + "\n"
