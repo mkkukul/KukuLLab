@@ -17,4 +17,8 @@ with codecs.open(dosya_NEW,"w", encoding="utf-8") as dosya:
         
 info = open(dosya_NEW,"r",encoding=("utf-8"))
 a = info.read()
-print(a) 
+print("Belge belge dedin alsa BELGE")
+
+print(a)
+
+print("Şimdi NANEYİ Yemedin mi sen") 
