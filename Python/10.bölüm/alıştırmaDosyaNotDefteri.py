@@ -15,3 +15,6 @@ with codecs.open(dosya_NEW,"w", encoding="utf-8") as dosya:
     else:
         print("Hayırlı Uğurlu olsun Kokdun")
         
+info = open(dosya_NEW,"r")
+a = info.read()
+print(a) 
