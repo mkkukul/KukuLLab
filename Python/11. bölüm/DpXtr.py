@@ -6,4 +6,5 @@ yetki = dp.cursor()
 yetki.execute("CREATE TABLE IF NOT EXISTS kitaplar (kitap_adi TEXT, yazar_adi TEXT, yayin_evi TEXT, sayfa_sayisi INT)")
 yetki.execute('INSERT INTO kitaplar VALUES("Çalıkuşu","359"."1978")')
 dp.commit()
+
 dp.close()
