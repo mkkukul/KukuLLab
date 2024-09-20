@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS kitaplar (
 """)
 
 # Veri ekleniyor
-yetki.execute('INSERT INTO kitaplar VALUES ("{kitap_adı}", "{kitap_sayfaNosu}","{kitap_Yılı}" )')
+yetki.execute('INSERT INTO kitaplar VALUES (f"{kitap_adı}", "{kitap_sayfaNosu}","{kitap_Yılı}" )')
 # yetki.execute('INSERT INTO kitaplar VALUES ("Savaş ve Barış", 500, 2010)')
 
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
