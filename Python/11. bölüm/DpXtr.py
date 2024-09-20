@@ -3,12 +3,9 @@ import sqlite3
 # Veritabanı bağlantısı oluşturuluyor
 db = sqlite3.connect("kitaplar.db")
 yetki = db.cursor()
-
-# Kullanıcıdan veri alınıyor
-kitap_adı = input("Kitabın Adını Giriniz: ")
-kitap_sayfaNosu = int(input("Kitabın Sayfa Sayısını Giriniz: "))
-kitap_Yılı = int(input("Kitabın Yılını Giriniz: "))
-
+kitap_adı = input("Kitabının Asını Giriniz:")
+kitap_sayfaNosu = input("Kitabın SayfaNosu Giriniz:")
+kitap_Yılı = input("Kitabın Yılını Giriniz")
 # Tablo oluşturuluyor
 yetki.execute("""
 CREATE TABLE IF NOT EXISTS kitaplar (
@@ -18,8 +15,9 @@ CREATE TABLE IF NOT EXISTS kitaplar (
 )
 """)
 
-# Veri ekleniyor (parametreli sorgu kullanıyoruz)
-yetki.execute('INSERT INTO kitaplar (isim, sayfasayisi, kitapyili) VALUES (?, ?, ?)', (kitap_adı, kitap_sayfaNosu, kitap_Yılı))
+# Veri ekleniyor
+yetki.execute('INSERT INTO kitaplar VALUES (f"{kitap_adı}", "{kitap_sayfaNosu}","{kitap_Yılı}" )')
+# yetki.execute('INSERT INTO kitaplar VALUES ("Savaş ve Barış", 500, 2010)')
 
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
 db.commit()
