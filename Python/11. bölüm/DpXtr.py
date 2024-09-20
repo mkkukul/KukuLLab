@@ -4,7 +4,7 @@ import sqlite3
 dp = sqlite3.connect("kitaplar.db")
 yetki = dp.cursor()
 
-# Tablo oluşturuluyor
+# Tablo oluşturuluyor (isimleri düzeltildi)
 yetki.execute("""
 CREATE TABLE IF NOT EXISTS kitaplar (
     isim TEXT,
@@ -13,9 +13,9 @@ CREATE TABLE IF NOT EXISTS kitaplar (
 )
 """)
 
-# Veri ekleniyor
+# Veri ekleniyor (virgül ve nokta hatası düzeltildi)
 yetki.execute('INSERT INTO kitaplar VALUES ("Çalıkuşu", 359, 1978)')
 
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
-dp.commit()
+dp.commit()  # commit yapılmazsa veri kalıcı olmaz
 dp.close()
