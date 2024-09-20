@@ -1,9 +1,21 @@
 import sqlite3
 
-
-dp  = sqlite3.connect("kitaplar.db")
+# Veritabanı bağlantısı oluşturuluyor
+dp = sqlite3.connect("kitaplar.db")
 yetki = dp.cursor()
-yetki.execute("CREATE TABLE IF NOT EXISTS kitaplar (isim, saysayısı, kitapyılı)")
-yetki.execute('INSERT INTO kitaplar VALUES("Çalıkuşu","359"."1978")')
+
+# Tablo oluşturuluyor
+yetki.execute("""
+CREATE TABLE IF NOT EXISTS kitaplar (
+    isim TEXT,
+    sayfa_sayisi INTEGER,
+    kitap_yili INTEGER
+)
+""")
+
+# Veri ekleniyor
+yetki.execute('INSERT INTO kitaplar VALUES ("Çalıkuşu", 359, 1978)')
+
+# Değişiklikleri kaydedip bağlantıyı kapatıyoruz
 dp.commit()
 dp.close()
