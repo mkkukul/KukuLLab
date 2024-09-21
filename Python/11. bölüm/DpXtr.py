@@ -26,7 +26,7 @@ yazdır = yetki.fetchall()
 # print(yazdır)
 # yetki.execute.fetchall()
 for i in yazdır:
-    print(f"Kitap Adı:{i[0]}")
+    print(f"Kitap Adı:{i[0]}\n")
     
     # print(i)
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
