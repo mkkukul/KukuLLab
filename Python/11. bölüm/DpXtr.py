@@ -23,9 +23,9 @@ yetki.execute('INSERT INTO kitaplar VALUES (?, ?, ?)', (kitap_adı, kitap_sayfaN
 yetki.execute("SELECT *FROM kitaplar ")
 
 yazdır = yetki.fetchall()
-print(yazdır)
+# print(yazdır)
 # yetki.execute.fetchall()
-
+for i in yazdır:
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
 db.commit()
 db.close()
