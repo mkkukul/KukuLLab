@@ -26,7 +26,9 @@ yazdır = yetki.fetchall()
 # print(yazdır)
 # yetki.execute.fetchall()
 for i in yazdır:
-    print(i)
+    print()
+    
+    # print(i)
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
 db.commit()
 db.close()
