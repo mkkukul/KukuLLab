@@ -20,7 +20,9 @@ CREATE TABLE IF NOT EXISTS kitaplar (
 
 # Veri ekleniyor (parametreler kullanılarak)
 yetki.execute('INSERT INTO kitaplar VALUES (?, ?, ?)', (kitap_adı, kitap_sayfaNosu, kitap_Yılı))
-yetki.execute.fetchall()
+yetki.execute()
+
+# yetki.execute.fetchall()
 
 # Değişiklikleri kaydedip bağlantıyı kapatıyoruz
 db.commit()
