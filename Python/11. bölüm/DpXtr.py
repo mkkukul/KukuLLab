@@ -20,12 +20,16 @@ CREATE TABLE IF NOT EXISTS kitaplar (
 
 # Veri ekleniyor (parametreler kullanılarak)
 yetki.execute('INSERT INTO kitaplar VALUES (?, ?, ?)', (kitap_adı, kitap_sayfaNosu, kitap_Yılı))
-yetki.execute("SELECT *FROM kitaplar ")
 
 
-yazdır = yetki.fetchmany(2)
-for i in yazdır:
-    print(i)
+yetki.execute("SELECT*FROM")
+
+
+
+# yetki.execute("SELECT *FROM kitaplar ")
+# yazdır = yetki.fetchmany(2)
+# for i in yazdır:
+#     print(i)
 
 # yazdır = yetki.fetchall()
 # print(yazdır)
