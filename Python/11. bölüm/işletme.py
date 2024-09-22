@@ -2,7 +2,7 @@ import sqlite3
 
 db = sqlite3.connect("veresiye.db")
 yetki = db.cursor()
-yetki.execute("CREATE TABLE IF NOT EXISITS kisiler(isim,borç)")
+yetki.execute("CREATE TABLE IF NOT EXISTS kisiler(isim,borç)")
 
 
 while True:
@@ -13,4 +13,4 @@ while True:
         borç_miktarı = input("Lütfen Borç Miktarını Giriniz: ")
         yetki.execute(f"INSERT INTO kisiler VALUES('{borçlu_isim}','{borç_miktarı}')")
         db.commit()
-        print(f"İşlem Tamamlandı:{borçlu_isim}")
+        print(f"İşlem Tamamlandı, Borçlu Kişinin Adı:{borçlu_isim}")
