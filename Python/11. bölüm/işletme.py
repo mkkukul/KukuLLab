@@ -7,4 +7,4 @@ yetki.execute("CREATE TABLE IF NOT EXISITS kisiler(isim,borç)")
 
 while True:
     print("***VERESİYE DEFTERİNE HOŞGELDİNİZ***")
-    sor = input("1-BORÇLU EKLE:\n2-")
+    sor = input("1-BORÇLU EKLE:\n2-BORÇLULARI GÖR\n")
