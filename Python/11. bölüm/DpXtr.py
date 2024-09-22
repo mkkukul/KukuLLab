@@ -25,7 +25,7 @@ yetki.execute('INSERT INTO kitaplar VALUES (?, ?, ?)', (kitap_adı, kitap_sayfaN
 yetki.execute("SELECT*FROM kitaplar WHERE kitapyili='1987'")
 yazdır = yetki.fetchall()
 for i in yazdır:
-    print(i)
+    print(f"Kitap Adı:{i[0]}\nKitap Sayfa Saysı:{i[1]}\nKitap Yılı:{i[2]}\n")
 
 
 
