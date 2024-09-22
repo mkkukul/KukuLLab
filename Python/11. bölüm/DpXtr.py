@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS kitaplar (
 yetki.execute('INSERT INTO kitaplar VALUES (?, ?, ?)', (kitap_adı, kitap_sayfaNosu, kitap_Yılı))
 
 
-yetki.execute("SELECT*FROM kitaplar WHERE K ")
+yetki.execute("SELECT*FROM kitaplar WHERE kitapyili ")
 
 
 
