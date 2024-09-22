@@ -13,4 +13,4 @@ while True:
         borç_miktarı = int(input("Lütfen Borç Miktarını Giriniz: "))
         yetki.execute(f"INSERT INTO kisiler VALUES('{borçlu_isim}','{borç_miktarı}')")
         db.commit()
-        print("")
+        print(f"İşlem Tamamlandı:{borçlu_isim}")
