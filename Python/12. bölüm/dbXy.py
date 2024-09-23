@@ -10,7 +10,7 @@ class galeri:
 şenol_otomativ = galeri()
 şenol_otomativ.araba_özellikleri()
 
-print("*" *367)
+print("*" *36)
 fatih_otomativ = galeri()
 fatih_otomativ.araba_özellikleri
      
