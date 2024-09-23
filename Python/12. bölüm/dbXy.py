@@ -9,6 +9,8 @@ class galeri:
         
 şenol_otomativ = galeri()
 şenol_otomativ.araba_özellikleri()
+
+
 fatih_otomativ = galeri()
 fatih_otomativ.araba_özellikleri
      
