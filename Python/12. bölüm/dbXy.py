@@ -7,4 +7,4 @@ class galeri:
     def araba_özellikleri(self):
         print(f"Araba ismi: {self.araç_ismi}\n")
         print(f"Araba km değeri: {self.km_değeri}\n")
-        print("Araba rengi: {self.renk}\n")
+        print(f"Araba rengi: {self.renk}\n")
