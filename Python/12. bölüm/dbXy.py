@@ -1,2 +1,2 @@
 class galeri:
-    araç_ismi = ""
+    araç_ismi = "Ferrari"
