@@ -12,5 +12,5 @@ class galeri:
 
 print("*" *36)
 fatih_otomativ = galeri()
-fatih_otomativ.araba_özellikleri
+fatih_otomativ.araba_özellikleri()
      
