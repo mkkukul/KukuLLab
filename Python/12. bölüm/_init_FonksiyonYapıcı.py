@@ -10,5 +10,5 @@ class okul:
     
     
     
-sınıf_oluştur = okul()
+sınıf_oluştur = okul("*"*45)
 sınıf_oluştur.bilgileri_göster()
