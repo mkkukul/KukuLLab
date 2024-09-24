@@ -5,6 +5,7 @@ class okul:
     mevcut = "34"
     
     def bilgileri_göster(self):
+        print()
        print("Şube:{}Öğretmen:{}Bölüm{}Sınıf Mevcudu:{}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
     
     
