@@ -5,4 +5,4 @@ class okul:
     mevcut = "34"
     
     def bilgileri_göster(self):
-        
+       print("Şube:{}Öğretmen:{}") 
