@@ -3,3 +3,6 @@ class okul:
     öğretmen = "Ali"
     bölüm = "Bilişim Teknolojileri"
     mevcut = "34"
+    
+    def bilgileri_göster(self):
+        
