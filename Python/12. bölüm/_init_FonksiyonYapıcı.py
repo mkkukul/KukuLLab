@@ -1,5 +1,9 @@
 class okul:
-    def__init__(self)
+    def__init__(self):
+        şube = "11-C"
+        öğretmen = "Ali"
+        bölüm = "Bilişim Teknolojileri"
+    mevcut = "34"
     
     
     def bilgileri_göster(self):
