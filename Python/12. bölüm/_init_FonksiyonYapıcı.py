@@ -9,4 +9,5 @@ class okul:
     
     
     
-sınıf_oluştur 
+sınıf_oluştur = okul()
+sınıf
