@@ -1,5 +1,5 @@
 class okul:
-    
+    def__init__(self)
     
     
     def bilgileri_göster(self):
