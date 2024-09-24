@@ -10,4 +10,4 @@ class okul:
     
     
 sınıf_oluştur = okul()
-sınıf
+sınıf_oluştur.bilgileri_göster
