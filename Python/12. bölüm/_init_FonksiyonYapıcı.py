@@ -1,9 +1,9 @@
 class okul:
-    def__init__(self,şube,öğretmen,bölüm):
+    def__init__(self,şube,öğretmen,bölüm,mevcut):
         self.şube = şube
         self.öğretmen = öğretmen
         self.bölüm = bölüm
-        .self.mevcut = "34"
+        self.mevcut = mevcut
     
     
     def bilgileri_göster(self):
