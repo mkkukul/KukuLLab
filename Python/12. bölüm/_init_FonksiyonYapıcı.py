@@ -2,7 +2,7 @@ class okul:
     def__init__(self,şube,öğretmen):
         self.şube = şube
         self.öğretmen = öğretmen
-        bölüm = "Bilişim Teknolojileri"
+        self.bölüm = "Bilişim Teknolojileri"
         mevcut = "34"
     
     
