@@ -3,7 +3,7 @@ class okul:
         self.şube = şube
         self.öğretmen = öğretmen
         self.bölüm = bölüm
-        mevcut = "34"
+        .self.mevcut = "34"
     
     
     def bilgileri_göster(self):
