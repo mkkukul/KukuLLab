@@ -11,7 +11,7 @@ class okul:
         print("Şube:{}Öğretmen:{}Bölüm{}Sınıf Mevcudu:{}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
     
-birinci_sınıf    
+birinci_sınıf = okul()    
     
 # sınıf_oluştur = okul()
 # sınıf_oluştur.bilgileri_göster()
