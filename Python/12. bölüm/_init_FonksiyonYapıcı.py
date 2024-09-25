@@ -10,7 +10,8 @@ class okul:
         print("*"*45)
         print("\nŞube:{}\nÖğretmen:{}\nBölüm{}\nSınıf Mevcudu:{}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
-    
+    def öğretmen_adı(self)
+        print("Öğretmen Adı:",self.öğretmen)
 birinci_sınıf = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
 birinci_sınıf.bilgileri_göster()    
 ikinci_sınıf = okul("9C ","Mahmut Çeliker ", "Beden Eğitimi ", "22")
