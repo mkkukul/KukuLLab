@@ -13,6 +13,6 @@ class okul:
     
 birinci_sınıf = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
 birinci_sınıf.bilgileri_göster()    
-    
+ikinci_sınıf = okul(    )    
 # sınıf_oluştur = okul()
 # sınıf_oluştur.bilgileri_göster()
