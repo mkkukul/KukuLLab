@@ -1,5 +1,5 @@
 class okul:
-    def__init__(self):
+    def__init__(self,şube):
         self.şube = "11-C"
         öğretmen = "Ali"
         bölüm = "Bilişim Teknolojileri"
