@@ -13,5 +13,5 @@ class okul:
     
     
     
-sınıf_oluştur = okul()
-sınıf_oluştur.bilgileri_göster()
+# sınıf_oluştur = okul()
+# sınıf_oluştur.bilgileri_göster()
