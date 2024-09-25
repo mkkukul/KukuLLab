@@ -15,6 +15,7 @@ class okul:
 birinci_sınıf = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
 birinci_sınıf.bilgileri_göster()    
 ikinci_sınıf = okul("9C ","Mahmut Çeliker ", "Beden Eğitimi ", "22")
-ikinci_sınıf.bilgileri_göster()    
+ikinci_sınıf.bilgileri_göster()
+ikinci_sınıf.öğretmen_adı()    
 # sınıf_oluştur = okul()
 # sınıf_oluştur.bilgileri_göster()
