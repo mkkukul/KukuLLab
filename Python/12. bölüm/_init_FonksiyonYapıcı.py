@@ -8,7 +8,7 @@ class okul:
     
     def bilgileri_göster(self):
         print("*"*45)
-        print("Şube:{}\nÖğretmen:{}\nBölüm{}\nSınıf Mevcudu:{}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
+        print("Şube:{}\nÖğretmen:{}\nBölüm{}\nSınıf Mevcudu:{}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
     
 birinci_sınıf = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
