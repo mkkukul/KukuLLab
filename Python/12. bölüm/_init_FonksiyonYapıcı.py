@@ -22,7 +22,9 @@ class okul:
         print("*"*45)
 
 
-while True:
+class müdür(okul)
+
+# while True:
     sınıf_adı = input("Lütfen Şube Numarasını giriniz")
     öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
     bölüm_al = input("Lütfen Branşınızı Giriniz:")
