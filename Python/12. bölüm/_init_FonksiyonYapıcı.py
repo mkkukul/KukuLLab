@@ -25,7 +25,7 @@ class okul:
 class müdür(okul):
     pass
 
-yönetici = müdür
+yönetici = müdür("11", "Ömer", "Kurt", "45")
 
 # while True:
     sınıf_adı = input("Lütfen Şube Numarasını giriniz")
