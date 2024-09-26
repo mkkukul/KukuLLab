@@ -18,7 +18,7 @@ class okul:
         print("****Eski Branş***", self.bölüm)
         self.bölüm = yeni_branş
         print("*"*45)
-        print("\nŞube:{}\nÖğretmen:{}\nBölüm{}\nSınıf Mevcudu:{}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
+        print("\nŞube: {}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
         
 sınıf_1 = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
