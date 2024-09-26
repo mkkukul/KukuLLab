@@ -34,6 +34,9 @@ while True:
     seçim = input("Branş Değiştirmek için lütfen 1 tuşuna basınız: ")
     if seçim == "1":
         sınıf_oluştur.branş_değiş()
+    else:
+        print("İşlem Bitti Koçero...")
+        break
 
 
 
