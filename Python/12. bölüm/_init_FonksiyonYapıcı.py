@@ -30,7 +30,8 @@ while True:
     sınıf_oluştur = input("Sınıf Oluşturunuz:")
     
     sınıf_oluştur = okul(sınıf_adı, öğretmen_bilgisi, bölüm_al, mevcut)
-
+    print("Hoşgeldiniz")
+    seçim = input("Branş Değiştirmek için lütfen 1 tuşuna basınız: ")
 
 
 
