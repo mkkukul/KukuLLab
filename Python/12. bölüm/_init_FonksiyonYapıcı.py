@@ -17,6 +17,9 @@ class okul:
         yeni_branş = input("Lütfen Yeni Branşınızı Giriniz:")
         print("****Eski Branş***", self.bölüm)
         self.bölüm = yeni_branş
+        print("*"*45)
+        print("\nŞube:{}\nÖğretmen:{}\nBölüm{}\nSınıf Mevcudu:{}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
+        print("*"*45)
 
 
 
