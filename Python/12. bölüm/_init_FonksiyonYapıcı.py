@@ -16,7 +16,7 @@ class okul:
     def branş_değiş(self):
         yeni_branş = input("Lütfen Yeni Branşınızı Giriniz:")
         print("****Eski Branş***", self.bölüm)
-        self.bölüm = yeni
+        self.bölüm = yeni_branş
 
 
 
