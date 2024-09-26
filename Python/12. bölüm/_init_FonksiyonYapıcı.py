@@ -23,6 +23,7 @@ class okul:
         
 sınıf_1 = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
 sınıf_1.bilgileri_göster()
+sınıf_1
 
 
 
