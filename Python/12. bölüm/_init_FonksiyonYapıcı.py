@@ -27,7 +27,9 @@ while True:
     öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
     bölüm_al = input("Lütfen Branşınızı Giriniz:")
     mevcut = input("Sınıf Mevcudunu Giriniz:")
-
+    sınıf_oluştur = input("Sınıf Oluşturunuz:")
+    
+    sınıf_oluştur = okul(sınıf_adı, öğretmen_bilgisi, bölüm_al, mevcut)
 
 
 
