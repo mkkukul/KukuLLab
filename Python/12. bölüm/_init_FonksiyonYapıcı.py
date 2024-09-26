@@ -26,6 +26,7 @@ class müdür(okul):
     pass
 
 yönetici = müdür("11", "Ömer", "Kurt", "45")
+yönetici.bilgileri_göster()
 
 # while True:
     sınıf_adı = input("Lütfen Şube Numarasını giriniz")
