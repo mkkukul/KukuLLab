@@ -25,7 +25,7 @@ class okul:
 class müdür(okul):
     pass
 
-yönetici = müdür("11", "Ömer", "Kurt", "45")
+yönetici = müdür("11","Ömer","Kurt","45")
 yönetici.bilgileri_göster()
 
 
