@@ -20,10 +20,25 @@ class okul:
         print("*"*45)
         print("\nŞube: {}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
+
+
+while True:
+    sınıf_adı = input("Lütfen Şube Numarasını giriniz")
+    öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
+    bölüm_al = input("Lütfen İsminizi Giriniz:")
+    mevcut = input("Sınıf Mevcudunu Giriniz:")
+
+
+
+
+
+
+
+
         
-sınıf_1 = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
-sınıf_1.bilgileri_göster()
-sınıf_1.branş_değiş()
+# sınıf_1 = okul("11C ","Ali Çeliker ", "Sporcu ", "28")
+# sınıf_1.bilgileri_göster()
+# sınıf_1.branş_değiş()
 
 
 
