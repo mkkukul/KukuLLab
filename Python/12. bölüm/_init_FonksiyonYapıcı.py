@@ -14,6 +14,8 @@ class okul:
     #     print("Öğretmen Adı:",self.öğretmen)
     
     def branş_değiş(self):
+        yeni_branş = input("Lütfen Yeni Branşınızı Giriniz:")
+        print("")
 
 
 
