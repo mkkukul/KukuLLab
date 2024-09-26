@@ -28,6 +28,10 @@ class müdür(okul):
 yönetici = müdür("11", "Ömer", "Kurt", "45")
 yönetici.bilgileri_göster()
 
+
+
+
+
 # while True:
 #     sınıf_adı = input("Lütfen Şube Numarasını giriniz")
 #     öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
