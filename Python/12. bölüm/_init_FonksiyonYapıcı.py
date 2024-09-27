@@ -23,7 +23,7 @@ class okul:
         print("*"*45)
     
     def maaş_göster(self):
-        print{f"{self.öğretmen} 'adlı öğretmenin maaşı{self.maaş}"}
+        print{f"{self.öğretmen}'adlı öğretmenin maaşı{self.maaş}"}
 
 
 class müdür(okul):
