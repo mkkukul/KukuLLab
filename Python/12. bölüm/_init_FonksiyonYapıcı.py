@@ -45,7 +45,7 @@ class müdür(okul):
 
 
 
-öğretmen_1 =
+öğretmen_1 = okul()
 
 # yönetici = müdür("11","Ömer","Kurt","45","BaşYardımcı")
 # yönetici.bilgileri_göster()
