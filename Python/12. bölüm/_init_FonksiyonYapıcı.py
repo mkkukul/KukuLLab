@@ -1,5 +1,5 @@
 class okul:
-    def __init__(self, şube, öğretmen, bölüm, mevcut):
+    def __init__(self, şube, öğretmen, bölüm, mevcut, maaş):
         self.şube = şube
         self.öğretmen = öğretmen
         self.bölüm = bölüm
