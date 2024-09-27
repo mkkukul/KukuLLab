@@ -23,10 +23,27 @@ class okul:
 
 
 class müdür(okul):
-    pass
+    print("Yönetici Paneli")
+    def __init__(self, şube, öğretmen, bölüm, mevcut,kıdem):
+        super().__init__(şube, öğretmen, bölüm, mevcut)
+        self.kıdem = kıdem  # ekstra özellik: kıdem
+        
+        # self.şube = şube
+        # self.öğretmen = öğretmen
+        # self.bölüm = bölüm
+        # self.mevcut = mevcut
+        # self.kıdem = kıdem
+    def bilgileri_göster(self):
+        print("*"*45)
+        print("Yönetici Paneli")
+        print("\nŞube:{}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\nKıdem: {}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut,self.kıdem))
+        print("*"*45)
 
-yönetici = müdür("11","Ömer","Kurt","45")
+yönetici = müdür("11","Ömer","Kurt","45","BaşYardımcı")
 yönetici.bilgileri_göster()
+
+# yönetici.bilgileri_göster()
+# yönetici.branş_değiş()
 
 
 
