@@ -4,7 +4,7 @@ class okul:
         self.öğretmen = öğretmen
         self.bölüm = bölüm
         self.mevcut = mevcut
-        self.maaş = ma
+        self.maaş = maaş
     
     
     def bilgileri_göster(self):
