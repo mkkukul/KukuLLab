@@ -21,6 +21,8 @@ class okul:
         print("*"*45)
         print("\nŞube: {}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
+    
+    def maaş_göster()
 
 
 class müdür(okul):
