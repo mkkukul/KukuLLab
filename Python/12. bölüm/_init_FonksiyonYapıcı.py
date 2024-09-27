@@ -25,8 +25,8 @@ class okul:
 
 class müdür(okul):
     print("Yönetici Paneli")
-    def __init__(self, şube, öğretmen, bölüm, mevcut,kıdem):
-        super().__init__(şube,öğretmen,bölüm,mevcut,ma)
+    def __init__(self, şube, öğretmen, bölüm, mevcut,kıdem, maaş):
+        super().__init__(şube,öğretmen,bölüm,mevcut,maaş)
         self.kıdem = kıdem  # ekstra özellik: kıdem
         
         # self.şube = şube
