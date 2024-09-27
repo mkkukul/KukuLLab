@@ -43,6 +43,10 @@ class müdür(okul):
         print("\nŞube:{}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\nKıdem: {}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut,self.kıdem))
         print("*"*45)
 
+
+
+öğretmen_1 =
+
 # yönetici = müdür("11","Ömer","Kurt","45","BaşYardımcı")
 # yönetici.bilgileri_göster()
 
