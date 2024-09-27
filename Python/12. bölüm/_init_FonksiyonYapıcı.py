@@ -4,6 +4,7 @@ class okul:
         self.öğretmen = öğretmen
         self.bölüm = bölüm
         self.mevcut = mevcut
+        self.
     
     
     def bilgileri_göster(self):
