@@ -44,7 +44,7 @@ class müdür(okul):
         print("*"*45)
     
     def zam_yap(self):
-        print("Zam Ekranına Hoşgeldiniz Sayın{}")   
+        print("Zam Ekranına Hoşgeldiniz Sayın{self.öğ}")   
 
 
 
