@@ -42,12 +42,13 @@ class müdür(okul):
         print("Yönetici Paneli")
         print("\nŞube:{}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\nKıdem: {}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut,self.kıdem))
         print("*"*45)
+        
 
 
 
-öğretmen_1 = okul("11-C","Tuncay Erol","Teknoloji","49","4500")
-öğretmen_1.bilgileri_göster()
-öğretmen_1.maaş_göster()
+# öğretmen_1 = okul("11-C","Tuncay Erol","Teknoloji","49","4500")
+# öğretmen_1.bilgileri_göster()
+# öğretmen_1.maaş_göster()
 
 # yönetici = müdür("11","Ömer","Kurt","45","BaşYardımcı")
 # yönetici.bilgileri_göster()
