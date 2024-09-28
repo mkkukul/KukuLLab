@@ -45,7 +45,7 @@ class müdür(okul):
     
     def zam_yap(self):
         print(f"Zam Ekranına Hoşgeldiniz Sayın{self.öğretmen}")
-        zam_miktarı =  
+        zam_miktarı = int(input) 
 
 
 
