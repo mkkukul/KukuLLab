@@ -46,7 +46,8 @@ class müdür(okul):
     def zam_yap(self):
         print(f"Zam Ekranına Hoşgeldiniz Sayın{self.öğretmen}")
         zam_miktarı = int(input("Lütfen Maaş Miktarını TL cinsinden yazınız"))
-        self.maaş += zam_miktarı 
+        self.maaş += zam_miktarı
+         
 
 
 
