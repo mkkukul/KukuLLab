@@ -43,7 +43,8 @@ class müdür(okul):
         print("\nŞube:{}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\nKıdem: {}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut,self.kıdem))
         print("*"*45)
     
-        
+    def zam_yap(self):
+        print()   
 
 
 
