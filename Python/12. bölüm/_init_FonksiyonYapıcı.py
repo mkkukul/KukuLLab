@@ -42,6 +42,7 @@ class müdür(okul):
         print("Yönetici Paneli")
         print("\nŞube:{}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\nKıdem: {}".format(self.şube,self.öğretmen,self.bölüm,self.mevcut,self.kıdem))
         print("*"*45)
+    
         
 
 
