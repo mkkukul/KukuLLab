@@ -61,6 +61,7 @@ while True:
         mevcut = input("Sınıf Mevcudunu Giriniz:")
         maaş_miktarı = input("Maaş Miktarını Giriniz:")
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
+        sınıf_oluştur = okul(sınıf_adı,öğretmen_bilgisi,)
         
     
     
