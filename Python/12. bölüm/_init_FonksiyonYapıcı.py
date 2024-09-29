@@ -53,6 +53,8 @@ class müdür(okul):
 
 while True:
     seçim_yap = input("1-Öğretmen Girişi\n2-Yönetici Girişi")
+    # ilkel yöntem
+    if seçim_yap == "1"
     
     
     
