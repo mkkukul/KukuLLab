@@ -48,7 +48,7 @@ class müdür(okul):
         zam_miktarı = int(input("Lütfen Maaş Miktarını TL cinsinden yazınız: "))
         self.maaş = int(self.maaş) + zam_miktarı
         print(f"{self.öğretmen}'adlı öğretmenin maaşına {zam_miktarı}'zam yapıldı")
-        print(f"{self.öğretmen}'adlı öğretmenin güncel maaşı{self.maaş}")
+        print(f"{self.öğretmen}'adlı öğretmenin güncel maaşı: {self.maaş}")
         
          
 yönetici = müdür("11","Ali Ece","Yorumcu","56","Müdür Yardımcısı","4500")
