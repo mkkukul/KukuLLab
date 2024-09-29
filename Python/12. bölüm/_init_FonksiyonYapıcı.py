@@ -51,7 +51,7 @@ class müdür(okul):
         print(f"{self.öğretmen}'adlı öğretmenin güncel maaşı{self.maaş}")
         
          
-yönetici = müdür()
+yönetici = müdür("11","Ali Ece","Yorumcu",)
 
 
 # öğretmen_1 = okul("11-C","Tuncay Erol","Teknoloji","49","4500")
