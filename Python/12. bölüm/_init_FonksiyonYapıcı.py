@@ -50,10 +50,14 @@ class müdür(okul):
         print(f"{self.öğretmen}'adlı öğretmenin maaşına {zam_miktarı}'zam yapıldı")
         print(f"{self.öğretmen}'adlı öğretmenin güncel maaşı: {self.maaş}'tldir.")
         
+
+
+
+
          
-yönetici = müdür("11","Ali Ece","Yorumcu","56","Müdür Yardımcısı","4500")
+# yönetici = müdür("11","Ali Ece","Yorumcu","56","Müdür Yardımcısı","4500")
 # yönetici.maaş_göster()
-yönetici.zam_yap()
+# yönetici.zam_yap()
 
 
 
