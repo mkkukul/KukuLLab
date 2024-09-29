@@ -53,6 +53,7 @@ class müdür(okul):
          
 yönetici = müdür("11","Ali Ece","Yorumcu","56","Müdür Yardımcısı","4500")
 yönetici.maaş_göster()
+yönetici.zam_yap()
 
 
 
