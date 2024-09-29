@@ -52,7 +52,7 @@ class müdür(okul):
         
 
 while True:
-    seçim_yap = input("1-Öğretmen")
+    seçim_yap = input("1-Öğretmen Girişi\n2-Yönetici Girişi")
     
     sınıf_oluştur = okul(sınıf_adı, öğretmen_bilgisi, bölüm_al, mevcut)
     print("Hoşgeldiniz")
