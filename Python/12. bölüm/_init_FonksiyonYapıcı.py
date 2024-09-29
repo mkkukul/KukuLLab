@@ -59,6 +59,7 @@ while True:
         öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
         bölüm_al = input("Lütfen Branşınızı Giriniz:")
         mevcut = input("Sınıf Mevcudunu Giriniz:")
+        mevcut = input("Sınıf Mevcudunu Giriniz:")
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
         
     
