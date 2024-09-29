@@ -54,7 +54,13 @@ class müdür(okul):
 while True:
     seçim_yap = input("1-Öğretmen Girişi\n2-Yönetici Girişi")
     # ilkel yöntem
-    if seçim_yap == "1"
+    if seçim_yap == "1":
+        sınıf_adı = input("Lütfen Şube Numarasını giriniz")
+        öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
+        bölüm_al = input("Lütfen Branşınızı Giriniz:")
+        mevcut = input("Sınıf Mevcudunu Giriniz:")
+        sınıf_oluştur = input("Sınıf Oluşturunuz:")
+        
     
     
     
