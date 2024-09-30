@@ -67,6 +67,8 @@ while True:
         if tercih_yap == "1":
             sınıf_oluştur.bilgileri_göster()
         elif tercih_yap == "2"
+            sınıf_oluştur.branş_değiş()
+            
     
     
     
