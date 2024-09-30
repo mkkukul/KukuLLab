@@ -63,7 +63,7 @@ while True:
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
         sınıf_oluştur = okul(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,maaş_miktarı)
         print("Sınıf Oluşturuldu")
-        tercih_yap =
+        tercih_yap = input
     
     
     
