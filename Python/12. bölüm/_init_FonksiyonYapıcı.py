@@ -66,7 +66,7 @@ while True:
         tercih_yap = input("1-Bilgileri Göster\n2-Branş Değiştir.\n3-Maaş Göster")
         if tercih_yap == "1":
             sınıf_oluştur.bilgileri_göster()
-        elif
+        elif tercih_yap == "2"
     
     
     
