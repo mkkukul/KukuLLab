@@ -62,7 +62,7 @@ while True:
         maaş_miktarı = input("Maaş Miktarını Giriniz:")
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
         sınıf_oluştur = okul(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,maaş_miktarı)
-        print("Sınıf")
+        print("Sınıf Oluşturuldu")
         
     
     
