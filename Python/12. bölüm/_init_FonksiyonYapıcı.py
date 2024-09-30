@@ -72,7 +72,9 @@ while True:
             sınıf_oluştur.maaş_göster()
         else:
             print("Çıkış Yaptınız")
-            break    
+            break
+
+if seçim_yap == "2":
             
     
     
