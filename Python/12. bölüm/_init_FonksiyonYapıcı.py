@@ -83,7 +83,7 @@ if seçim_yap == "2":
         kıdem_al = input("Kıdem Durumunuzu Yazınız:")
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
         
-        sınıf_oluştur = müdür()
+        sınıf_oluştur = müdür(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,maaş_miktarı,kıdem_al)
             
     
     
