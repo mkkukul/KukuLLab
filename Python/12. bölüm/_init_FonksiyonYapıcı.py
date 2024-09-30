@@ -69,7 +69,9 @@ while True:
         elif tercih_yap == "2":
             sınıf_oluştur.branş_değiş()
         elif tercih_yap == "3":
-            sınıf_oluştur.maaş_göster()    
+            sınıf_oluştur.maaş_göster()
+        else:
+            print("Hatalı Yaptınız")    
             
     
     
