@@ -75,6 +75,12 @@ while True:
             break
 
 if seçim_yap == "2":
+        sınıf_adı = input("Lütfen Şube Numarasını giriniz")
+        öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
+        bölüm_al = input("Lütfen Branşınızı Giriniz:")
+        mevcut = input("Sınıf Mevcudunu Giriniz:")
+        maaş_miktarı = input("Maaş Miktarını Giriniz:")
+        sınıf_oluştur = input("Sınıf Oluşturunuz:")
             
     
     
