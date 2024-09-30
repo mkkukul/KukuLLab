@@ -68,6 +68,8 @@ while True:
             sınıf_oluştur.bilgileri_göster()
         elif tercih_yap == "2"
             sınıf_oluştur.branş_değiş()
+        elif tercih_yap == "3":
+            sınıf_oluştur.maaş_göster()    
             
     
     
