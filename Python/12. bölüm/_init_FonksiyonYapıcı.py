@@ -80,6 +80,7 @@ if seçim_yap == "2":
         bölüm_al = input("Lütfen Branşınızı Giriniz:")
         mevcut = input("Sınıf Mevcudunu Giriniz:")
         maaş_miktarı = input("Maaş Miktarını Giriniz:")
+        
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
             
     
