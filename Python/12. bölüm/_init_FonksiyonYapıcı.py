@@ -84,6 +84,15 @@ if seçim_yap == "2":
         sınıf_oluştur = input("Sınıf Oluşturunuz:")
         
         sınıf_oluştur = müdür(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,maaş_miktarı,kıdem_al)
+        print("Yönetici Sınıfınız Oluşturuldu...")
+        soru_sor = input("1-Bilgileri Göster\n2-Zam Yap\n")
+        if soru_sor == "1":
+            sınıf_oluştur.bilgileri_göster()
+        elif soru_sor == "2":
+            sınıf_oluştur.zam_yap()
+        else:
+            print("Çıkış Yapıldı...")
+            
             
     
     
