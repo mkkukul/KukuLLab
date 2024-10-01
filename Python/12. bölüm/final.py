@@ -11,8 +11,7 @@ class okul:
         print("*"*45)
         print("\nŞube:{}\nÖğretmen: {}\nBölüm: {}\nSınıf Mevcudu: {}\n".format(self.şube,self.öğretmen,self.bölüm,self.mevcut))
         print("*"*45)
-    # def öğretmen_adı(self):
-    #     print("Öğretmen Adı:",self.öğretmen)
+
     
     def branş_değiş(self):
         yeni_branş = input("Lütfen Yeni Branşınızı Giriniz:")
@@ -32,11 +31,6 @@ class müdür(okul):
         super().__init__(şube,öğretmen,bölüm,mevcut,maaş)
         self.kıdem = kıdem  # ekstra özellik: kıdem
         
-        # self.şube = şube
-        # self.öğretmen = öğretmen
-        # self.bölüm = bölüm
-        # self.mevcut = mevcut
-        # self.kıdem = kıdem
     def bilgileri_göster(self):
         print("*"*45)
         print("Yönetici Paneli")
