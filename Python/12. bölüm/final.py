@@ -43,3 +43,11 @@ class müdür(okul):
         self.maaş = int(self.maaş) + zam_miktarı
         print(f"{self.öğretmen}'adlı öğretmenin maaşına {zam_miktarı}'zam yapıldı")
         print(f"{self.öğretmen}'adlı öğretmenin güncel maaşı: {self.maaş}'tldir.")
+
+
+
+sınıf_adı = input("Lütfen Şube Numarasını giriniz")
+öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
+bölüm_al = input("Lütfen Branşınızı Giriniz:")
+mevcut = input("Sınıf Mevcudunu Giriniz:")
+maaş_miktarı = input("Maaş Miktarını Giriniz:")
