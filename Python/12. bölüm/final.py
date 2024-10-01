@@ -51,5 +51,6 @@ sınıf_adı = input("Lütfen Şube Numarasını giriniz")
 bölüm_al = input("Lütfen Branşınızı Giriniz:")
 mevcut = input("Sınıf Mevcudunu Giriniz:")
 maaş_miktarı = input("Maaş Miktarını Giriniz:")
+print  ()
 
-
+sınıf_oluştur = input("Sınıf Oluşturunuz:")
