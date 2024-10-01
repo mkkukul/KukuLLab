@@ -61,3 +61,4 @@ sınıf_oluştur = input("Sınıf Oluşturunuz:")
 while True:
    if not kıdem_al:
        sınıf_oluştur = okul(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,maaş_miktarı)
+       soru_sor = 
