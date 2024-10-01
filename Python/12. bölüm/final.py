@@ -54,6 +54,8 @@ maaş_miktarı = int(input("Maaş Miktarını Giriniz:"))
 print("BU ALANI SADECE YÖNETİCİ İSENİZ DOLDURUNUZ")
 kıdem_al = input("Lütfen Kıdem Seviyenizi Giriniz: ")
 if not kıdem_al:
-    print("")
+    print("Öğretmen Modundasınız")
 
 sınıf_oluştur = input("Sınıf Oluşturunuz:")
+
+while True:
