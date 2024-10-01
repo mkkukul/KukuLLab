@@ -50,7 +50,7 @@ sınıf_adı = input("Lütfen Şube Numarasını giriniz")
 öğretmen_bilgisi = input("Lütfen İsminizi Giriniz:")
 bölüm_al = input("Lütfen Branşınızı Giriniz:")
 mevcut = input("Sınıf Mevcudunu Giriniz:")
-maaş_miktarı = input("Maaş Miktarını Giriniz:")
+maaş_miktarı = int(input("Maaş Miktarını Giriniz:"))
 print("BU ALANI SADECE YÖNETİCİ İSENİZ DOLDURUNUZ")
 
 sınıf_oluştur = input("Sınıf Oluşturunuz:")
