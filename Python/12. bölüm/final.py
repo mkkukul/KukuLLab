@@ -52,5 +52,6 @@ bölüm_al = input("Lütfen Branşınızı Giriniz:")
 mevcut = input("Sınıf Mevcudunu Giriniz:")
 maaş_miktarı = int(input("Maaş Miktarını Giriniz:"))
 print("BU ALANI SADECE YÖNETİCİ İSENİZ DOLDURUNUZ")
-kıdem_al = input("Lütfen Kıdem Seviyenizi Giriniz")
+kıdem_al = input("Lütfen Kıdem Seviyenizi Giriniz: ")
+ıf not
 sınıf_oluştur = input("Sınıf Oluşturunuz:")
