@@ -70,4 +70,5 @@ while True:
           sınıf_oluştur.branş_değiş()
        else:
            print("Lütfen Geçerli Bir Seçim Yapınız")
-    else: 
+    else:
+        sınıf_oluştur 
