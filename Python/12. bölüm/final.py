@@ -64,9 +64,9 @@ while True:
        soru_sor = input("1-Bilgileri Göster\n2-Maaşı Göster\n3-Branşı Değiştir\n")
        if soru_sor == "1":
            sınıf_oluştur.bilgileri_göster()
-        elif soru_sor =="2":
+       elif soru_sor =="2":
             sınıf_oluştur.maaş_göster()
        elif soru_sor == "3":
           sınıf_oluştur.branş_değiş()
        else:
-           print 
+           print("Lütfen Geçerli Bir Seçim Yapınız") 
