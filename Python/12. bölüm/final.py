@@ -76,4 +76,4 @@ while True:
         if soru_sor2 == "1":
             sınıf_oluştur.bilgileri_göster()
         elif soru_sor2 == "2":
-            sınıf_oluştur
+            sınıf_oluştur.zam_yap()
