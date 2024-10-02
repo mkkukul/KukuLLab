@@ -78,5 +78,5 @@ while True:
         elif soru_sor2 == "2":
             sınıf_oluştur.zam_yap()
         else:
-            print("")
+            print("Çıkış Yapılıyor")
             
