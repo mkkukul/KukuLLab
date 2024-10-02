@@ -71,4 +71,4 @@ while True:
        else:
            print("Lütfen Geçerli Bir Seçim Yapınız")
     else:
-        sınıf_oluştur 
+        sınıf_oluştur = müdür(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,kıdem_al,maaş_miktarı)
