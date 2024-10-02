@@ -72,3 +72,4 @@ while True:
            print("Lütfen Geçerli Bir Seçim Yapınız")
     else:
         sınıf_oluştur = müdür(sınıf_adı,öğretmen_bilgisi,bölüm_al,mevcut,kıdem_al,maaş_miktarı)
+        soru_sor2 = input("1-Bilgileri Göster\n2-Maaşı Göster\n3-Branşı Değiştir\n4-Zam Yap\n")
