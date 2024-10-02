@@ -64,4 +64,5 @@ while True:
        soru_sor = input("1-Bilgileri Göster\n2-Maaşı Göster\n3-Branşı Değiştir\n")
        if soru_sor == "1":
            sınıf_oluştur.bilgileri_göster()
+        elif soru_sor   
         
