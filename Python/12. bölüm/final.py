@@ -75,3 +75,4 @@ while True:
         soru_sor2 = input("1-Bilgileri Göster\n2-Zam Yap\n")
         if soru_sor2 == "1":
             sınıf_oluştur.bilgileri_göster()
+        elif soru_sor2 == "2":
