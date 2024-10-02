@@ -69,4 +69,5 @@ while True:
        elif soru_sor == "3":
           sınıf_oluştur.branş_değiş()
        else:
-           print("Lütfen Geçerli Bir Seçim Yapınız") 
+           print("Lütfen Geçerli Bir Seçim Yapınız")
+    else: 
