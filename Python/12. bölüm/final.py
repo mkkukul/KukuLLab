@@ -66,5 +66,4 @@ while True:
            sınıf_oluştur.bilgileri_göster()
         elif soru_sor =="2":
             sınıf_oluştur.maaş_göster()
-        elif soru_sor == "3": 
-        
+        elif soru_sor == "3":
