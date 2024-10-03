@@ -8,5 +8,6 @@ if url.status_code == 403:
 else:
    print("Siteden Veri Çekilmez")
    
-a = url.content 
+# a = url.content
+a = url.text 
 print(a)
