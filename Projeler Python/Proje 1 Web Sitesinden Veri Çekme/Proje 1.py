@@ -5,4 +5,5 @@ url = requests.get("https://www.imdb.com/chart/top/")
 # print(a)
 if url.status_code == 200:
     print("Siteden Veri Çekilebilir")
-    else:
+else:
+    
