@@ -1,2 +1,2 @@
 import requests
-url = requests.get()
+url = requests.get("")
