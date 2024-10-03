@@ -1,2 +1,2 @@
 import requests
-url = requests.get("")
+url = requests.get("https://www.imdb.com/chart/top/")
