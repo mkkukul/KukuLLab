@@ -9,3 +9,4 @@ else:
     
 soup = BeautifulSoup(url.content, "html.parser")
 yazdır = soup.html
+print(yazdır)
