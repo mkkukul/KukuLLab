@@ -9,5 +9,6 @@ else:
    print("Siteden Veri Çekilmez")
    
 # a = url.content
-a = url.text 
+# a = url.text 
+a = url.encoding
 print(a)
