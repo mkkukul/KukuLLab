@@ -1,5 +1,6 @@
 import requests
-from bs4 import
+from bs4 import BeautifulSoup
+
 url = requests.get("https://www.imdb.com/chart/top/")
 # print(url)
 # a = url.status_code
