@@ -1,4 +1,5 @@
 import requests
+from bs4 import
 url = requests.get("https://www.imdb.com/chart/top/")
 # print(url)
 # a = url.status_code
