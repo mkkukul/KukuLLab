@@ -9,6 +9,8 @@ if url.status_code == 403:
     print("Siteden Veri Çekilebilir")
 else:
    print("Siteden Veri Çekilmez")
+
+soup = 
    
 # a = url.content
 # a = url.text 
