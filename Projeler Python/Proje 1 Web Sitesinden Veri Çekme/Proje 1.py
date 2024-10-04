@@ -1,5 +1,5 @@
 import requests
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 
 url = requests.get("https://www.imdb.com/chart/top/")
 
