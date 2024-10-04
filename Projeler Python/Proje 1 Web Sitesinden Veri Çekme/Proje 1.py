@@ -11,6 +11,7 @@ else:
    print("Siteden Veri Çekilmez")
 
 bez = BeautifulSoup(url.content,"html.parser")
+print(bez)
 
    
 # a = url.content
