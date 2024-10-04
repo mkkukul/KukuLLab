@@ -23,7 +23,7 @@ else:
 
 # Sayfa içeriğini işleme
 soup = BeautifulSoup(url.content, "html.parser")
-print(soup.prettify())  # Daha okunabilir HTML çıktısı
+print(soup.title)  # Daha okunabilir HTML çıktısı
 
 
 # print(url)
