@@ -12,5 +12,5 @@ else:
    
 # a = url.content
 # a = url.text 
-a = url.encoding
-print(a)
+# a = url.encoding
+# print(a)
