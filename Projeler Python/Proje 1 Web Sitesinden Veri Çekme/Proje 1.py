@@ -10,7 +10,7 @@ if url.status_code == 403:
 else:
    print("Siteden Veri Çekilmez")
 
-soup = 
+bez = BeautifulSoup()
    
 # a = url.content
 # a = url.text 
