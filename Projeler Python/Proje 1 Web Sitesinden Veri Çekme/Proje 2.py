@@ -10,5 +10,5 @@ else:
 soup = BeautifulSoup(url.content, "html.parser")
 # yazdır = soup.html
 # yazdır = soup.head.title.text
-yazdır = soup.find("p")
+yazdır = soup.find("p").text
 print(yazdır)
