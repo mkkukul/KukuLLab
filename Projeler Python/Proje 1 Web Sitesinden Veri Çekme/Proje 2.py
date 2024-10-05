@@ -11,7 +11,7 @@ soup = BeautifulSoup(url.content, "html.parser")
 # yazdır = soup.html
 # yazdır = soup.head.title.text
 # yazdır = soup.find("p").text
-yazdır = soup.find_all("p")
+yazdır = soup.find_all("h2")
 for i in yazdır:
     print(i.text)
 
