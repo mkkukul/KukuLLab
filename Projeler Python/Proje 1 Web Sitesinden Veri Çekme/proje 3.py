@@ -12,3 +12,4 @@ div_çek = soup.find_all("div", {"class": "post-content"})
 for i in div_çek:
     print(i.text)
 
+print(div_çek)
