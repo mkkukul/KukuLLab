@@ -9,5 +9,6 @@ else:
     
 soup = BeautifulSoup(url.content, "html.parser")
 # yazdır = soup.html
-yazdır = soup.head.title.text
+# yazdır = soup.head.title.text
+yazdır = soup.
 print(yazdır)
