@@ -9,3 +9,5 @@ else:
     
 soup = BeautifulSoup(url.content, "html.parser")
 div_çek = soup.find_all("div", {"class": "post-content"})
+
+print(div_çek)
