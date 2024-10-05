@@ -8,8 +8,8 @@ else:
     print("Siteden Veri Çekilmez")
     
 soup = BeautifulSoup(url.content, "html.parser")
-div_çek = soup.find_all("div", {"class": "post-content"}).text
-# for i in div_çek:
-#     print(i.text)
+div_çek = soup.find_all("div", {"class": "post-content"})
+for i in div_çek:
+    print(i.text)
 
-print(div_çek)
+# print(div_çek)
