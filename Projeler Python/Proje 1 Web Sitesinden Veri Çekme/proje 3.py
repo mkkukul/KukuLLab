@@ -8,8 +8,8 @@ else:
     print("Siteden Veri Çekilmez")
     
 soup = BeautifulSoup(url.content, "html.parser")
-div_çek = soup.find_all("div", {"class": "post-content"}).a
-print(div_çek)
+div_çek = soup.find_all("img", {"class": "font-bold"}).a
+print(div_çek.get("href"))
 # for i in div_çek:
 #     print(i.text)
 
