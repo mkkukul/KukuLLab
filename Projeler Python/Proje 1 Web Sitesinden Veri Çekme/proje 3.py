@@ -8,3 +8,4 @@ else:
     print("Siteden Veri Çekilmez")
     
 soup = BeautifulSoup(url.content, "html.parser")
+div_çek
