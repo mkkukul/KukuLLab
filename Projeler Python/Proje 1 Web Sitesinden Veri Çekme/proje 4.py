@@ -5,4 +5,4 @@ if url.status_code ==200:
     print("Siteden Veri Çekilebilir")
 else:
     print("Siteden Veri Çekilmez")
-soup = BeautifulSoup(url.)
+soup = BeautifulSoup(url.content,"html.parser")
