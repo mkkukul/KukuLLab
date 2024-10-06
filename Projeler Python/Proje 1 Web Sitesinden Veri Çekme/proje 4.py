@@ -1,2 +1,2 @@
 import requests
-from bs4
+from bs4 import
