@@ -6,3 +6,5 @@ if url.status_code ==200:
 else:
     print("Siteden Veri Çekilmez")
 soup = BeautifulSoup(url.content,"html.parser")
+
+for
