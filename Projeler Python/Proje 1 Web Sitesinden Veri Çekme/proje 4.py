@@ -7,4 +7,4 @@ else:
     print("Siteden Veri Çekilmez")
 soup = BeautifulSoup(url.content,"html.parser")
 
-for i in soup
+for i in soup find()
