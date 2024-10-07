@@ -7,7 +7,7 @@ else:
     print("Siteden Veri Çekilmez")
 soup = BeautifulSoup(url.content,"html.parser")
 while True:
-    for i in 
+    for i in soup
 
 # for i in soup.find("il_siralama").findAll("ilsiralama_85"):
     
