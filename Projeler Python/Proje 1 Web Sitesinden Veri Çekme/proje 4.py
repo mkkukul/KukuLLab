@@ -8,6 +8,7 @@ else:
 soup = BeautifulSoup(url.content,"html.parser")
 while True:
     for i in soup.find("tbody").find_all("tr"):
+        print("************************************")
 
 # for i in soup.find("il_siralama").findAll("ilsiralama_85"):
     
