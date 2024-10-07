@@ -8,5 +8,6 @@ else:
 soup = BeautifulSoup(url.content,"html.parser")
 
 for i in soup.find("tbody").findAll("tr"):
-    print(i.text)
+    
+    print("************************************")print(i.text)
     print("************************************")
