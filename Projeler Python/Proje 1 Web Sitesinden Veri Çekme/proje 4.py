@@ -6,9 +6,12 @@ if url.status_code ==200:
 else:
     print("Siteden Veri Çekilmez")
 soup = BeautifulSoup(url.content,"html.parser")
+while
 
-for i in soup.find("il_siralama").findAll("ilsiralama_85"):
+# for i in soup.find("il_siralama").findAll("ilsiralama_85"):
     
-    print("************************************")
-    print(i.text)
-    print("************************************")
+#     print("************************************")
+#     print(i.text)
+#     print("************************************")
+    
+    
