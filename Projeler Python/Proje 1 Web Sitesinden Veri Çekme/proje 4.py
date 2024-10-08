@@ -9,7 +9,7 @@ soup = BeautifulSoup(url.content,"html.parser")
 
 say = 1
 while True:
-    for i in soup.find("tbody").find_all("tr"):
+    for i in soup.find("data_gunluk_il_listesi").find_all("ilsiralama_85"):
         print("************************************")
         print(i.text)
     
