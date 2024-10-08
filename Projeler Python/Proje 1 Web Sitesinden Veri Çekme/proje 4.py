@@ -7,10 +7,12 @@ else:
     print("Siteden Veri Çekilmez")
 soup = BeautifulSoup(url.content,"html.parser")
 
-say=1
+say = 1
 while True:
     for i in soup.find("tbody").find_all("tr"):
         print("************************************")
+        print(i.text)
+    
 
 # for i in soup.find("il_siralama").findAll("ilsiralama_85"):
     
