@@ -13,6 +13,7 @@ while True:
         print("************************************")
         print(i.text)
     
+    input("Devam Edilsin Mi")
 
 # for i in soup.find("il_siralama").findAll("ilsiralama_85"):
     
