@@ -1,4 +1,6 @@
 
+
+
 # import requests
 # from bs4 import BeautifulSoup
 # url = requests.get("https://covid19.saglik.gov.tr/")
