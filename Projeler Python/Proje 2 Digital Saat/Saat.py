@@ -26,5 +26,5 @@ def digital_clock():
     current_time = time.strftime("%H:%M:%S")
     label.confing(text=current_time)
     date_info = time.strftime("%d %B %Y")
-    date_label.confing
+    date_label.confing(text=date_info)
     
