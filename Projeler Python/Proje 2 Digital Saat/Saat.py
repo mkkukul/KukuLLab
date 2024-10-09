@@ -23,4 +23,4 @@ date_label = Label(app_windows, font=("Boulder", 18), bg=background, fg=foregrou
 date_label.grid(row=1, column=1, padx=10, pady=10)
 
 def digital_clock():
-    time_live = time.strftime()
+    current_time = time.strftime("%H:%M:%S")
