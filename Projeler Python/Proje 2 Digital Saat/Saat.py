@@ -10,4 +10,5 @@ app_windows.configure(bg="black")
 text_font = ("Boulder", 68, 'bold')
 background = "black"
 foreground = "white"
+border_widht 
 
