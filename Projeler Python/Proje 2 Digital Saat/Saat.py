@@ -13,4 +13,5 @@ foreground = "white"
 border_widht = 20
 # SAat Etiketleri
 label = label(app_windows, font=text_font, bg=background, fg=foreground, bd=border_widht)
+label.grid(row=0,column=1,padx=10,pady=10)
 
