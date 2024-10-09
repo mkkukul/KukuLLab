@@ -8,3 +8,4 @@ app_windows.resizable(1,1)
 app_windows.configure(bg="black")
 
 text_font = ("Boulder", 68, 'bold')
+background 
