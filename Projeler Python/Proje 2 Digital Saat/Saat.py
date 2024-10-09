@@ -1,4 +1,4 @@
-from tkinter import label, Tk
+from tkinter import Label, Tk
 import time
 app_windows = Tk()
 # app_windows.mainloop()
@@ -12,8 +12,8 @@ background = "black"
 foreground = "white"
 border_widht = 20
 # SAat Etiketleri
-label = label(app_windows, font=text_font, bg=background, fg=foreground, bd=border_widht)
+label = Label(app_windows, font=text_font, bg=background, fg=foreground, bd=border_widht)
 label.grid(row=0,column=1,padx=10,pady=10)
 # tarih etiketi
-date_label = label(app_windows,font=("boulder",18),bg=background,fg=foreground)
+date_label = Label(app_windows,font=("boulder",18),bg=background,fg=foreground)
 date_label.grid(row=1,column=1,padx=10,pady=10)
