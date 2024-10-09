@@ -22,9 +22,18 @@ time_label.grid(row=0, column=1, padx=10, pady=10)
 date_label = Label(app_windows, font=("Boulder", 18), bg=background, fg=foreground)
 date_label.grid(row=1, column=1, padx=10, pady=10)
 
+# Saat ve tarihi güncelleyen fonksiyon
 def digital_clock():
-    current_time = time.strftime("%H:%M:%S")
-    label.confing(text=current_time)
-    date_info = time.strftime("%d %B %Y")
-    date_label.confing(text=date_info)
+    current_time = time.strftime("%H:%M:%S")  # Saati al
+    time_label.config(text=current_time)  # Saat etiketini güncelle
     
+    current_date = time.strftime("%d %B %Y")  # Tarihi al
+    date_label.config(text=current_date)  # Tarih etiketini güncelle
+    
+    time_label.after(1000, digital_clock)  # 1 saniye sonra tekrar çalıştır
+
+# Saat ve tarih güncellemeyi başlat
+digital_clock()
+
+# Uygulamanın çalışmasını sağla
+app_windows.mainloop()
