@@ -24,3 +24,7 @@ date_label.grid(row=1, column=1, padx=10, pady=10)
 
 def digital_clock():
     current_time = time.strftime("%H:%M:%S")
+    label.confing(text=current_time)
+    date_info = time.strftime("%d %B %Y")
+    date_label.confing
+    
