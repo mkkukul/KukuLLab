@@ -16,3 +16,4 @@ label = label(app_windows, font=text_font, bg=background, fg=foreground, bd=bord
 label.grid(row=0,column=1,padx=10,pady=10)
 # tarih etiketi
 date_label = label(app_windows,font=("boulder",18),bg=background,fg=foreground)
+date_label.grid(row=1,column=1,padx=10,pady=10)
