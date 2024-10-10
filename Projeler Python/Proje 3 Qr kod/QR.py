@@ -1,1 +1,1 @@
-import tkinder 
+import tkinder as tk
