@@ -10,5 +10,5 @@ def qr_kodu_olustur():
         qr_url = pyqrcode.create(url)
         dosya_yolu = filedialog.asksaveasfile(defaultextension=".svg",filetypes=[("SVG Dosyaları", "*.svg")])
         if dosya_yolu:
-            qr_url.svg(dosya_yolu,scale=)
+            qr_url.svg(dosya_yolu,scale=8)
 
