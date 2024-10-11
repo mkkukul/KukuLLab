@@ -16,7 +16,8 @@ def qr_kodu_olustur():
 # Tasarım
 uygulama_pencere = tk.Tk()
 uygulama_pencere.title("QR Kod Oluşturucu")
-etiket = tk.Label
+etiket = tk.Label(uygulama_pencere,text="Url'yi Girin:")
+url_girdi = t
 
 
 
