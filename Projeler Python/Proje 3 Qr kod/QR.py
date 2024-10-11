@@ -14,3 +14,4 @@ def qr_kodu_olustur():
             durum_etiketi.config(text="QR Kodu oluşturuldu ve kaydedildi")
 
 # Tasarım
+uygulama_pencere = tk
