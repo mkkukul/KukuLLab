@@ -13,3 +13,4 @@ def qr_kodu_olustur():
             qr_url.svg(dosya_yolu,scale=8)
             durum_etiketi.config(text="QR Kodu oluşturuldu ve kaydedildi")
 
+# Tasarım
