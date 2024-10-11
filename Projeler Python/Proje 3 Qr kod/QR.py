@@ -20,6 +20,7 @@ etiket = tk.Label(uygulama_pencere,text="Url'yi Girin:")
 url_girdi = tk.Entry(uygulama_pencere,width=40)
 qr_kodu_olustur_butonu = tk.Button(uygulama_pencere,text="QR Kodu Oluştur",command=qr_kodu_olustur)
 durum_etiketi = tk.Label(uygulama_pencere,text="")
+etiket.pack
 
 
 
