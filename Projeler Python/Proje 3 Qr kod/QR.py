@@ -16,3 +16,8 @@ def qr_kodu_olustur():
 # Tasarım
 uygulama_pencere = tk.Tk()
 uygulama_pencere.title("QR Kod Oluşturucu")
+
+
+
+
+uygulama_pencere.mainloop()
