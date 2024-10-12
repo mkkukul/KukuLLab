@@ -25,4 +25,5 @@ durum_etiketi = tk.Label(uygulama_pencere,text="")
 etiket.grid(row=0,column=0,padx=10,pady=10)
 
 
+
 uygulama_pencere.mainloop()
