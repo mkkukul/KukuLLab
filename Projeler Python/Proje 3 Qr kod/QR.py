@@ -22,7 +22,7 @@ qr_kodu_olustur_butonu = tk.Button(uygulama_pencere,text="QR Kodu Oluştur",comm
 durum_etiketi = tk.Label(uygulama_pencere,text="")
 # etiket.pack()
 # qr_kodu_olustur_butonu.pack()
-etiket.grid(row=0,)
+etiket.grid(row=0,column=0,)
 
 
 uygulama_pencere.mainloop()
