@@ -6,4 +6,5 @@ from tkinter import filedialog
 
 def pdfMetniCikart(pdfYolu):
     metin = ""
-    pdfOkuyucu = PyPDF2
+    pdfOkuyucu = PyPDF2.PdfReader
+    
