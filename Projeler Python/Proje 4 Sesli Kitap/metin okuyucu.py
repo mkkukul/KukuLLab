@@ -1,2 +1,2 @@
 import PyPDF2
-from gtts import
+from gtts import gTTS
