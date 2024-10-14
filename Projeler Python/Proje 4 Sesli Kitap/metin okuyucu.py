@@ -5,4 +5,4 @@ import tkinter as tk
 from tkinter import filedialog
 
 def pdfMetniCikart(pdfYolu):
-    metin
+    metin = ""
