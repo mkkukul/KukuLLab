@@ -6,5 +6,7 @@ from tkinter import filedialog
 
 def pdfMetniCikart(pdfYolu):
     metin = ""
-    pdfOkuyucu = PyPDF2.PdfReader()
+    pdfOkuyucu = PyPDF2.PdfReader(open(pdfYolu, 'rb'))
+    for sayfa in range(len(pdfOkuyucu.pages)):
+        metin += pdfOkuyucu.pages[sayfa].extract_text()
     
