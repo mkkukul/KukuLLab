@@ -4,4 +4,5 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 
-def 
+def pdfMetniCikart(pdfYolu):
+    metin
