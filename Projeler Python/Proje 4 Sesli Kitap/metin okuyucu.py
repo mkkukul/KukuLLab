@@ -18,4 +18,5 @@ def metniSeseCevir(metin, dil):
     # os.system("start ses.mp3")
 
 # dosya seçme fonksiyonu
-    
+
+  def   
