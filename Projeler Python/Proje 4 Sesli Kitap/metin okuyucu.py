@@ -19,4 +19,4 @@ def metniSeseCevir(metin, dil):
 
 # dosya seçme fonksiyonu
 
-  def   dosya_sec 
+  def   dosya_sec() 
