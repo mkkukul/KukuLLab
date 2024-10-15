@@ -11,5 +11,6 @@ def pdfMetniCikart(pdfYolu):
         metin += pdfOkuyucu.pages[sayfa].extract_text()
     return metin
 
-def
+def metniSeseCevir(metin, dil):
+    
     
