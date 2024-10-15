@@ -20,4 +20,4 @@ def metniSeseCevir(metin, dil):
 # dosya seçme fonksiyonu
 
   def   dosya_sec():
-      dosyaYolu = filedialog.askopenfilename(filetypes=[("Pdf Dosyaları")]) 
+      dosyaYolu = filedialog.askopenfilename(filetypes=[("Pdf Dosyaları", "")]) 
