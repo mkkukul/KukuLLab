@@ -9,4 +9,5 @@ def pdfMetniCikart(pdfYolu):
     pdfOkuyucu = PyPDF2.PdfReader(open(pdfYolu, 'rb'))
     for sayfa in range(len(pdfOkuyucu.pages)):
         metin += pdfOkuyucu.pages[sayfa].extract_text()
+    return
     
