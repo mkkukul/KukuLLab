@@ -12,5 +12,6 @@ def pdfMetniCikart(pdfYolu):
     return metin
 
 def metniSeseCevir(metin, dil):
+    ses = gTTS(text=metin, lang=dil)
     
     
