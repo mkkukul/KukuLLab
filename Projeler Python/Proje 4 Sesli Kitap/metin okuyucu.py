@@ -16,4 +16,6 @@ def metniSeseCevir(metin, dil):
     ses.save(ciktiDosyasi)
     # ses.save("ses.mp3")
     # os.system("start ses.mp3")
+
+# dosya seçme fonksiyonu
     
