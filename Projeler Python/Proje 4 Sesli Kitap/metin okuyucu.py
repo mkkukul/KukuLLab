@@ -12,7 +12,7 @@ def pdfMetniCikart(pdfYolu):
     return metin
 
 def metniSeseCevir(metin, dil):
-    ses = gTTS(text=metin, lang = )
+    ses = gTTS(text=metin, lang = 't' )
     ses.save("ses.mp3")
     os.system("start ses.mp3")
     
