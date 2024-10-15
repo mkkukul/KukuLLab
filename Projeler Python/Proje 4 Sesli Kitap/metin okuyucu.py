@@ -10,4 +10,5 @@ def pdfMetniCikart(pdfYolu):
     for sayfa in range(len(pdfOkuyucu.pages)):
         metin += pdfOkuyucu.pages[sayfa].extract_text()
     return metin
+
     
