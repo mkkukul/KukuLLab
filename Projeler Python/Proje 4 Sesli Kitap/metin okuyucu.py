@@ -32,4 +32,4 @@ app = tk.Tk()
 app.title("Metin Okuyucu")
 
 
-app.mo
+app.mainloop
