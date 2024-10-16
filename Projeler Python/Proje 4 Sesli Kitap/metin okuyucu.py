@@ -28,4 +28,4 @@ def   dosya_sec():
 
 
 # tkinter arayüzü
-app =
+app = tk.Tk
