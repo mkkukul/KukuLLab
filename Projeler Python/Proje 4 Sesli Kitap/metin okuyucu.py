@@ -30,6 +30,6 @@ def   dosya_sec():
 # tkinter arayüzü
 app = tk.Tk()
 app.title("Metin Okuyucu")
-
+secim_butonu = tk.Button(app, text="Dosya Seç", command=dosya_sec)
 
 app.mainloop()
