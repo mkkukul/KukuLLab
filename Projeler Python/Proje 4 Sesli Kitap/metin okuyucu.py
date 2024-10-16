@@ -28,3 +28,4 @@ def   dosya_sec():
 
 
 # tkinter arayüzü
+app
