@@ -25,4 +25,6 @@ def   dosya_sec():
         pdf_metin = pdfMetniCikart(dosyaYolu)
         metniSeseCevir(pdf_metin,"kaydet.mp3")
         os.system("start kaydet.mp3")
-         
+
+
+# tkinter arayüzü
