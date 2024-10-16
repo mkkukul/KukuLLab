@@ -21,4 +21,5 @@ def metniSeseCevir(metin, dil):
 
 def   dosya_sec():
     dosyaYolu = filedialog.askopenfilename(filetypes=[("Pdf Dosyaları", "pdf")])
-    if dosyaYolu: 
+    if dosyaYolu:
+        pdf_metin = pdf 
