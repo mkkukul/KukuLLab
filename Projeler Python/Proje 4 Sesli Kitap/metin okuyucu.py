@@ -29,3 +29,4 @@ def   dosya_sec():
 
 # tkinter arayüzü
 app = tk.Tk()
+app.title("Metin Okuyucu")
