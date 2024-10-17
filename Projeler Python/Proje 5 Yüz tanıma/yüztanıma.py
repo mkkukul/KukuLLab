@@ -6,3 +6,4 @@ from PIL import Image, ImageTk
 
 # fonksiyon üret
 def open_file():
+   file_path = filedialog.askopenfilename() 
