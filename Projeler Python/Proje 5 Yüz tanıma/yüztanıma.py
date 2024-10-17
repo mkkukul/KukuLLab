@@ -8,3 +8,4 @@ from PIL import Image, ImageTk
 def open_file():
    file_path = filedialog.askopenfilename()
    if file_path:
+       img = cv2.imread(file_path)
