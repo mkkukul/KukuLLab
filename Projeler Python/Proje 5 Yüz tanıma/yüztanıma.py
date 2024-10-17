@@ -1,2 +1,2 @@
 import cv2
-import tkinter as
+import tkinter as tk
