@@ -10,4 +10,4 @@ def open_file():
    if file_path:
        img = cv2.imread(file_path)
        gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-       faces = face_cascade.detectMultiScale()  
+       faces = face_cascade.detectMultiScale(gray,)  
