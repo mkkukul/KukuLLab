@@ -9,4 +9,5 @@ def open_file():
    file_path = filedialog.askopenfilename()
    if file_path:
        img = cv2.imread(file_path)
-       gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) 
+       gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+       faces  
