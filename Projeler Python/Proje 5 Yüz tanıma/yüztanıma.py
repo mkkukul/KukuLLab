@@ -21,7 +21,9 @@ def open_file():
        img = ImageTk.PhotoImage(img)
        
        canvas.img = img
-       canvas.create_image(0,0, anchor = tk.NW)
+       canvas.create_image(0,0, anchor = tk.NW, image=img)
+
+face_cascade = cv2.CascadeClassifier('face_detector.xml')
 
         
             
