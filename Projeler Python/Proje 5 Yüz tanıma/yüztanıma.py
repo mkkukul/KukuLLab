@@ -13,8 +13,15 @@ def open_file():
        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.05,minNeighbor=5, minSize=(30,30))
        
        for(x,y,w,h) in faces:
-           cv2.rectangle(img,(x,y), (x+w, y+h), (255,0,0),2)
-           cv2.putText(img,"İnsan", (x , y+h+20),cv2.FONT_HERSHEY_SIMPLEX,0.7,(255,0,0),2)
-           
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+            cv2.rectangle(img,(x,y), (x+w, y+h), (255,0,0),2)
+            cv2.putText(img,"İnsan", (x , y+h+20),cv2.FONT_HERSHEY_SIMPLEX,0.7,(255,0,0),2)
+
+       img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+       img = Image.fromarray(img)
+       img = ImageTk.PhotoImage(img)
+       
+       canvas.img = img
+       canvas.create_image
+
+        
             
