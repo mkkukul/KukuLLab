@@ -14,5 +14,7 @@ def open_file():
        
        for(x,y,w,h) in faces:
            cv2.rectangle(img,(x,y), (x+w, y+h), (255,0,0),2)
-           cv2.putText(img,"İnsan", (x , y+h+20),cv2.FONT_HERSHEY_SIMPLEX,0.7,(255,0,0))
+           cv2.putText(img,"İnsan", (x , y+h+20),cv2.FONT_HERSHEY_SIMPLEX,0.7,(255,0,0),2)
+           
+        img 
             
