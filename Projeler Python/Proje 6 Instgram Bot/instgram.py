@@ -9,4 +9,4 @@ def dowload_post():
     try: 
         bot = instaloader.Instaloader()
         
-        profile = instaloader.
+        profile = instaloader.Profile.from_username()
