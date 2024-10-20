@@ -1,2 +1,2 @@
 import instaloader
-import t
+import tkinder
