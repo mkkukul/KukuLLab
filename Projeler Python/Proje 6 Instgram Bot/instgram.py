@@ -1,2 +1,2 @@
 import instaloader
-import tkinder as tk
+import tkinter as tk
