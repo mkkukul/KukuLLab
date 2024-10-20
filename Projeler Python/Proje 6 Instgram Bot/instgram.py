@@ -4,4 +4,7 @@ from tkinter import messagebox
 
 
 def dowload_post():
-    username = entry.get()
+    username = entry_username.get()
+    
+    try: 
+        
