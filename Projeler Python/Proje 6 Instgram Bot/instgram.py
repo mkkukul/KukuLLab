@@ -8,3 +8,5 @@ def dowload_post():
     
     try: 
         bot = instaloader.Instaloader()
+        
+        profile = instaloader
