@@ -10,5 +10,5 @@ def dowload_post():
         bot = instaloader.Instaloader()
         
         profile = instaloader.Profile.from_username(bot.context,username)
-        posts =
+        posts = profile.get_posts
         
