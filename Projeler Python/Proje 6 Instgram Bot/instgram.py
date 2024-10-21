@@ -16,3 +16,5 @@ def dowload_post():
         for index, post in enumerate (posts,1):
             bot.download_post(post, target=f"{profile.username}_{index}")
         
+        messagebox
+        
