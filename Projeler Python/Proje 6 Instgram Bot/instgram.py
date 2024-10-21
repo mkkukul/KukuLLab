@@ -14,5 +14,5 @@ def dowload_post():
         
         
         for index, post in enumerate (posts,1):
-            bot.download_comments
+            bot.download_post
         
