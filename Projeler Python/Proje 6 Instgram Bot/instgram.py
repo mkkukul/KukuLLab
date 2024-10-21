@@ -17,4 +17,4 @@ def dowload_post():
             bot.download_post(post, target=f"{profile.username}_{index}")
         
         messagebox.showinfo("Başarılı","Gönderiler İndirildi")
-        
+    except Exception as e:    
