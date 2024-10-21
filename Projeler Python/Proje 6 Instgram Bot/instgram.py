@@ -12,3 +12,6 @@ def dowload_post():
         profile = instaloader.Profile.from_username(bot.context,username)
         posts = profile.get_posts()
         
+        
+        for
+        
