@@ -13,5 +13,5 @@ def dowload_post():
         posts = profile.get_posts()
         
         
-        for index, post in
+        for index, post in enumerate
         
