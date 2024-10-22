@@ -20,4 +20,4 @@ def dowload_post():
     except Exception as e:
         messagebox.showerror("Hata", str(e))
         
-    root     
+root      
