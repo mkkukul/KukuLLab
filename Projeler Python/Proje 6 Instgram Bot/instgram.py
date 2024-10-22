@@ -24,6 +24,8 @@ root = tk.Tk()
 root.title("Instgram Gönderi İndirici")
 root.geometry("300x200")
 
+label 
+
 
 
 root.mainloop()       
