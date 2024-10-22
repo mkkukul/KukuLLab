@@ -25,7 +25,7 @@ root.title("Instgram Gönderi İndirici")
 root.geometry("300x200")
 
 label = tk.Label(root, text="Kulladınıcı Adı:")
-label.pack(padx=)
+label.pack(padx=10)
 
 
 
