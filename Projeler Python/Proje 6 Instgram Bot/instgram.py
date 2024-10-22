@@ -22,7 +22,7 @@ def dowload_post():
         
 root = tk.Tk()
 root.title("Instgram Gönderi İndirici")
-root.geometry()
+root.geometry("300x200")
 
 
 
