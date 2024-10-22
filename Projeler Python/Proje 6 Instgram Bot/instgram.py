@@ -26,6 +26,10 @@ root.geometry("300x200")
 
 label = tk.Label(root, text="Kulladınıcı Adı:")
 label.pack(padx=10)
+entry_username = tk.Entry(root)
+entry_username.pack()
+dowload_button = tk.Button(root, text="Bilgileri İndir", command=dowload_post)
+dowload_button.pack(pady=10) 
 
 
 
