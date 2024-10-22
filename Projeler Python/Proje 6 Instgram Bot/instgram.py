@@ -20,4 +20,9 @@ def dowload_post():
     except Exception as e:
         messagebox.showerror("Hata", str(e))
         
-root = tk.Tk()       
+root = tk.Tk()
+
+
+
+
+root.mainloop       
