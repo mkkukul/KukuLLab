@@ -21,7 +21,7 @@ def dowload_post():
         messagebox.showerror("Hata", str(e))
         
 root = tk.Tk()
-root.title
+root.title()
 
 
 
