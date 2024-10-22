@@ -18,4 +18,6 @@ def dowload_post():
         
         messagebox.showinfo("Başarılı","Gönderiler İndirildi")
     except Exception as e:
-        messagebox.showerror("Hata", str(e))    
+        messagebox.showerror("Hata", str(e))
+        
+    root     
