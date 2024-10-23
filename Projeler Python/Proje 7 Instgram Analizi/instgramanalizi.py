@@ -1,2 +1,2 @@
 import instaloader
-import tkinter
+import tkinter as
