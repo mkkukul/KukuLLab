@@ -10,6 +10,6 @@ def get_user_info(username):
         "Followers": profile.followers,
         "Followees": profile.followees,
         "Post Count": profile.mediacount,
-        "Last Post Date" : get
+        "Last Post Date" : get_last_post_date()
         
     }
