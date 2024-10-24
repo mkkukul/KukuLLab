@@ -8,5 +8,5 @@ def get_user_info(username):
     user_info = {
         "Username": profile.username,
         "Followers": profile.followers,
-        "Followees"
+        "Followees": profile.followees
     }
