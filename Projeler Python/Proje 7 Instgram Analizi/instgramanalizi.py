@@ -6,5 +6,6 @@ def get_user_info(username):
     bot = instaloader.instaloader()
     profile = instaloader.Profile.from_username(bot.context,username)
     user_info = {
-        "Username": profile.username
+        "Username": profile.username,
+        "Followers"
     }
