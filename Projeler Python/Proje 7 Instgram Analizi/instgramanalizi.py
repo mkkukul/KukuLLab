@@ -11,9 +11,9 @@ def get_user_info(username):
             "Username": profile.username,
             "Followers": profile.followers,
             "Followees": profile.followees,
-        "Post Count": profile.mediacount,
-        "Last Post Date" : get_last_post_date(profile)
+            "Post Count": profile.mediacount,
+            "Last Post Date" : get_last_post_date(profile)
         
-    }
+        }
     
     return user_info
