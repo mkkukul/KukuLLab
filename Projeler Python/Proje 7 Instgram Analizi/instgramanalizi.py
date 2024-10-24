@@ -13,3 +13,5 @@ def get_user_info(username):
         "Last Post Date" : get_last_post_date(profile)
         
     }
+    
+    return user_info
