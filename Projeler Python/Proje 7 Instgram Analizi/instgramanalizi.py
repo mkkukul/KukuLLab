@@ -25,6 +25,6 @@ def get_last_post_date(profile)
             lost_post = post
     return last_post.date_utc.strftime("%Y-%m-%d %H:%M:%S")
 
-dev show
+dev show_user
             
             
