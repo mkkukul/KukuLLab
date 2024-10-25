@@ -24,5 +24,7 @@ def get_last_post_date(profile)
         if not last_post or post.date_utc > last_post.date_utc:
             lost_post = post
     return last_post.date_utc.strftime("%Y-%m-%d %H:%M:%S")
+
+dev
             
             
