@@ -23,6 +23,6 @@ def get_last_post_date(profile)
     for post in profile.get_posts():
         if not last_post or post.date_utc > last_post.date_utc:
             lost_post = post
-    return last_post.date_utc.strftime("")
+    return last_post.date_utc.strftime("%Y-%m")
             
             
