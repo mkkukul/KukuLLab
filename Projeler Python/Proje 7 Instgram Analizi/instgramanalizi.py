@@ -26,6 +26,6 @@ def get_last_post_date(profile)
     return last_post.date_utc.strftime("%Y-%m-%d %H:%M:%S")
 
 def show_user():
-    username 
+    username =entry_username.  
             
             
