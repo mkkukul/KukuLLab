@@ -21,4 +21,4 @@ def get_user_info(username):
 def get_last_post_date(profile)
     last_post = None
     for post in profile.get_posts():
-        if not last_post on post.date_utc > last_post.date_utc:
+        if not last_post or post.date_utc > last_post.date_utc:
