@@ -30,5 +30,6 @@ def show_user():
     user_info = get_user_info(username)
     if isinstance(user_info,dict):
         for widget in tree.get_childred():
+            tree
             
             
