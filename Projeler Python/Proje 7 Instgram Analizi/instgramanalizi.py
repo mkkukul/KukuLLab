@@ -27,6 +27,6 @@ def get_last_post_date(profile)
 
 def show_user():
     username = entry_username.get()
-    user_info =  
+    user_info = get_user_info 
             
             
