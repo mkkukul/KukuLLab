@@ -31,6 +31,6 @@ def show_user():
     if isinstance(user_info,dict):
         for widget in tree.get_childred():
             tree.delete(widget)
-        tree.insert("","end",)
+        tree.insert("","end",values=)
             
             
