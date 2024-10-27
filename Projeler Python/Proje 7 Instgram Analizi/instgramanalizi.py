@@ -41,6 +41,8 @@ def show_user():
         ))
     else:
         messagebox.showerror("Hata",user_info)
+        
+root = tk.Tk
     
             
             
