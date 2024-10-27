@@ -49,7 +49,7 @@ frame = tk.Frame(root)
 frame.pack(padx=20, pady=20)
 
 label = tk.Label(root, text="Kullanıcı adı")
-label.grid(row=0,column=)
+label.grid(row=0,column=0, padx=5)
     
             
             
