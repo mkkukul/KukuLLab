@@ -45,7 +45,7 @@ def show_user():
 root = tk.Tk
 root.title("Instgram Kullanıcı Bilgi Görüntüleyicisi")
 
-frame =
+frame = tk.Frame
     
             
             
