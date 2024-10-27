@@ -43,7 +43,9 @@ def show_user():
         messagebox.showerror("Hata",user_info)
         
 root = tk.Tk
-root.title("Instgram Kullanıcı Bilgi Görüntülü")
+root.title("Instgram Kullanıcı Bilgi Görüntüleyicisi")
+
+frame =
     
             
             
