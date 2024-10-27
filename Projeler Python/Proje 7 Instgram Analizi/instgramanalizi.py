@@ -40,7 +40,7 @@ def show_user():
             
         ))
     else{
-        messagebox.showerror("")
+        messagebox.showerror("Hata",)
     }
             
             
