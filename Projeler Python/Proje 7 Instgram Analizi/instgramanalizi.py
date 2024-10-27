@@ -31,6 +31,14 @@ def show_user():
     if isinstance(user_info,dict):
         for widget in tree.get_childred():
             tree.delete(widget)
-        tree.insert("","end",values=)
+        tree.insert("","end",values=(
+            user_info["Username"],
+            user_info["Follwers"],
+            user_info["Followees"],
+            user_info["Post Count"],
+            user_info["Last Post Date"]
+            
+        ))
+    else:
             
             
