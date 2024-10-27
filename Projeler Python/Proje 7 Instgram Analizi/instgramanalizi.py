@@ -39,6 +39,8 @@ def show_user():
             user_info["Last Post Date"]
             
         ))
-    else:
+    else{
+        
+    }
             
             
