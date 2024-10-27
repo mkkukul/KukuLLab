@@ -39,8 +39,8 @@ def show_user():
             user_info["Last Post Date"]
             
         ))
-    else{
+    else:
         messagebox.showerror("Hata",user_info)
-    }
+    
             
             
