@@ -46,7 +46,9 @@ root = tk.Tk
 root.title("Instgram Kullanıcı Bilgi Görüntüleyicisi")
 
 frame = tk.Frame(root)
-frame.pack(padx=10, pady=10)
+frame.pack(padx=20, pady=20)
+
+label = tk.Label
     
             
             
