@@ -40,7 +40,7 @@ def show_user():
             
         ))
     else{
-        messagebox.show_user
+        messagebox.showerror
     }
             
             
