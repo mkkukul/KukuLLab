@@ -52,7 +52,7 @@ label = tk.Label(root, text="Kullanıcı adı")
 label.grid(row=0,column=0, padx=5, pady=5)
 
 entry_username = tk.Entry(root)
-entry_username.grid(row=0,column=1,)
+entry_username.grid(row=0,column=1,padx)
 
     
             
