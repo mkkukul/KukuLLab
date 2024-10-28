@@ -50,6 +50,9 @@ frame.pack(padx=20, pady=20)
 
 label = tk.Label(root, text="Kullanıcı adı")
 label.grid(row=0,column=0, padx=5, pady=5)
+
+entry_username = tk.Entry(root)
+
     
             
             
