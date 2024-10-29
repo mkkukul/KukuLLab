@@ -19,7 +19,7 @@ def get_user_info(username):
         return user_info
     
     except Exception as e:
-        return f"Hata: {str(e)}"  # Hata durumunda mesaj döndürür.
+        return f"Hata: {str(e)}"
 
 def get_last_post_date(profile):
     last_post = None
@@ -47,21 +47,18 @@ def show_user():
 root = tk.Tk()
 root.title("Instagram Kullanıcı Bilgi Görüntüleyicisi")
 
-# Arayüz düzeni için ana frame
 frame = tk.Frame(root)
 frame.pack(padx=20, pady=20)
 
-# Kullanıcı adı girişi ve buton
-label = tk.Label(frame, text="Kullanıcı adı:")
+label = tk.Label(root, text="Kullanıcı adı:")
 label.grid(row=0, column=0, padx=5, pady=5)
 
-entry_username = tk.Entry(frame)
+entry_username = tk.Entry(root)
 entry_username.grid(row=0, column=1, padx=5, pady=5)
 
 search_button = tk.Button(frame, text="Bilgileri Görüntüle", command=show_user)
 search_button.grid(row=0, column=2, padx=5, pady=5)
 
-# Bilgilerin gösterileceği ağaç yapısı (Treeview)
 tree = ttk.Treeview(root, columns=("Username", "Followers", "Followees", "Post Count", "Last Post Date"))
 tree.heading("Username", text="Kullanıcı adı:")
 tree.heading("Followers", text="Takipçiler:")
