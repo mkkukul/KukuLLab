@@ -1,6 +1,7 @@
 import instaloader
 import tkinter as tk
-from tkinter import tkk, messagebox
+from tkinter import tkk
+from  
 
 def get_user_info(username):
     try:
@@ -57,6 +58,6 @@ entry_username.grid(row=0,column=1,padx=5,pady=5)
 search_button = tk.Button(frame,text="Bilgileri Görüntüle",command=show_user)
 search_button.grid(row=0, column=2, padx=5,pady=5)
 
-tree = tkk.Treewiw(root, columns)
+tree = tkk.Treewiw(root, columns=)
             
             
