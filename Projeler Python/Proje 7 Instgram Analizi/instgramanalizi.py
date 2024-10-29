@@ -56,5 +56,7 @@ entry_username.grid(row=0,column=1,padx=5,pady=5)
 
 search_button = tk.Button(frame,text="Bilgileri Görüntüle",command=show_user)
 search_button.grid(row=0, column=2, padx=5,pady=5)
+
+tree
             
             
