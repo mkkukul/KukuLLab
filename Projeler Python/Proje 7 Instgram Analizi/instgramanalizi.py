@@ -1,6 +1,6 @@
 import instaloader
 import tkinter as tk
-from tkinter import tkk
+from tkinter import ttk
 from tkinter import messagebox
 
 def get_user_info(username):
