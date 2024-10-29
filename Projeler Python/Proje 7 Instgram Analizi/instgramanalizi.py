@@ -1,7 +1,7 @@
 import instaloader
 import tkinter as tk
 from tkinter import tkk
-from  
+from tkinter  
 
 def get_user_info(username):
     try:
