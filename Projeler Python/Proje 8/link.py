@@ -14,3 +14,6 @@ def copy_to_clipboard():
     shorten_url = result_label.cget("text")[11:]
     pyperclip.copy(shorten_url)
     messagebox.showinfo("Kopyalandı", "Kısaltılmış URL kopyalandı.")
+    
+app = tk.Tk()
+app.title("URL Kısaltıcı")
