@@ -21,4 +21,5 @@ label = tk.Label(app, text="URL'yi girin:")
 label.pack(pack=10)
 entry = tk.Entry(app, width=40)
 shorten_button = tk.Button(app, text="Kısalt", command=shorten_url)
-result_label = tk.Label
+result_label = tk.Label(app, text="")
+result_label.pack(pady=10)
