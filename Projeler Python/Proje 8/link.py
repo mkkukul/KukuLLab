@@ -6,4 +6,4 @@ import pyperclip
 
 def shorten_url():
     long_url = entry.get
-    responce
+    responce = requests.get
