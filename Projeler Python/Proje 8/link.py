@@ -1,1 +1,1 @@
-import tki
+import tkinter
