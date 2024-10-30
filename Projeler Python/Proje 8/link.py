@@ -18,3 +18,4 @@ def copy_to_clipboard():
 app = tk.Tk()
 app.title("URL Kısaltıcı")
 label = tk.Label(app, text="URL'yi girin:")
+label.pack(pack=10)
