@@ -11,4 +11,4 @@ def shorten_url():
     copy_button.confing(state=tk.NORMAL)
     
 def copy_to_clipboard():
-    shorten_url
+    shorten_url = result_label.cget("text")[11:]
