@@ -13,7 +13,7 @@ def takim_bilgilerini_cek(takim):
     toplan_gol = 0
     son_mac_skoru = None
     for mac in maclar:
-        skor_element = mac.find("a", class_="score")
+        skor_element = mac.find("a", class="d-block rounded bg-sporx text-white fw-bolder py-1 px-1 text-nowrap")
         
         
         # try:
