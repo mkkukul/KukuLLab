@@ -7,3 +7,4 @@ def takim_bilgilerini_cek(takim):
     clear_screen()
     url = f"https://www.sporx.com/{takim}-fiksturu-ve-mac-sonuclari"
     responce = requests.get(url)
+    soup = BeautifulSoup(responce.content, "html.parser")
