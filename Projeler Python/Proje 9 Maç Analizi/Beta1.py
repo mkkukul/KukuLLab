@@ -1,4 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
 from colorama import Fore, init
-import
+import os
+init(autoreset=True)
