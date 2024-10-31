@@ -11,3 +11,4 @@ def takim_bilgilerini_cek(takim):
     maclar  = soup.find_all("tr")
     galibiyet_sayisi = 0
     toplan_gol = 0
+    son_mac_skoru = 
