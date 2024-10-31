@@ -10,3 +10,4 @@ def takim_bilgilerini_cek(takim):
     soup = BeautifulSoup(responce.content, "html.parser")
     maclar  = soup.find_all("tr")
     galibiyet_sayisi = 0
+    toplan_gol = 0
