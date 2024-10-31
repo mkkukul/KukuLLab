@@ -1,3 +1,3 @@
 import requests
 from bs4 import BeautifulSoup
-from colorama
+from colorama import Fore, Back, Style
