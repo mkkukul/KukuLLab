@@ -5,4 +5,4 @@ import os
 init(autoreset=True)
 def takim_bilgilerini_cek(takim):
     clear_screen()
-    url = f
+    url = f"https://www.sporx.com/trabzonspor-fiksturu-ve-mac-sonuclari"
