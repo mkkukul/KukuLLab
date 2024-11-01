@@ -24,6 +24,9 @@ def takim_bilgilerini_cek(takim):
                         except ValueError:
                             attigi_gol = None
                             gol_sayisi_g2 = None
+                        if attigi_gol is not None and gol_sayisi_g2 is not None:
+                            ev_sahibi = mac.find_all("td")[1].text
+                            
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
                         #     continue
