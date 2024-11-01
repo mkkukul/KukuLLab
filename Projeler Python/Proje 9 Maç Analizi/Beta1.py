@@ -19,13 +19,15 @@ def takim_bilgilerini_cek(takim):
                     gol_sayisi = skor.split("-")
                     if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip():
                         try:
-                            attigi_gol = int(gol_sayisi[0])
-                            gol_sayisi_g2 =int(gol_sayisi[1])
+                                attigi_gol = int(gol_sayisi[0])
+                                gol_sayisi_g2 =int(gol_sayisi[1])
                         except ValueError:
-                            attigi_gol = None
-                            gol_sayisi_g2 = None
+                                attigi_gol = None
+                                gol_sayisi_g2 = None
                         if attigi_gol is not None and gol_sayisi_g2 is not None:
-                            ev_sahibi = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
+                                ev_sahibi = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
+                                deplasman = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
+                                if takim.lower()
                             
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
