@@ -22,8 +22,8 @@ def takim_bilgilerini_cek(takim):
                             attigi_gol = int(gol_sayisi[0])
                             gol_sayisi_g2 =int(gol_sayisi[1])
                         except ValueError:
-                            attigi_gol = int(gol_sayisi[0])
-                            gol_sayisi_g2 =int(gol_sayisi[1])
+                            attigi_gol = None
+                            gol_sayisi_g2 = None
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
                         #     continue
