@@ -27,7 +27,11 @@ def takim_bilgilerini_cek(takim):
                         if attigi_gol is not None and gol_sayisi_g2 is not None:
                                 ev_sahibi = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
                                 deplasman = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
-                                if takim.lower() == turkce_karakter_deger
+                                if takim.lower() == turkce_karakter_degistir(ev_sahibi).lower():
+                                    toplan_gol += attigi_gol
+                                    if attigi_gol > gol_sayisi_g2:
+                                        galibiyet_sayisi += 1
+                                    son_mac_skoru = gol_sayisi
                             
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
