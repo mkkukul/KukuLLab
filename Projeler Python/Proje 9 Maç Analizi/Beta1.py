@@ -18,11 +18,13 @@ def takim_bilgilerini_cek(takim):
                     skor = skor_element.get_text(strip=True)
                     gol_sayisi = skor.split("-")
                     if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip():
-                        gol_sayisi = [int(i) for i in gol_sayisi]
-                        toplan_gol += sum(gol_sayisi)
-                        if gol_sayisi[0] > gol_sayisi[1]:
-                            galibiyet_sayisi += 1
-                        son_mac_skoru = gol_sayisi
+                        try:
+                            
+                        # gol_sayisi = [int(i) for i in gol_sayisi]
+                        # toplan_gol += sum(gol_sayisi)
+                        # if gol_sayisi[0] > gol_sayisi[1]:
+                        #     galibiyet_sayisi += 1
+                        # son_mac_skoru = gol_sayisi
                     
         
         
