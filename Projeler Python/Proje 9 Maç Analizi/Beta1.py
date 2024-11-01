@@ -28,6 +28,8 @@ def takim_bilgilerini_cek(takim):
                                 ev_sahibi = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
                                 deplasman = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
                                 if takim.lower() == turkce_karakter_degistir(ev_sahibi).lower():
+                                    toplan_gol += attigi_gol
+                                    
                                     
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
