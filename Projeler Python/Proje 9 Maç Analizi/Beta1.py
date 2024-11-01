@@ -20,6 +20,7 @@ def takim_bilgilerini_cek(takim):
                     if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip():
                         try:
                             attigi_gol = int(gol_sayisi[0])
+                            gol_sayisi_g2
                             
                         # gol_sayisi = [int(i) for i in gol_sayisi]
                         # toplan_gol += sum(gol_sayisi)
