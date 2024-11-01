@@ -25,7 +25,7 @@ def takim_bilgilerini_cek(takim):
                             attigi_gol = None
                             gol_sayisi_g2 = None
                         if attigi_gol is not None and gol_sayisi_g2 is not None:
-                            ev_sahibi = mac.find("td",class_="text-start w-25")[1].text
+                            ev_sahibi = mac.find("td",class_="text-start w-25")
                             
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
