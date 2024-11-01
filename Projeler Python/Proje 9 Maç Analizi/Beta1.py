@@ -29,6 +29,9 @@ def takim_bilgilerini_cek(takim):
                                 deplasman = mac.find("td",class_="text-start w-25").find("a").get_text(strip=True)
                                 if takim.lower() == turkce_karakter_degistir(ev_sahibi).lower():
                                     toplan_gol += attigi_gol
+                                    if attigi_gol > gol_sayisi_g2:
+                                        galibiyet_sayisi += 1
+                                    son_mac_skoru = gol_sayisi
                                     
                                     
                             
