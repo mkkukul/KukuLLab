@@ -21,7 +21,17 @@ def takim_bilgilerini_cek(takim):
                         try:
                             attigi_gol = int(gol_sayisi[0])
                             gol_sayisi_g2 =int(gol_sayisi[1])
-                        except
+                        except ValueError:
+                            attigi_gol = int(gol_sayisi[0])
+                            gol_sayisi_g2 =int(gol_sayisi[1])
+                            
+                        #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
+                        #     continue
+                        # toplan_gol += attigi_gol + gol_sayisi_g2
+                        # if attigi_gol > gol_sayisi_g2:
+                        #     galibiyet_sayisi += 1
+                        # son_mac_skoru = gol_sayisi[0] + " - " + gol_sayisi[1]
+
                             
                             
                         # gol_sayisi = [int(i) for i in gol_sayisi]
