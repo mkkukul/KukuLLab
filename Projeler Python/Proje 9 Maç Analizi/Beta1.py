@@ -16,7 +16,7 @@ def takim_bilgilerini_cek(takim):
                 skor_element = mac.find("a", class="d-block rounded bg-sporx text-white fw-bolder py-1 px-1 text-nowrap")
                 if skor_element:
                     skor = skor_element.get_text(strip=True)
-                    gol_sayisi = skor
+                    gol_sayisi = skor.split("-")
                     
         
         
