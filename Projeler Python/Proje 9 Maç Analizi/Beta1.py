@@ -38,3 +38,4 @@ def takim_bilgilerini_cek(takim):
                         if gol_sayisi_g2 > attigi_gol:
                             galibiyet_sayisi += 1
                         son_mac_skoru = f"Son Maç Skoru: {ev_sahibi} {skor} {deplasman}"
+    if galibiyet_sayisi == 0:
