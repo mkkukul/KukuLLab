@@ -21,6 +21,8 @@ def takim_bilgilerini_cek(takim):
                         try:
                             attigi_gol = int(gol_sayisi[0])
                             gol_sayisi_g2 =int(gol_sayisi[1])
+                        except
+                            
                             
                         # gol_sayisi = [int(i) for i in gol_sayisi]
                         # toplan_gol += sum(gol_sayisi)
