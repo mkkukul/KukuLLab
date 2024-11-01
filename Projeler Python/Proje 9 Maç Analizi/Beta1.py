@@ -6,11 +6,11 @@ init(autoreset=True)
 def takim_bilgilerini_cek(takim):
     clear_screen()
     url = f"https://www.sporx.com/{takim}-fiksturu-ve-mac-sonuclari"
-    responce = requests.get(url)
-    soup = BeautifulSoup(responce.content, "html.parser")
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, "html.parser")
     maclar  = soup.find_all("tr")
     galibiyet_sayisi = 0
-    toplan_gol = 0
+    toplam_gol = 0
     son_mac_skoru = None
     for mac in maclar:
                 skor_element = mac.find("a", class="d-block rounded bg-sporx text-white fw-bolder py-1 px-1 text-nowrap")
@@ -30,10 +30,13 @@ def takim_bilgilerini_cek(takim):
                                 if takim.lower() == turkce_karakter_degistir(ev_sahibi).lower():
                                     toplan_gol += attigi_gol
                                     if attigi_gol > gol_sayisi_g2:
-                                        galibiyet_sayisi += 1
-                                    son_mac_skoru = gol_sayisi
-                                    
-                                    
+                                            galibiyet_sayisi += 1
+                                    son_mac_skoru = f"Son Maç Skoru: {ev_sahibi} {skor} {deplasman}"
+                              elif takim.lower() == turkce_karakter_degistir(deplasman).lower():
+                                    toplan_gol += gol_sayisi_g2
+                                    if gol_sayisi_g2 > attigi_gol:
+                                            galibiyet_sayisi += 1
+                                    son_mac_skoru = f"Son Maç Skoru: {ev_sahibi} {skor} {deplasman}"      
                             
                         #     print(f"{Fore.RED}Hatalı gol sayısı: {gol_sayisi}")
                         #     continue
