@@ -17,6 +17,12 @@ def takim_bilgilerini_cek(takim):
                 if skor_element:
                     skor = skor_element.get_text(strip=True)
                     gol_sayisi = skor.split("-")
+                    if len(gol_sayisi) == 2:
+                        gol_sayisi = [int(i) for i in gol_sayisi]
+                        toplan_gol += sum(gol_sayisi)
+                        if gol_sayisi[0] > gol_sayisi[1]:
+                            galibiyet_sayisi += 1
+                        son_mac_skoru = gol_sayisi
                     
         
         
