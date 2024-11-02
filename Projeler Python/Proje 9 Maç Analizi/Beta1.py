@@ -57,4 +57,10 @@ def son_mac_bilgilerini_cek(takim):
     soup = BeautifulSoup(response.content, "html.parser")
     maclar = soup.find_all("tr")
     son_10_mac_gol_sayilari = []
-    mac_sayaci = 0; 
+    mac_sayaci = 0;
+    for mac in maclar:
+        skor_element = mac.find("a", class_="d-block rounded bg-sporx text-white fw-bolder py-1 px-1 text-nowrap")
+        if skor_element:
+            skor = skor_element.get_text(strip=True)
+            gol_sayisi = skor.split("-")
+            if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip(): 
