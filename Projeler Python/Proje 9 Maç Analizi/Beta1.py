@@ -39,5 +39,16 @@ def takim_bilgilerini_cek(takim):
                             galibiyet_sayisi += 1
                         son_mac_skoru = f"Son Maç Skoru: {ev_sahibi} {skor} {deplasman}"
     if galibiyet_sayisi == 0:
-        print(Fore.RED + f"{takim.capitalize()}")
-        
+        print(Fore.RED + f"{takim}.capitalize()")
+        return None, None, None
+    else:
+        return galibiyet_sayisi, toplam_gol, son_mac_skoru
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+def turkce_karakter_degistir(takim_ad):
+    takim_ad = takim_ad.replace("ı", "i")
+    takim_ad = takim_ad.replace("ç", "c")
+    takim_ad = takim_ad.replace("ş", "s")
+    takim_ad = takim_ad.replace("ğ", "g")
+    return takim_ad ;
+def       
