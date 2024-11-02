@@ -75,4 +75,5 @@ def son_mac_bilgilerini_cek(takim):
                 if mac_sayaci >= 7:
                     break
     return son_10_mac_gol_sayilari[-14]
-def iki_takimli_analiz(takim1, takim2)
+def iki_takimli_analiz(takim1, takim2):
+    clear_screen()
