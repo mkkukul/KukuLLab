@@ -63,4 +63,5 @@ def son_mac_bilgilerini_cek(takim):
         if skor_element:
             skor = skor_element.get_text(strip=True)
             gol_sayisi = skor.split("-")
-            if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip(): 
+            if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip():
+                try: 
