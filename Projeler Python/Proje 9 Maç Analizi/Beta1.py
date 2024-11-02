@@ -55,3 +55,4 @@ def son_mac_bilgilerini_cek(takim):
     url = f"https://www.sporx.com/{takim}-fiksturu-ve-mac-sonuclari"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
+    maclar = soup.find_all("tr")
