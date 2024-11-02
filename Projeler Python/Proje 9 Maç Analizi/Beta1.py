@@ -77,3 +77,4 @@ def son_mac_bilgilerini_cek(takim):
     return son_10_mac_gol_sayilari[-14]
 def iki_takimli_analiz(takim1, takim2):
     clear_screen()
+    sonuc = f"{takim1.capitalize()}  vs {takim2.capitalize()}"
