@@ -64,4 +64,13 @@ def son_mac_bilgilerini_cek(takim):
             skor = skor_element.get_text(strip=True)
             gol_sayisi = skor.split("-")
             if len(gol_sayisi) == 2 and gol_sayisi[0].strip() and gol_sayisi[1].strip():
-                try: 
+                try:
+                    gol_sayisi_g1 = int(gol_sayisi[0])
+                    gol_sayisi_g2 = int(gol_sayisi[1])
+                    son_10_mac_gol_sayilari.append(gol_sayisi_g1)
+                    son_10_mac_gol_sayilari.append(gol_sayisi_g2)
+                    mac_sayaci += 1
+                except ValueError:
+                    continue
+                if mac_sayaci >= 7:
+                    break 
