@@ -74,4 +74,5 @@ def son_mac_bilgilerini_cek(takim):
                     continue
                 if mac_sayaci >= 7:
                     break
-    return son_10_mac_gol_sayilari[]
+    return son_10_mac_gol_sayilari[-14]
+def iki_takimli
