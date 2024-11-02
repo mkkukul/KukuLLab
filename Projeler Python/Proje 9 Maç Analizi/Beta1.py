@@ -51,4 +51,4 @@ def turkce_karakter_degistir(takim_ad):
     takim_ad = takim_ad.replace("ş", "s")
     takim_ad = takim_ad.replace("ğ", "g")
     return takim_ad ;
-def son_mac_bilgilerini_cek      
+def son_mac_bilgilerini_cek(cek)      
