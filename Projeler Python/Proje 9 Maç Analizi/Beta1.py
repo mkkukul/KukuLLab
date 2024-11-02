@@ -56,4 +56,5 @@ def son_mac_bilgilerini_cek(takim):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
     maclar = soup.find_all("tr")
-    son_10_mac_gol_sayilari = [] 
+    son_10_mac_gol_sayilari = []
+    mac_sayaci = 0; 
