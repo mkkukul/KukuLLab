@@ -73,4 +73,5 @@ def son_mac_bilgilerini_cek(takim):
                 except ValueError:
                     continue
                 if mac_sayaci >= 7:
-                    break 
+                    break
+     
