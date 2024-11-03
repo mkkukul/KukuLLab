@@ -105,7 +105,7 @@ def iki_takimli_analiz(takim1, takim2):
                   sonuc += f"{Fore.YELLOW}İki takım arasındaki maç simülasyona göre berabere bitti\n"
       else:
             sonuc += f"{Fore.RED} Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!"
-      if galibiyet
+      if galibiyet_sayisi_g1 is not
 
 
 
