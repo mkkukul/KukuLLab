@@ -105,7 +105,13 @@ def iki_takimli_analiz(takim1, takim2):
                   sonuc += f"{Fore.YELLOW}İki takım arasındaki maç simülasyona göre berabere bitti\n"
       else:
             sonuc += f"{Fore.RED} Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!"
-      if galibiyet_sayisi_g1 is not None and galibiyet_sayisi_g2
+      if galibiyet_sayisi_g1 is not None and galibiyet_sayisi_g2 is not None:
+            if gol_sayisi_g1 > gol_sayisi_g2:
+                  sonuc += f"{Fore.GREEN} {takim1.capitalize()} Takımı {takim2.capitalize()}simülasyona göre yendi!\n"
+            elif gol_sayisi_g1 < gol_sayisi_g2:
+                  sonuc += f"{Fore.GREEN} {takim2.capitalize()} Takımı {takim1.capitalize()}simülasyona göre yendi!\n"
+            else:
+                  sonuc += f"{Fore.YELLOW}İki takım arasındaki maç simülasyona göre berabere bitti\n"
 
 
 
