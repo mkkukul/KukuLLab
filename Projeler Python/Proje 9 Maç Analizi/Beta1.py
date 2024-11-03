@@ -112,7 +112,7 @@ def iki_takimli_analiz(takim1, takim2):
                   
                   if len(takım1_son_5_mac_gol) < 7 or len(takım2_son_5_mac_gol) < 7:
                         print(Fore.RED + "Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!")
-                  ortalama_gol
+                  ortalama_gol_takim1 = sum(takım1_son_5_mac_gol) / len(takım1_son_5_mac_gol)
 
 
 
