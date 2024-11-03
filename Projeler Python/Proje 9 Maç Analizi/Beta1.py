@@ -75,6 +75,23 @@ def son_mac_bilgilerini_cek(takim):
                 if mac_sayaci >= 7:
                     break
     return son_10_mac_gol_sayilari[-14]
+
+    
+
 def iki_takimli_analiz(takim1, takim2):
-    clear_screen()
-    sonuc = f"{takim1.capitalize()}  vs {takim2.capitalize()}"
+      clear_screen()
+      #takımlar gösteriliyor
+      sonuc = f"{takim1.capitalize()}  vs {takim2.capitalize()}"
+      sonuc = f"-----------------------------------------------"
+
+      #takım1 bilglerini cek
+      takim1_bilgilerini_cek =  takim_bilgilerini_cek(takim1)
+      if takim1_bilgilerini_cek is None:
+            return
+      galibiyet_sayisi_g1 , gol_sayisi_g1 , son_mac_skoru_g1 =  takim1_bilgilerini_cek
+     #takım2 bilglerini cek
+      takim2_bilgilerini_cek =  takim_bilgilerini_cek(takim2)
+      if takim2_bilgilerini_cek is None:
+            return
+      galibiyet_sayisi_g2 , gol_sayisi_g2 , son_mac_skoru_g2 =  takim1_bilgilerini_cek
+    
