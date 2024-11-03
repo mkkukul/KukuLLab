@@ -111,8 +111,8 @@ def iki_takimli_analiz(takim1, takim2):
                   takım1_son_5_mac_gol = son_mac_bilgilerini_cek(takim2)
                   
                   if len(takım1_son_5_mac_gol) < 7 or len(takım2_son_5_mac_gol) < 7:
-                        sonuc += f"{Fore.RED} Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!"
-                        return
+                        print(Fore.RED + "Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!")
+                        
 
 
 
