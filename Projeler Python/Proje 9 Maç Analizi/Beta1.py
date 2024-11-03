@@ -94,5 +94,5 @@ def iki_takimli_analiz(takim1, takim2):
       if takim2_bilgilerini_cek is None:
             return
       galibiyet_sayisi_g2 , gol_sayisi_g2 , son_mac_skoru_g2 =  takim1_bilgilerini_cek
-      sonuc 
+      sonuc += f"{takim1}\nGalibiyet Sayısı:{galibiyet_sayisi_g1}\nGol Sayısı:{gol_sayisi_g1}\nSon Maç:{son_mac_skoru_g1}" 
     
