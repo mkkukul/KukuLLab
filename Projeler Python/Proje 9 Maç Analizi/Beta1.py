@@ -109,6 +109,8 @@ def iki_takimli_analiz(takim1, takim2):
             if gol_sayisi_g1 > gol_sayisi_g2:
                   takım1_son_5_mac_gol = son_mac_bilgilerini_cek(takim1)
                   takım1_son_5_mac_gol = son_mac_bilgilerini_cek(takim2)
+                  
+                  if len(takım1_son_5_mac_gol) 
 
 
 
