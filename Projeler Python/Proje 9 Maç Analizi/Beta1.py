@@ -103,6 +103,8 @@ def iki_takimli_analiz(takim1, takim2):
                   sonuc += f"{Fore.GREEN} {takim2.capitalize()} Takımı {takim1.capitalize()}simülasyona göre yendi!\n"
             else:
                   sonuc += f"{Fore.YELLOW}İki takım arasındaki maç simülasyona göre berabere bitti\n"
+        else:
+            sonuc += f"{Fore.RED} Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!"
 
 
 
