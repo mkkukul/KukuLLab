@@ -116,7 +116,7 @@ def iki_takimli_analiz(takim1, takim2):
                   ortalama_gol_takim2 = sum(takım1_son_5_mac_gol) / len(takım1_son_5_mac_gol)
                   
                   ortalama_gol = (ortalama_gol_takim1 + ortalama_gol_takim2) / 2
-                  gol_tahmini   = ortalama_gol +0.25 if 
+                  gol_tahmini   = ortalama_gol +0.25 if takım1_son_5_mac_gol[-1] > takım2_son_5_mac_gol[-1] else ortalama_gol
 
 
 
