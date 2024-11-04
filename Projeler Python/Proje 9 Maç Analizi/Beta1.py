@@ -120,10 +120,10 @@ def iki_takimli_analiz(takim1, takim2):
                   sonuc += f"{Fore.GREEN} Maçta Muhtemelen {gol_tahmini:.2f} gol olacak.\n"
             print(sonuc)
 
-if__name__ == "__main__":
-      takim1 = input("Lütfen ev sahibi takımı girin:")
-      takim2 = input("Lütefen deplasman takımını girin :")
-      
+if __name__ == "__main__":
+    takim1 = input("Lütfen ev sahibi takımı girin:")
+    takim2 = input("Lütfen deplasman takımını girin:")
+    iki_takimli_analiz(takim1, takim2)
                   
 
 
