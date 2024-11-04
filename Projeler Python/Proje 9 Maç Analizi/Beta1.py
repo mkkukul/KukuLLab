@@ -121,6 +121,8 @@ def iki_takimli_analiz(takim1, takim2):
             print(sonuc)
 
 if__name__ == "__main__":
+      takim1 = input("Lütfen ev sahibi takımı girin:")
+      
                   
 
 
