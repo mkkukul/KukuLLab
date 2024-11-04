@@ -74,7 +74,7 @@ def son_mac_bilgilerini_cek(takim):
                     continue
                 if mac_sayaci >= 7:
                     break
-    return son_10_mac_gol_sayilari[-14]
+    return son_10_mac_gol_sayilari
 
     
 
@@ -108,7 +108,7 @@ def iki_takimli_analiz(takim1, takim2):
       if galibiyet_sayisi_g1 is not None and galibiyet_sayisi_g2 is not None:
             if gol_sayisi_g1 > gol_sayisi_g2:
                   takım1_son_5_mac_gol = son_mac_bilgilerini_cek(takim1)
-                  takım1_son_5_mac_gol = son_mac_bilgilerini_cek(takim2)
+                  takım2_son_5_mac_gol = son_mac_bilgilerini_cek(takim2)
                   
                   if len(takım1_son_5_mac_gol) < 7 or len(takım2_son_5_mac_gol) < 7:
                         print(Fore.RED + "Veri Alınamadı Lütfen Daha Sonra Tekrar Deneyin!")
@@ -121,9 +121,9 @@ def iki_takimli_analiz(takim1, takim2):
             print(sonuc)
 
 if __name__ == "__main__":
-    takim1 = input("Lütfen ev sahibi takımı girin:")
-    takim2 = input("Lütfen deplasman takımını girin:")
-    iki_takimli_analiz(takim1, takim2)
+      takim1 = input("Lütfen ev sahibi takımı girin:")
+      takim2 = input("Lütfen deplasman takımını girin :")
+      iki_takimli_analiz(takim1,takim2)
                   
 
 
