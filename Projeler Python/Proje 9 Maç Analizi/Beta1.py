@@ -138,7 +138,7 @@ def iki_takimli_analiz(takim1, takim2):
 
       print(sonuc)
 
-
+while
       takim1 = input("Lütfen ev sahibi takımı girin:")
       takim2 = input("Lütfen deplasman takımını girin :")
       iki_takimli_analiz(takim1,takim2)
