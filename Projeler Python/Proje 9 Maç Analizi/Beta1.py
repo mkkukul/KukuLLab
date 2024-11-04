@@ -143,6 +143,8 @@ while True:
       takim2 = input("Lütfen deplasman takımını girin :")
       iki_takimli_analiz(takim1,takim2)
       devam =input("Başka işlem yapmak ister misiniz? (E/H)")
+      if devam.lower() != "e":
+            break
                   
 
 
