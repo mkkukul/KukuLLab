@@ -22,7 +22,7 @@ class StokTakipUygulaması:
         """)
 
         self.conn.commit()
-        self.id_label
+        self.id_label = tk.Label(self.root, text="ID:")
         # self.urun_adi_var = tk.StringVar()
         # self.stok_miktari_var = tk.IntVar()
         # self.fiyat_var = tk.DoubleVar()
