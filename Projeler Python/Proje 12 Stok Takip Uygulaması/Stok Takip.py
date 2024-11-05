@@ -35,3 +35,8 @@ class StokTakipUygulaması:
 
         self.ana_kisim()
         
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = StokTakipUygulaması(root)
+    root.mainloop()
+        
