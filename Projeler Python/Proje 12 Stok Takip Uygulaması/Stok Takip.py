@@ -23,17 +23,17 @@ class StokTakipUygulaması:
 
         self.conn.commit()
 
-        self.urun_adi_var = tk.StringVar()
-        self.stok_miktari_var = tk.IntVar()
-        self.fiyat_var = tk.DoubleVar()
+        # self.urun_adi_var = tk.StringVar()
+        # self.stok_miktari_var = tk.IntVar()
+        # self.fiyat_var = tk.DoubleVar()
 
-        self.urun_adi_var.set("")
-        self.stok_miktari_var.set(0)
-        self.fiyat_var.set(0.0)
+        # self.urun_adi_var.set("")
+        # self.stok_miktari_var.set(0)
+        # self.fiyat_var.set(0.0)
 
-        self.stoklar = []
+        # self.stoklar = []
 
-        self.ana_kisim()
+        # self.ana_kisim()
         
 if __name__ == "__main__":
     root = tk.Tk()
