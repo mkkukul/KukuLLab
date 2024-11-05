@@ -3,5 +3,5 @@ from tkinter import ttk
 import sqlite3
 
 class StokTakipUygulaması:
-    def __init__(self) -> None:
+    def __init__(self,root) -> None:
     pass
