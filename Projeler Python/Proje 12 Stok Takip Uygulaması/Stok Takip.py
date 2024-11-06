@@ -25,7 +25,7 @@ class StokTakipUygulaması:
         self.id_label = tk.Label(self.root, text="ID:")
         self.id_label.grid(row=0, column=0)
         self.id_entry = tk.Entry(self.root)
-        self.id_entry.grid(row=0, column=1, padx=10, pady=10)
+        self.id_entry.grid(row=0, column=1)
         
         # self.urun_adi_var = tk.StringVar()
         # self.stok_miktari_var = tk.IntVar()
