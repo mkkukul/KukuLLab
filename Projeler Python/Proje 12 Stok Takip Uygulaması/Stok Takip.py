@@ -34,6 +34,14 @@ class StokTakipUygulaması:
         self.urun_adi_entry.grid(row=1, column=1)
         
         
+        
+        self.birim_fiyat_label = tk.Label(root, text="Birim Fiyat:")
+        self.birim_fiyat_label.grid(row=3, column=0)
+        self.birim_fiyat_entry = tk.Entry(root)
+        self.birim_fiyat_entry.grid(row=3, column=1)
+        
+        
+        
         # self.urun_adi_var = tk.StringVar()
         # self.stok_miktari_var = tk.IntVar()
         # self.fiyat_var = tk.DoubleVar()
