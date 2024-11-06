@@ -33,7 +33,7 @@ class StokTakipUygulaması:
         self.urun_adi_entry = tk.Entry(root)
         self.urun_adi_entry.grid(row=1, column=1)
         
-        
+        self.adet_label = tk.Label(root, text="Ürün Adı:")
         
         self.birim_fiyat_label = tk.Label(root, text="Birim Fiyat:")
         self.birim_fiyat_label.grid(row=3, column=0)
