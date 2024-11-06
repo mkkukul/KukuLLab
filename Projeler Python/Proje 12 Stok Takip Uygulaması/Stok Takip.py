@@ -30,6 +30,7 @@ class StokTakipUygulaması:
         
         self.urun_adi_label = tk.Label(root, text="Adet:")
         self.urun_adi_label.grid(row=1, column=0)
+        self.urun_adi_entry = tk.Entry(root)
         
         
         # self.urun_adi_var = tk.StringVar()
