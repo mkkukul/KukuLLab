@@ -29,6 +29,8 @@ class StokTakipUygulaması:
         
         
         self.urun_adi_label = tk.Label(root, text="Adet:")
+        self.
+        
         
         # self.urun_adi_var = tk.StringVar()
         # self.stok_miktari_var = tk.IntVar()
