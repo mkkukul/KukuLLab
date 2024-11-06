@@ -34,7 +34,7 @@ class StokTakipUygulaması:
         self.urun_adi_entry.grid(row=1, column=1)
         
         self.adet_label = tk.Label(root, text="Ürün Adı:")
-        self.urun_adi_label.grid(row=2, column=0)
+        self.adet_label.grid(row=2, column=0)
         self.adet_label = tk.Entry(root)
         self.adet_label.grid(row=2, column=1)
         
