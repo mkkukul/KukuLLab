@@ -53,7 +53,7 @@ class StokTakipUygulaması:
         self.sil_button = tk.Button(root, text="Sil", command=self.sil)
         self.sil_button.grid(row=4, column=2, columnspan=1)
         
-        self.temizle_button =
+        self.temizle_button = tk.Button
         
         
         
