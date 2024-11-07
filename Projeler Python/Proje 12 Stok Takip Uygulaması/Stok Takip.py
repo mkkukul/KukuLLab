@@ -44,7 +44,7 @@ class StokTakipUygulaması:
         self.birim_fiyat_entry = tk.Entry(root)
         self.birim_fiyat_entry.grid(row=3, column=1)
         
-        self.ekle
+        self.ekle_button
         
         
         
