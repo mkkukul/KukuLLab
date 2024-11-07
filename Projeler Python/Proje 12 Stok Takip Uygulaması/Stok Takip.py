@@ -28,12 +28,12 @@ class StokTakipUygulaması:
         self.id_entry.grid(row=0, column=1)
         
         
-        self.urun_adi_label = tk.Label(root, text="Adet:")
+        self.urun_adi_label = tk.Label(root, text="Ürün Adı:")
         self.urun_adi_label.grid(row=1, column=0)
         self.urun_adi_entry = tk.Entry(root)
         self.urun_adi_entry.grid(row=1, column=1)
         
-        self.adet_label = tk.Label(root, text="Ürün Adı:")
+        self.adet_label = tk.Label(root, text="Adet:")
         self.adet_label.grid(row=2, column=0)
         self.adet_label = tk.Entry(root)
         self.adet_label.grid(row=2, column=1)
@@ -43,6 +43,8 @@ class StokTakipUygulaması:
         self.birim_fiyat_label.grid(row=3, column=0)
         self.birim_fiyat_entry = tk.Entry(root)
         self.birim_fiyat_entry.grid(row=3, column=1)
+        
+        self.ekle
         
         
         
