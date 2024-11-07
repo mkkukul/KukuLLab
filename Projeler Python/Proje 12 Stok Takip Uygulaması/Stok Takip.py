@@ -49,6 +49,7 @@ class StokTakipUygulaması:
         
         
         
+        
         # self.urun_adi_var = tk.StringVar()
         # self.stok_miktari_var = tk.IntVar()
         # self.fiyat_var = tk.DoubleVar()
