@@ -51,7 +51,7 @@ class StokTakipUygulaması:
         self.duzelt_button.grid(row=4, column=1, columnspan=1) 
         
         self.sil_button = tk.Button(root, text="Sil", command=self.sil)
-        self
+        self.sil_button.grid
         
         
         
