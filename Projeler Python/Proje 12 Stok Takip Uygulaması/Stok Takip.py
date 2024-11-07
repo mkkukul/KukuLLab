@@ -46,9 +46,11 @@ class StokTakipUygulaması:
         
         self.ekle_button = tk.Button(root, text="Ekle", command=self.ekle)
         self.ekle_button.grid(row=4, column=0)
+        
         self.duzelt_button = tk.Button(root, text="Düzelt", command=self.duzelt)
         self.duzelt_button.grid(row=4, column=1, columnspan=1) 
         
+        self.sil_button = tk.Button(root, text="Sil", command=self.sil)
         
         
         
