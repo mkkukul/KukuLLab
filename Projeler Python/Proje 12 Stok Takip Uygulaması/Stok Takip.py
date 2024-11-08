@@ -65,10 +65,14 @@ class StokTakipUygulaması:
         
         self.tablo = ttk.Treeview(root, columns= ("ID", "Ürün Adı", "Adet", "Birim Fiyat"), show="headings")
         self.tablo.heading("ID", text="ID")
-        self.tablo.heading("ID", text="ID")
-        self.tablo.heading("ID", text="ID")
-        self.tablo.heading("ID", text="ID")
-        self.tablo.heading("ID", text="ID")
+        self.tablo.heading("ürün Adı", text="ürün Adı")
+        self.tablo.heading("Adet", text="Ade")
+        self.tablo.heading("Birim Fiyat", text="Birim Fiyat")
+        self.tablo.heading("Toplam Değer", text="Toplam Değer")
+        self.tablo.grid(row=6, column=0, columnspan=4)
+        self.tablo.bind("<ButtonRelease-1>", self.satir_sec)
+        self.verileri_yukle()
+        
         
         
         
