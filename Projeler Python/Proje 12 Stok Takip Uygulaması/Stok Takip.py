@@ -63,7 +63,7 @@ class StokTakipUygulaması:
         
         self.arama_entry.bind("<KeyRelease>", self.arama_yap)
         
-        self.tablo
+        self.tablo = ttk.
         
         
         
