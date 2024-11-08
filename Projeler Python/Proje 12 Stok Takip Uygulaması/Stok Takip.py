@@ -58,7 +58,7 @@ class StokTakipUygulaması:
         
         self.arama_label = tk.Label(root, text="Ara")
         self.arama_label.grid(row=5, column=0)
-        self
+        self.arama_label
         
         
         
