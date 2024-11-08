@@ -56,7 +56,9 @@ class StokTakipUygulaması:
         self.temizle_button = tk.Button(root, text = "Temizler", command=self.girisleri_temizle)
         self.temizle_button.grid(row=4, column=3, columnspan=1)
         
-        self.arama_label = tk.Label(root, text="Arama:")
+        self.arama_label = tk.Label(root, text="Ara")
+        self.arama_label.grid(row=5, column=0)
+        
         
         
         
