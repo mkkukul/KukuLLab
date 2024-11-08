@@ -61,6 +61,9 @@ class StokTakipUygulaması:
         self.arama_entry = tk.Entry(root)
         self.arama_entry.grid(row=5, column=1)
         
+        self.arama_entry.bind("<KeyRelease>", self.arama_yap)
+        
+        
         
         
         
