@@ -63,7 +63,7 @@ class StokTakipUygulaması:
         
         self.arama_entry.bind("<KeyRelease>", self.arama_yap)
         
-        self.tablo = ttk.Treeview(root,)
+        self.tablo = ttk.Treeview(root, columns=)
         
         
         
