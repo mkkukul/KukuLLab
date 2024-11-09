@@ -72,31 +72,16 @@ class StokTakipUygulaması:
         self.tablo.grid(row=6, column=0, columnspan=4)
         self.tablo.bind("<ButtonRelease-1>", self.satir_sec)
         self.verileri_yukle()
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        # self.urun_adi_var = tk.StringVar()
-        # self.stok_miktari_var = tk.IntVar()
-        # self.fiyat_var = tk.DoubleVar()
 
-        # self.urun_adi_var.set("")
-        # self.stok_miktari_var.set(0)
-        # self.fiyat_var.set(0.0)
-
-        # self.stoklar = []
-
-        # self.ana_kisim()
         
-# if __name__ == "__main__":
-#     root = tk.Tk()
-#     app = StokTakipUygulaması(root)
-#     root.mainloop()
+
+        
+        
+        
+        
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = StokTakipUygulaması(root)
+    root.mainloop()
         
