@@ -74,7 +74,8 @@ class StokTakipUygulaması:
         self.verileri_yukle()
 
 def ekle(self):
-    id = self
+    id = self.id_entry.get()
+    uruna_adi 
             
 
         
