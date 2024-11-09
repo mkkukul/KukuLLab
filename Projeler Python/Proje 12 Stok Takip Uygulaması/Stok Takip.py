@@ -73,7 +73,7 @@ class StokTakipUygulaması:
         self.tablo.bind("<ButtonRelease-1>", self.satir_sec)
         self.verileri_yukle()
 
-        
+def ekle(self):        
 
         
         
