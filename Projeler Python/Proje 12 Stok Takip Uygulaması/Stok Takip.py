@@ -80,7 +80,7 @@ def ekle(self):
     birim_fiyati = float(self.birim_fiyat_entry.get())
     toplam_deger = adet * birim_fiyati
     
-    self.cursor.execute("INSERT INTO stoklar (urun_adi, stok_miktari, fiyat) VALUES (?,?,?)",
+    self.cursor.execute("INSERT INTO stoklar (urun_adi, stok_miktari, fiyat) VALUES (?,?,?)", (urun_adi, adet, birim_fiyati))
             
 
         
