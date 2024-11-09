@@ -81,7 +81,10 @@ def ekle(self):
     toplam_deger = adet * birim_fiyati
     
     self.cursor.execute("INSERT INTO stoklar (urun_adi, stok_miktari, fiyat) VALUES (?,?,?)", (id, urun_adi, adet, birim_fiyati, toplam_deger))
-    self.conn.commit
+    self.conn.commit()
+    
+    
+    self.tablo.insert
             
 
         
