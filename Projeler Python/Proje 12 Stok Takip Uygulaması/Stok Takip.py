@@ -84,7 +84,7 @@ def ekle(self):
     self.conn.commit()
     
     
-    self.tablo.insert
+    self.tablo.insert("", "end", values=(id, urun_adi, adet, birim_fiyati, toplam_deger))
             
 
         
