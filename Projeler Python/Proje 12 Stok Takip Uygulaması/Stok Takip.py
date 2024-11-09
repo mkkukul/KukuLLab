@@ -75,7 +75,7 @@ class StokTakipUygulaması:
 
 def ekle(self):
     id = self.id_entry.get()
-    uruna_adi 
+    uruna_adi = self.
             
 
         
