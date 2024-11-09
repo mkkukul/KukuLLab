@@ -75,7 +75,7 @@ class StokTakipUygulaması:
 
 def ekle(self):
     id = self.id_entry.get()
-    uruna_adi = self.urun_adi_entry.get()
+    urun_adi = self.urun_adi_entry.get()
     adet = float(self.adet_label.get())
     birim_fiyati = float(self.birim_fiyat_entry.get())
     toplam_deger = adet * birim_fiyati
