@@ -85,6 +85,7 @@ def ekle(self):
     
     
     self.tablo.insert("", "end", values=(id, urun_adi, adet, birim_fiyati, toplam_deger))
+    self.girisleri_temizle()
             
 
         
