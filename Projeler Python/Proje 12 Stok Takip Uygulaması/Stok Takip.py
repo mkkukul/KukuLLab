@@ -74,7 +74,7 @@ class StokTakipUygulaması:
         self.verileri_yukle()
 
 def ekle(self):
-    id =
+    id = self
             
 
         
