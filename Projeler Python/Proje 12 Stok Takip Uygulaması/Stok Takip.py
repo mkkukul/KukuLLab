@@ -87,7 +87,7 @@ class StokTakipUygulaması:
         self.tablo.insert("", "end", values=(id, urun_adi, adet, birim_fiyati, toplam_deger))
         self.girisleri_temizle()
     def girisleri_temizle(self):
-    self.id_entry.delete(0,tk.END)
+        self.id_entry.delete(0,tk.END)
     self.urun_adi_entry.delete(0, tk.END)
     self.adet_label.delete(0, tk.END)
     self.birim_fiyat_entry.delete(0, tk.END)
