@@ -116,7 +116,7 @@ class StokTakipUygulaması:
     def duzelt(self):
         secili = self.tablo.selection()
         if secili:
-    
+            
             
 
         
