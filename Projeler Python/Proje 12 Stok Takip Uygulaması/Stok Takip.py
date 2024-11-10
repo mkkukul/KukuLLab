@@ -116,6 +116,17 @@ class StokTakipUygulaması:
     def duzelt(self):
         secili = self.tablo.selection()
         if secili:
+            id = self.id_entry.get()
+            urun_adi = self.urun_adi_entry.get()
+            adet = float(self.adet_label.get())
+            birim_fiyati = float(self.birim_fiyat_entry.get())
+            toplam_deger = adet * birim_fiyati
+
+            self.cursor.execute("UPDATE stoklar SET urun_adi=?, stok_miktari=?, fiyat=?, toplam_deger=? WHERE id=?", (urun_adi, adet, birim_fiyati, toplam_deger, id))
+            self.conn.commit()
+
+            self.tablo.item(secili, values=(id, urun_adi, adet, birim_fiyati, toplam_deger))
+            self.girisleri_temizle()
             
             
 
