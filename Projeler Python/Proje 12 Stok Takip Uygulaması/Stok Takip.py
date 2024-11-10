@@ -89,7 +89,7 @@ class StokTakipUygulaması:
     def girisleri_temizle(self):
         self.id_entry.delete(0,tk.END)
         self.urun_adi_entry.delete(0, tk.END)
-    self.adet_label.delete(0, tk.END)
+        self.adet_label.delete(0, tk.END)
     self.birim_fiyat_entry.delete(0, tk.END)
 def arama(self,event):
     arama_metni = self.arama_entry.get().lower()
