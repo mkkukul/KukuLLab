@@ -114,8 +114,8 @@ class StokTakipUygulaması:
             self.birim_fiyat_entry.delete(0, tk.END)
             self.birim_fiyat_entry.insert(0, values[3])
     def duzelt(self):
-        
-    
+        secili = self.tablo.selection()
+        if secili:
     
             
 
