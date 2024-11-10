@@ -135,6 +135,7 @@ class StokTakipUygulaması:
             self.conn.commit()
             self.tablo.delete(secili)
             self.girisleri_temizle()
+    def verileri_yukle(self):
             
             
 
