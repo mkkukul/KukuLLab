@@ -112,7 +112,7 @@ class StokTakipUygulaması:
             self.adet_label.delete(0, tk.END)
             self.adet_label.insert(0, values[2])
             self.birim_fiyat_entry.delete(0, tk.END)
-        self.birim_fiyat_entry.insert(0, values[3])
+            self.birim_fiyat_entry.insert(0, values[3])
         
     
     
