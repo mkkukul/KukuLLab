@@ -128,6 +128,13 @@ class StokTakipUygulaması:
             self.tablo.item(secili, values=(id, urun_adi, adet, birim_fiyati, toplam_deger))
             self.girisleri_temizle()
     def sil(self):
+        secili = self.tablo.selection()
+        if secili:
+            id = self.id_entry.get()
+            self.cursor.execute("DELETE FROM stoklar WHERE id=?", (id,))
+            self.conn.commit()
+            self.tablo.delete(secili)
+            self.girisleri_temizle()
             
             
 
