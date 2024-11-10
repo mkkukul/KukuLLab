@@ -73,20 +73,20 @@ class StokTakipUygulaması:
         self.tablo.bind("<ButtonRelease-1>", self.satir_sec)
         self.verileri_yukle()
 
-def ekle(self):
-    id = self.id_entry.get()
-    urun_adi = self.urun_adi_entry.get()
-    adet = float(self.adet_label.get())
-    birim_fiyati = float(self.birim_fiyat_entry.get())
-    toplam_deger = adet * birim_fiyati
+    def ekle(self):
+        id = self.id_entry.get()
+        urun_adi = self.urun_adi_entry.get()
+        adet = float(self.adet_label.get())
+        birim_fiyati = float(self.birim_fiyat_entry.get())
+        toplam_deger = adet * birim_fiyati
     
-    self.cursor.execute("INSERT INTO stoklar (urun_adi, stok_miktari, fiyat) VALUES (?,?,?)", (id, urun_adi, adet, birim_fiyati, toplam_deger))
-    self.conn.commit()
+        self.cursor.execute("INSERT INTO stoklar (urun_adi, stok_miktari, fiyat) VALUES (?,?,?)", (id, urun_adi, adet, birim_fiyati, toplam_deger))
+        self.conn.commit()
     
     
     self.tablo.insert("", "end", values=(id, urun_adi, adet, birim_fiyati, toplam_deger))
     self.girisleri_temizle()
-def girisleri_temizle(self):
+    def girisleri_temizle(self):
     self.id_entry.delete(0,tk.END)
     self.urun_adi_entry.delete(0, tk.END)
     self.adet_label.delete(0, tk.END)
@@ -113,6 +113,7 @@ def satir_sec(self, event):
         self.adet_label.insert(0, values[2])
         self.birim_fiyat_entry.delete(0, tk.END)
         self.birim_fiyat_entry.insert(0, values[3])
+        
     
     
             
