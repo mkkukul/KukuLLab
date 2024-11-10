@@ -92,15 +92,15 @@ class StokTakipUygulaması:
         self.adet_label.delete(0, tk.END)
         self.birim_fiyat_entry.delete(0, tk.END)
     def arama(self,event):
-    arama_metni = self.arama_entry.get().lower()
-    for item in self.tablo.get_children():
+        arama_metni = self.arama_entry.get().lower()
+        for item in self.tablo.get_children():
         values = self.tablo.item(item)["values"]
         if arama_metni in values[0].lower() or arama_metni in values[1].lower() or arama_metni in values[2].lower() or arama_metni in values[3].lower():
             self.tablo.selection_set(item)
             self.tablo.see(item)
         else:
             self.tablo.selection_remove(item)
-def satir_sec(self, event):
+    def satir_sec(self, event):
     secili = self.tablo.selection()
     if secili:
         item = self.tablo.item(secili)
