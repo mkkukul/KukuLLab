@@ -130,7 +130,7 @@ class StokTakipUygulaması:
     def sil(self):
         secili = self.tablo.selection()
         if secili:
-            id = self.id_entry.get()
+            id = self.tablo.item(secili)['values'][0]
             self.cursor.execute("DELETE FROM stoklar WHERE id=?", (id,))
             self.conn.commit()
             self.tablo.delete(secili)
