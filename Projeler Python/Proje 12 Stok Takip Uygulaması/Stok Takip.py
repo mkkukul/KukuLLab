@@ -136,6 +136,10 @@ class StokTakipUygulaması:
             self.tablo.delete(secili)
             self.girisleri_temizle()
     def verileri_yukle(self):
+        self.cursor.execute("SELECT * FROM stoklar")
+        veriler = self.cursor.fetchall()
+        for veri in veriler:
+            self.tablo.insert("", "end", values=veri)
             
             
 
