@@ -101,8 +101,8 @@ class StokTakipUygulaması:
         else:
             self.tablo.selection_remove(item)
     def satir_sec(self, event):
-    secili = self.tablo.selection()
-    if secili:
+        secili = self.tablo.selection()
+        if secili:
         item = self.tablo.item(secili)
         values = item["values"]
         self.id_entry.delete(0, tk.END)
