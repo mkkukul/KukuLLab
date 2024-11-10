@@ -103,8 +103,8 @@ class StokTakipUygulaması:
     def satir_sec(self, event):
         secili = self.tablo.selection()
         if secili:
-        item = self.tablo.item(secili)
-        values = item["values"]
+            item = self.tablo.item(secili)
+            values = item["values"]
         self.id_entry.delete(0, tk.END)
         self.id_entry.insert(0, values[0])
         self.urun_adi_entry.delete(0, tk.END)
