@@ -94,7 +94,7 @@ class StokTakipUygulaması:
     def arama(self,event):
         arama_metni = self.arama_entry.get().lower()
         for item in self.tablo.get_children():
-        values = self.tablo.item(item)["values"]
+            values = self.tablo.item(item)["values"]
         if arama_metni in values[0].lower() or arama_metni in values[1].lower() or arama_metni in values[2].lower() or arama_metni in values[3].lower():
             self.tablo.selection_set(item)
             self.tablo.see(item)
@@ -136,10 +136,8 @@ class StokTakipUygulaması:
             self.tablo.delete(secili)
             self.girisleri_temizle()
     def verileri_yukle(self):
-        self.cursor.execute("SELECT * FROM stoklar")
-        veriler = self.cursor.fetchall()
-        for veri in veriler:
-            self.tablo.insert("", "end", values=veri)
+        for row in self.cursor.execute("SELECT * FROM stoklar"):
+            self.tablo.insert("", "end", values=row)
             
             
 
