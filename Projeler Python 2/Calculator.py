@@ -3,37 +3,37 @@ from tkinter import Tk, Entry, Button, StringVar
 class Calculator:
     def __init__(self, master):
         master.title("Calculator")
-        master.geometry("357x420+0+0")
-        master.config(bg="gray")
+        master.geometry("360x475")
+        master.config(bg="#c0c0c0")  # Gri arka plan rengi
         master.resizable(False, False)
         
         # Giriş alanı
         self.equation = StringVar()
         self.entry_value = ""
-        Entry(master, width=17, bg="#fff", font=("Arial Bold", 24), textvariable=self.equation).place(x=0, y=0)
+        Entry(master, width=22, bg="#fff", font=("Arial", 24), textvariable=self.equation).place(x=10, y=10)
         
-        # Butonları yerleştiriyoruz
+        # Butonlar ve konumları
         buttons = [
-            ('(', 10, 70), (')', 90, 70), ('%', 170, 70), ('/', 250, 70),
-            ('1', 10, 140), ('2', 90, 140), ('3', 170, 140), ('x', 250, 140),
-            ('4', 10, 210), ('5', 90, 210), ('6', 170, 210), ('-', 250, 210),
-            ('7', 10, 280), ('8', 90, 280), ('9', 170, 280), ('+', 250, 280),
-            ('C', 10, 350), ('0', 90, 350), ('.', 170, 350), ('=', 250, 350)
+            ('(', 10, 70), (')', 95, 70), ('%', 180, 70), ('/', 265, 70),
+            ('1', 10, 145), ('2', 95, 145), ('3', 180, 145), ('x', 265, 145),
+            ('4', 10, 220), ('5', 95, 220), ('6', 180, 220), ('-', 265, 220),
+            ('7', 10, 295), ('8', 95, 295), ('9', 180, 295), ('+', 265, 295),
+            ('C', 10, 370), ('0', 95, 370), ('.', 180, 370), ('=', 265, 370)
         ]
 
-        # Butonların konumlarını ve işlevlerini tanımlıyoruz
+        # Butonları yerleştiriyoruz
         for (text, x, y) in buttons:
             if text == 'C':
-                Button(master, width=11, height=4, text=text, relief="flat", bg="white", 
+                Button(master, width=10, height=3, text=text, relief="flat", bg="lightgray", 
                        command=self.clear).place(x=x, y=y)
             elif text == '=':
-                Button(master, width=11, height=4, text=text, relief="flat", bg="lightblue", 
+                Button(master, width=10, height=3, text=text, relief="flat", bg="lightblue", 
                        command=self.solve).place(x=x, y=y)
             elif text == 'x':
-                Button(master, width=11, height=4, text=text, relief="flat", bg="white", 
+                Button(master, width=10, height=3, text=text, relief="flat", bg="white", 
                        command=lambda: self.show('*')).place(x=x, y=y)
             else:
-                Button(master, width=11, height=4, text=text, relief="flat", bg="white", 
+                Button(master, width=10, height=3, text=text, relief="flat", bg="white", 
                        command=lambda t=text: self.show(t)).place(x=x, y=y)
 
     def show(self, value):
@@ -49,7 +49,7 @@ class Calculator:
             result = eval(self.entry_value)
             self.equation.set(result)
             self.entry_value = str(result)  # Sonuç üzerinden devam edebilmek için güncelleme
-        except Exception as e:
+        except Exception:
             self.equation.set("Error")
             self.entry_value = ""
 
