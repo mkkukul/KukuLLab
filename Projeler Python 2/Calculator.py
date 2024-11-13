@@ -12,7 +12,7 @@ class Calculator:
         Entry(width=17, bg="#fff", font=("Arial Bold", 28), textvariable=self.equation).place(x=0, y=0)
     def show(self):
         self.entry_value+= str(value)
-        self.equation
+        self.equation.set
         
         
 
