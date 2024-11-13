@@ -1,1 +1,1 @@
-from tkinter import Tk, Entry, Button, END
+from tkinter import Tk, Entry, Button, StringVar
