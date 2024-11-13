@@ -9,6 +9,7 @@ class Calculator:
         
         self.equation = StringVar()
         self.entry_value = ""
+        Entry(width=17, bg="#ccddff", font=("Arial Bold", 28), textvariable=self.equation).place(x=0, y=0)
         
         
 
