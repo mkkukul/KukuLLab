@@ -8,6 +8,7 @@ class Calculator:
         master.resizable(False, False)
         
         self.equation = StringVar()
+        self.entry_value = ""
         
         
 
