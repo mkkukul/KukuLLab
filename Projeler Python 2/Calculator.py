@@ -10,7 +10,7 @@ class Calculator:
         self.equation = StringVar()
         self.entry_value = ""
         Entry(width=17, bg="#fff", font=("Arial Bold", 28), textvariable=self.equation).place(x=0, y=0)
-    def show(self):
+    def show(self,value):
         self.entry_value+= str(value)
         self.equation.set(self.entry_value)
         
