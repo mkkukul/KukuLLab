@@ -3,37 +3,37 @@ from tkinter import Tk, Entry, Button, StringVar
 class Calculator:
     def __init__(self, master):
         master.title("Calculator")
-        master.geometry("360x475")
-        master.config(bg="#c0c0c0")  # Gri arka plan rengi
+        master.geometry("340x455")  # Pencere boyutunu küçülttük
+        master.config(bg="#c0c0c0")  # Arka plan rengini gri olarak ayarladık
         master.resizable(False, False)
         
         # Giriş alanı
         self.equation = StringVar()
         self.entry_value = ""
-        Entry(master, width=22, bg="#fff", font=("Arial", 24), textvariable=self.equation).place(x=10, y=10)
+        Entry(master, width=20, bg="#fff", font=("Arial", 24), textvariable=self.equation).place(x=10, y=10)
         
-        # Butonlar ve konumları
+        # Butonlar ve konumları (daha yakın yerleştirilmiş)
         buttons = [
-            ('(', 10, 70), (')', 95, 70), ('%', 180, 70), ('/', 265, 70),
-            ('1', 10, 145), ('2', 95, 145), ('3', 180, 145), ('x', 265, 145),
-            ('4', 10, 220), ('5', 95, 220), ('6', 180, 220), ('-', 265, 220),
-            ('7', 10, 295), ('8', 95, 295), ('9', 180, 295), ('+', 265, 295),
-            ('C', 10, 370), ('0', 95, 370), ('.', 180, 370), ('=', 265, 370)
+            ('(', 10, 70), (')', 85, 70), ('%', 160, 70), ('/', 235, 70),
+            ('1', 10, 140), ('2', 85, 140), ('3', 160, 140), ('x', 235, 140),
+            ('4', 10, 210), ('5', 85, 210), ('6', 160, 210), ('-', 235, 210),
+            ('7', 10, 280), ('8', 85, 280), ('9', 160, 280), ('+', 235, 280),
+            ('C', 10, 350), ('0', 85, 350), ('.', 160, 350), ('=', 235, 350)
         ]
 
         # Butonları yerleştiriyoruz
         for (text, x, y) in buttons:
             if text == 'C':
-                Button(master, width=10, height=3, text=text, relief="flat", bg="lightgray", 
+                Button(master, width=9, height=3, text=text, relief="flat", bg="lightgray", 
                        command=self.clear).place(x=x, y=y)
             elif text == '=':
-                Button(master, width=10, height=3, text=text, relief="flat", bg="lightblue", 
+                Button(master, width=9, height=3, text=text, relief="flat", bg="lightblue", 
                        command=self.solve).place(x=x, y=y)
             elif text == 'x':
-                Button(master, width=10, height=3, text=text, relief="flat", bg="white", 
+                Button(master, width=9, height=3, text=text, relief="flat", bg="white", 
                        command=lambda: self.show('*')).place(x=x, y=y)
             else:
-                Button(master, width=10, height=3, text=text, relief="flat", bg="white", 
+                Button(master, width=9, height=3, text=text, relief="flat", bg="white", 
                        command=lambda t=text: self.show(t)).place(x=x, y=y)
 
     def show(self, value):
