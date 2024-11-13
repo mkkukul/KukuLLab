@@ -5,6 +5,9 @@ class Calculator:
         master.title("Calculator")
         master.geometry("357x420+0+0")
         master.config(bg="gray")
+        master.resizable(False, False)
+        
+        self.equation = StringVar()
         
         
 
