@@ -7,6 +7,8 @@ class Calculator:
         master.config(bg="gray")
         master.resizable(False, False)
         
+        Button(width=10, height=3, text="1", command=lambda:self.show(1)).place(x=0, y=60)
+        
         self.equation = StringVar()
         self.entry_value = ""
         Entry(width=17, bg="#fff", font=("Arial Bold", 28), textvariable=self.equation).place(x=0, y=0)
