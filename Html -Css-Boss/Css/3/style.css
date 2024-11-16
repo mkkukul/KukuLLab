@@ -1,4 +1,4 @@
-p {
+/* p {
   background-color: red;
   color: white;
   font-size: 25px;
@@ -11,6 +11,11 @@ p {
 .bir,
 .üç {
   background-color: green;
+  color: white;
+  font-size: 25px;
+} */
+ul li a {
+  background-color: aquamarine;
   color: white;
   font-size: 25px;
 }
