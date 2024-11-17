@@ -6,6 +6,11 @@ h2 {
   border-bottom: 9px solid rgb(11, 184, 23);
   border-right: 11px solid rgb(184, 11, 23);
   width: max-content; */
-  border: 25px solid rgb(255, 1, 1);
-  border-radius: 7px;
+  /* border: 15px solid rgb(255, 1, 1);
+  border-radius: 7px; */
+}
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
 }
