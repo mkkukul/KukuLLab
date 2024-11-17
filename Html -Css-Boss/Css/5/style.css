@@ -3,4 +3,5 @@ div {
   background-size: 150px;
   background-repeat: no-repeat;
   background-position: center right;
+  background-attachment: fixed;
 }
