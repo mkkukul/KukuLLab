@@ -1,0 +1,11 @@
+.kutu {
+  width: 100%;
+  height: 150px;
+  background-color: darkgreen;
+  color: white;
+}
+.kutu1 {
+  width: 25%;
+  height: 150px;
+  background-color: darkblue;
+}
