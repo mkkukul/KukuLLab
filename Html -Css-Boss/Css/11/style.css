@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+#kutu {
+  width: 600px;
+  height: 300px;
+  border-style: solid;
+  text-align: center;
+  padding: 20px;
+}
+#kutu1 {
+  width: 600px;
+  height: 300px;
+  border-style: solid;
+}
