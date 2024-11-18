@@ -1,4 +1,5 @@
 div {
   max-width: 500px;
   height: 350px;
+  border-style: solid;
 }
