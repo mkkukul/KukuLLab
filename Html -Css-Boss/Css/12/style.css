@@ -17,5 +17,6 @@ p {
   font-weight: bold;
   font-style: italic;
   /* text-transform: capitalize; */
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; arada boşluk bırakır */
+  font-family: "Times New Roman", Times, serif;
 }
