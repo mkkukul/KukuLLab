@@ -17,4 +17,5 @@ p {
   font-weight: bold;
   font-style: italic;
   /* text-transform: capitalize; */
+  letter-spacing: 2px;
 }
