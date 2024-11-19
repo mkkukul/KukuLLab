@@ -1,0 +1,19 @@
+/* p::first-letter {
+  font-size: 5em;
+  /* paragrafın ilk harfi büyük olacak */
+/* } */
+/* p::first-line {
+  font-size: 1.5em; */
+/* paragrafın ilk satırı büyük olacak */
+/* } */
+
+/* p { */
+/* line-height: 25px; */
+/* } */
+/* a:visited {
+  color: red;
+} */
+a:active {
+  color: green;
+  background-color: rgb(233, 21, 21);
+}
