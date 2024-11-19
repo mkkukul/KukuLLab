@@ -1,5 +1,6 @@
 a {
-  /* display: block; */
+  display: block;
+  background-color: red;
 }
 div {
   margin-top: 1.5rem;
