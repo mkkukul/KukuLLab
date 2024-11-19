@@ -9,6 +9,8 @@ a {
   padding: 10px;
   font-weight: bolder;
   font-size: 1.5rem;
+  border: 1px solid black;
+  color: white;
 }
 div {
   margin-top: 1.5rem;
