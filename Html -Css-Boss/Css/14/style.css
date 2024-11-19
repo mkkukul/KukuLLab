@@ -1,6 +1,7 @@
 a {
   display: block;
   background-color: red;
+  width: 150px;
 }
 div {
   margin-top: 1.5rem;
