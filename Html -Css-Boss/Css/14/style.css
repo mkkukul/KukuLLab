@@ -1,11 +1,13 @@
 a {
   display: block;
   background-color: red;
-  width: 150px;
+  width: 100px;
 
   /* border-radius: 3px; */
   text-align: center;
   text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
 }
 div {
   margin-top: 1.5rem;
