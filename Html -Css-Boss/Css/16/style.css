@@ -8,3 +8,7 @@ ul {
   padding: 15px;
   background-color: aqua;
 }
+ul li:nth-child(4) {
+  color: white;
+  background-color: rgb(6, 6, 6);
+}
