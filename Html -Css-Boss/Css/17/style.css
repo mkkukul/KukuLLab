@@ -12,6 +12,7 @@ div {
   text-align: center;
   padding: 15px;
   position: fixed;
+  position: absolute;
 }
 p {
   margin: 2%;
