@@ -5,4 +5,5 @@ div {
   color: white;
   text-align: center;
   padding: 15px;
+  position: fixed;
 }
