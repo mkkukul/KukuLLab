@@ -1,4 +1,10 @@
-ul li:nth-child(1) {
+/* ul li:nth-child(1) {
   color: white;
   background-color: red;
+} */
+ul {
+  width: 50%;
+  list-style-type: none;
+  padding: 15px;
+  background-color: aqua;
 }
