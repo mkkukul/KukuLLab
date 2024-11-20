@@ -2,17 +2,23 @@
   color: white;
   background-color: red;
 } */
-ul {
-  width: 50%;
-  list-style-type: none;
-  padding: 15px;
-  background-color: aqua;
-}
+/* 12 */
 /* ul li:nth-child(4) {
   color: white;
   background-color: rgb(6, 6, 6);
 } */
-ul li:nth-child(odd) {
+
+/* ul li:nth-child(odd) {
+  color: white;
+  background-color: red;
+} */
+/* tek sayılar odd */
+
+/* ul li:nth-child(even) {
+  color: white;
+  background-color: rgb(6, 6, 6);
+}/* çift sayılar even */
+p:nth-child(2) {
   color: white;
   background-color: red;
 }
