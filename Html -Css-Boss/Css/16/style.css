@@ -1,4 +1,4 @@
-ul li:nth-child(1): {
+ul li:nth-child(1) {
   color: white;
   background-color: red;
 }
