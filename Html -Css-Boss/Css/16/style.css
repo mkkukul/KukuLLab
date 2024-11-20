@@ -1,1 +1,3 @@
-ul li:nth-child()
+ul li:nth-child(): {
+  color: red;
+}
