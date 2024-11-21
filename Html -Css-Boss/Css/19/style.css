@@ -1,3 +1,5 @@
 .cizelge {
   display: flex;
+  height: 350px;
+  background-color: brown;
 }
