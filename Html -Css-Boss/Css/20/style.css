@@ -1,0 +1,12 @@
+.cizelge {
+  height: 500px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.kutu {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
