@@ -5,8 +5,8 @@
   position: fixed;
 }
 .kutu1 {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 20px;
   background-color: yellowgreen;
   position: absolute;
   /* margin-left: 25px; */
