@@ -1,9 +1,10 @@
 .kutu {
   width: 300px;
-  height: 150px;
+  height: 250px;
   background-color: tomato;
 }
 .kutu1 {
   width: 75px;
   height: 75px;
+  background-color: yellowgreen;
 }
