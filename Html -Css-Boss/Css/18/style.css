@@ -8,11 +8,12 @@
 .kutu1 {
   width: 100px;
   height: 20px;
-  background-color: yellowgreen;
+  background-color: red;
   position: absolute;
   /* margin-left: 25px; */
   /* padding-top: 10px; */
   text-align: center;
+  color: white;
 }
 img {
   width: 300px;
