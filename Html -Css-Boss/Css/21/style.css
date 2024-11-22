@@ -1,6 +1,7 @@
 .navbar {
   height: 55px;
   background-color: blue;
+  displau: flex;
 }
 h2 {
   color: rgb(255, 255, 255);
