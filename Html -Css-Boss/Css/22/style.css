@@ -12,3 +12,7 @@
     color: blue;
   }
 }
+@media (min-width: 500px) {
+    h2 {
+      
+}
