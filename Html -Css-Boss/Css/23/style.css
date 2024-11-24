@@ -3,7 +3,7 @@
   height: 250px;
   background-color: rgba(0, 136, 255, 0.852);
 }
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   .kutu {
     width: 100%;
     background-color: red;
