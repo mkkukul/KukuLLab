@@ -10,11 +10,30 @@ h4 {
 .ur {
   position: relative;
 }
+.ur img {
+  width: 100%;
+  height: 100%;
+}
 .ur span {
-  position: absolute;
-  top: 0;
-  right: 0;
   background-color: red;
   color: white;
-  padding: 5px;
+  padding: 8px;
+  font-weight: bolder;
+  position: absolute;
+  right: 0;
+}
+.katalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .katalog {
+    flex-direction: column;
+  }
+  .urun {
+    width: 100%;
+  }
+  h4 {
+    display: block;
+  }
 }
