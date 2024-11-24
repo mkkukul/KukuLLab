@@ -1,4 +1,9 @@
 .urun {
   width: 33%;
   border: solid 1px black;
+  text-align: center;
+}
+h4 {
+  display: none;
+  color: red;
 }
