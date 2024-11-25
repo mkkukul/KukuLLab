@@ -20,3 +20,6 @@ tr:nth-child(even) {
 tr {
   transition: 0.3s;
 }
+tr:hover {
+  background-color: black;
+}
