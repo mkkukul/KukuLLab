@@ -13,4 +13,5 @@ ul li a {
 }
 ul li a:hover {
   background-color: brown;
+  padding-left: 25px;
 }
