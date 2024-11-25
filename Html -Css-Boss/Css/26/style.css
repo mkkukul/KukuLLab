@@ -7,3 +7,7 @@ th,
 td {
   border: 1px solid black;
 }
+th {
+  background-color: #000000;
+  color: white;
+}
