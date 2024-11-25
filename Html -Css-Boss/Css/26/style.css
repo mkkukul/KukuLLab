@@ -2,6 +2,7 @@ table {
   background-color: grey;
   border-collapse: collapse;
   width: 100%;
+  font-weight: bolder;
 }
 th,
 td {
@@ -10,4 +11,5 @@ td {
 th {
   background-color: #000000;
   color: white;
+  text-align: left;
 }
