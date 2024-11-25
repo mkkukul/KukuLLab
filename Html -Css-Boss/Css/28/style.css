@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6em;
+  color: rgb(99, 99, 99);
+}
+h2::before {
+  content: attr(data-text);
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  color: red;
+  transition: 1s;
+}
+h2:hover::before {
+  width: 100%;
+}
