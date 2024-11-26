@@ -6,5 +6,9 @@
   list-style: none;
 }
 .logo {
-  margin-right: auto;
+  display: flex;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
 }
