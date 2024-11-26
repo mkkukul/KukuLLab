@@ -1,0 +1,21 @@
+.navbar-2 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+  height: 75px;
+  align-items: center;
+}
+.navbar-2 img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.navbar-2 a {
+  text-decoration: none;
+  font-size: larger;
+  letter-spacing: 2px;
+  transition: 0.7s;
+}
+.navbar-2 a:hover {
+  border-bottom: 1px solid #ff4500;
+}
