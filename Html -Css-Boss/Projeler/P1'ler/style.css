@@ -1,7 +1,10 @@
 .navbar {
   display: flex;
 }
-nav ul {
+.navbar ul {
   display: flex;
   list-style: none;
+}
+.logo {
+  margin-right: auto;
 }
