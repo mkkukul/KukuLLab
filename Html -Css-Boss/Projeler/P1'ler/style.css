@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  align-items: center;
 }
 .navbar ul {
   display: flex;
@@ -12,4 +13,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+.linkler {
+  display: flex;
 }
