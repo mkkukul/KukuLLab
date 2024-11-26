@@ -8,6 +8,7 @@
 }
 .logo {
   display: flex;
+  align-items: center;
 }
 .logo img {
   width: 25px;
