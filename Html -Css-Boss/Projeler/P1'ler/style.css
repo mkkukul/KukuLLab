@@ -1,3 +1,7 @@
 .navbar {
-  display: ;
+  display: flex;
+}
+nav ul {
+  display: flex;
+  list-style: none;
 }
