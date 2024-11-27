@@ -35,4 +35,5 @@ card-text h2 {
   border-bottom: 1px solid #ccc;
 }
 .baslik {
+  border-left: 8px solid rgb(0, 85, 255);
 }
