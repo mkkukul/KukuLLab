@@ -48,4 +48,5 @@ span:hover {
   background-color: blue;
   color: white;
   font-weight: bolder;
+  padding: 5px;
 }
