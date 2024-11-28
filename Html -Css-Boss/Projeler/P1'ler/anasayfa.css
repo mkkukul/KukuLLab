@@ -38,4 +38,5 @@ card-text h2 {
   border-left: 8px solid rgb(0, 85, 255);
   margin-left: 5rem;
   margin-top: 8px;
+  padding: 10px;
 }
