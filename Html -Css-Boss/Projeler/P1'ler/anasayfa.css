@@ -45,8 +45,8 @@ span:hover {
   padding-left: 12px;
 }
 .yazilim {
-  background-color: blue;
-  color: white;
+  background-color: rgb(234, 255, 0);
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   padding: 5px;
 }
