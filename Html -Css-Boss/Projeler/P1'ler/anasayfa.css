@@ -30,6 +30,7 @@
 .card-img span {
   position: absolute;
   left: 0;
+  transition: 0.3s;
 }
 card-text h2 {
   border-bottom: 1px solid #ccc;
