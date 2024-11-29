@@ -4,11 +4,11 @@
   align-items: center;
 }
 video {
-  width: 50rem;
+  width: 60rem;
   margin: 12px;
   padding: 12px;
 }
 .medya h2 {
   padding: 12px;
-  border-bottom: 5px solid #f1f1f1;
+  border-bottom: 5px solid #ccc;
 }
