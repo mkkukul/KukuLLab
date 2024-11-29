@@ -10,4 +10,5 @@ video {
 }
 .medya h2 {
   padding: 12px;
+  border-bottom: 5px solid #f1f1f1;
 }
