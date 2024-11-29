@@ -1,4 +1,5 @@
 .medya {
   display: flex;
-  flex-direction: ;
+  flex-direction: column;
+  align-items: center;
 }
