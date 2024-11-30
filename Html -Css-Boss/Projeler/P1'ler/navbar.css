@@ -35,3 +35,9 @@
   text-decoration: none;
   color: White;
 }
+.navbar a {
+  font-size: larger;
+  font-weight: bolder;
+  padding: 8px;
+  transition: 0.3s;
+}
