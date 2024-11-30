@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color:White;
+    justify-content: space-between;
+}14
