@@ -27,3 +27,8 @@
   border-radius: 6px;
   transition: 0.4s;
 }
+.navbar-2 .element:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  border: 1px solid #ccc;
+}
