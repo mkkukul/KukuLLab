@@ -10,3 +10,7 @@
   transition: 0.7s;
   letter-spacing: 4px;
 }
+.footer ul {
+  list-style-type: none;
+  display: flex;
+}
