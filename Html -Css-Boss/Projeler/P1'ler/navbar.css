@@ -19,3 +19,7 @@
   text-decoration: none;
   color: White;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
