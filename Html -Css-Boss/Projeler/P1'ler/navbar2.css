@@ -11,3 +11,10 @@
   height: 25px;
   border-radius: 50%;
 }
+.navbar-2 a {
+  text-decoration: none;
+  font-size: larger;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  color: white;
+}
