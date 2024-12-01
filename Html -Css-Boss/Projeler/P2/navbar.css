@@ -27,16 +27,27 @@
 }
 /* MOBİL VERSİYON */
 @media (max-width: 768px) {
-  .navbar ul {
-    display: none;
+  .navbar {
+    flex-direction: column;
   }
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
   .navbar a {
     display: block;
-    text-align: center;
-    border: none;
+    line-height: 25px;
+    padding: 20px;
   }
-  .navbar .menu {
-    display: block;
-    padding: 15px;
+  .navbar a:hover {
+    background-color: rgba(136, 184, 233, 1);
+    color: rgb(67, 17, 39);
+    padding: 35px;
+    transition: 0.3s;
+    border-radius: 6px;
+  }
+  .navbar h2 {
+    border-bottom: 2px solid rgb(136, 184, 233);
   }
 }
