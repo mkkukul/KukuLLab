@@ -1,5 +1,7 @@
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   background-image: url(/Projeler/P2/123.jpg);
   background-size: cover;
