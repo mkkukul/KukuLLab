@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: max-content;
   background-image: url(/Projeler/P2/123.jpg);
   background-size: cover;
 }
@@ -23,4 +24,19 @@
   font-size: larger;
   font-weight: bolder;
   border-right: 1px solid black;
+}
+/* MOBİL VERSİYON */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar a {
+    display: block;
+    text-align: center;
+    border: none;
+  }
+  .navbar .menu {
+    display: block;
+    padding: 15px;
+  }
 }
