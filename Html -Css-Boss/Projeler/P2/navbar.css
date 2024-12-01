@@ -6,4 +6,5 @@
 }
 .navbar ul {
   display: flex;
+  list-style-type: none;
 }
