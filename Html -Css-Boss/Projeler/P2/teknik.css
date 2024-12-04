@@ -28,7 +28,7 @@
 @media (max-width: 768px) {
   .teknik_ekip {
     flex-direction: column;
-    height: 100%;
+    height: auto;
   }
   .td {
     width: 100%;
