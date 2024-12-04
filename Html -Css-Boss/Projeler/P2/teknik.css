@@ -35,4 +35,11 @@
     height: 100%;
     margin: 5px 0;
   }
+  .td:hover {
+    background-color: rgba(136, 184, 233, 1);
+    color: rgb(67, 17, 39);
+    padding: 35px;
+    transition: 0.3s;
+    border-radius: 6px;
+  }
 }
