@@ -19,6 +19,7 @@
   color: white;
   font-weight: bold;
   text-align: center;
+  line-height: 20px;
 }
 .tarih p::first-letter {
   font-size: 50px;
