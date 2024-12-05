@@ -21,12 +21,14 @@
   text-align: center;
   line-height: 20px;
   letter-spacing: 2px;
+  box-shadow: 15px 15px 7px rgba(0, 0, 0, 0.5);
 }
 .tarih p::first-letter {
   font-size: 50px;
   color: rgb(252, 0, 0);
 }
 .tarih h2 {
+  text-decoration: underline;
   color: rgb(252, 0, 0);
   font-size: 40px;
   font-weight: bold;
