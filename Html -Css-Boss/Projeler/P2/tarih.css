@@ -36,3 +36,16 @@
   margin-top: 20px;
   padding: 12px;
 }
+@media (max-width: 768px) {
+  .tarih {
+    height: auto;
+  }
+  .tarih p {
+    width: 90%;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .tarih h2 {
+    font-size: 30px;
+  }
+}
