@@ -14,8 +14,13 @@
   background-size: cover;
 }
 .tarih p {
+  width: 75%;
   font-size: 20px;
   color: white;
   font-weight: bold;
   text-align: center;
+}
+.tarih p::first-letter {
+  font-size: 50px;
+  color: red;
 }
