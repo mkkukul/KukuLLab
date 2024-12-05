@@ -39,6 +39,7 @@
 @media (max-width: 768px) {
   .tarih {
     height: auto;
+    margin-top: 3rem;
   }
   .tarih p {
     width: 90%;
