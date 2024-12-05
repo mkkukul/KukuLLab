@@ -1,11 +1,13 @@
 .tarih img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 70%;
 }
 .tarih {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 750px;
+  background-image: url(./İmg/tsilkbina.jpg);
 }
