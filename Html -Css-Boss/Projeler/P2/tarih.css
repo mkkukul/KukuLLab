@@ -24,12 +24,13 @@
 }
 .tarih p::first-letter {
   font-size: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(252, 0, 0);
 }
 .tarih h2 {
-  color: white;
+  color: rgb(252, 0, 0);
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+  padding: 12px;
 }
