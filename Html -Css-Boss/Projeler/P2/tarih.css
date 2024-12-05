@@ -25,11 +25,11 @@
 }
 .tarih p::first-letter {
   font-size: 50px;
-  color: rgb(67, 17, 39);
+  color: rgb(136, 184, 233);
 }
 .tarih h2 {
   text-decoration: underline;
-  color: rgb(67, 17, 39);
+  color: rgb(136, 184, 233);
   font-size: 40px;
   font-weight: bold;
   text-align: center;
