@@ -11,6 +11,7 @@
 }
 .user {
   display: flex;
+  align-items: center;
 }
 .avatar {
   margin: 45px;
