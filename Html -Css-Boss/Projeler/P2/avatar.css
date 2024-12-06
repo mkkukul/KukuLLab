@@ -1,6 +1,8 @@
 .avatar {
   width: 175px;
   height: 75px;
+  padding: 2rem;
+  margin: 5rem;
 }
 .avatar img {
   width: 50px;
