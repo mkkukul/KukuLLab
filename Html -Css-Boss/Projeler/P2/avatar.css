@@ -11,11 +11,7 @@
 }
 .user {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 750px;
-  background-image: url(./İmg/tsilkbina.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.avatar {
+  margin: 45px;
 }
