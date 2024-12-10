@@ -12,6 +12,7 @@
 .user {
   display: flex;
   align-items: center;
+  width: ;
 }
 .avatar {
   margin: 45px;
