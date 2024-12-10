@@ -22,4 +22,5 @@
 .yorumlar {
   display: flex;
   justify-content: center;
+  flex-direction: ;
 }
