@@ -27,4 +27,5 @@
   align-items: center;
   background-image: url(./İmg/tsilkbina.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
