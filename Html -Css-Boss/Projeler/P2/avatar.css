@@ -15,7 +15,7 @@
   width: 75%;
   border: 1px solid #ccc;
   margin: 5px 0;
-  box-shadow: 25 0 0 0;
+  box-shadow: 25px 25px 15px grey;
 }
 .avatar {
   margin: 45px;
